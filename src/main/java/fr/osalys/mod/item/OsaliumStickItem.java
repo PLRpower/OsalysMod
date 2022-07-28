@@ -12,12 +12,12 @@ import net.minecraft.block.BlockState;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
-public class ExoliumstickItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:exolium_stick")
+public class OsaliumStickItem extends OsalysmodModElements.ModElement {
+	@ObjectHolder("osalysmod:osalium_stick")
 	public static final Item block = null;
 
-	public ExoliumstickItem(OsalysmodModElements instance) {
-		super(instance, 51);
+	public OsaliumStickItem(OsalysmodModElements instance) {
+		super(instance, 328);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class ExoliumstickItem extends OsalysmodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ExoliaItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("exolium_stick");
+			setRegistryName("osalium_stick");
 		}
 
 		@Override

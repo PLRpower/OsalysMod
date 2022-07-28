@@ -4,10 +4,10 @@
       "item": "osalysmod:deleted_mod_element_chestplate"
     },
     "title": {
-      "translate": "advancements.full_exo.title"
+      "translate": "advancements.full_osalium_achievement.title"
     },
     "description": {
-      "translate": "advancements.full_exo.descr"
+      "translate": "advancements.full_osalium_achievement.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "full_exo": {
+    "full_osalium_achievement": {
       "trigger": "minecraft:impossible"
     }
   },

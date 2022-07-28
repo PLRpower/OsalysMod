@@ -21,7 +21,7 @@ import java.util.HashMap;
 
 import fr.osalys.mod.OsalysmodMod;
 
-public class FullExoProcedureProcedure {
+public class FullOsaliumProcedureProcedure {
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
@@ -47,7 +47,7 @@ public class FullExoProcedureProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				OsalysmodMod.LOGGER.warn("Failed to load dependency entity for procedure FullExoProcedure!");
+				OsalysmodMod.LOGGER.warn("Failed to load dependency entity for procedure FullOsaliumProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

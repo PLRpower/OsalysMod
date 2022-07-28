@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:Exoliumstick"
     },
-    "name": "exoliumstickrecipe",
+    "name": "osalium_stick_recipe",
     "namespace": "mod"
   }
 }

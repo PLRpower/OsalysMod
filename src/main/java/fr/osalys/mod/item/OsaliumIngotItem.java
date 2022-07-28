@@ -12,12 +12,12 @@ import net.minecraft.block.BlockState;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
-public class ExoliumItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:exolium_ingot")
+public class OsaliumIngotItem extends OsalysmodModElements.ModElement {
+	@ObjectHolder("osalysmod:osalium_ingot")
 	public static final Item block = null;
 
-	public ExoliumItem(OsalysmodModElements instance) {
-		super(instance, 6);
+	public OsaliumIngotItem(OsalysmodModElements instance) {
+		super(instance, 327);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class ExoliumItem extends OsalysmodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ExoliaItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("exolium_ingot");
+			setRegistryName("osalium_ingot");
 		}
 
 		@Override
