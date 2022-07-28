@@ -7,7 +7,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
@@ -49,7 +48,7 @@ public class RenforcedExoliumHoeItem extends OsalysmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RenforcedExoliumItem.block));
 			}
-		}, 0, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -2.8f, new Item.Properties().group(ExoliaItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {

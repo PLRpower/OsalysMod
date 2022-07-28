@@ -7,29 +7,29 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:platine_ingot"
     },
     "1": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:platine_ingot"
     },
     "2": {
-      "item": "osalysmod:renforced_osalium_block"
+      "item": "osalysmod:platine_block"
     },
     "3": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:platine_ingot"
     },
     "4": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:platine_ingot"
     },
     "5": {
-      "item": "osalysmod:renforced_osalium_block"
+      "item": "osalysmod:platine_block"
     },
     "7": {
-      "item": "osalysmod:osalium_stick"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "osalysmod:renforced_exolium_hammer",
+    "item": "osalysmod:platine_hammer",
     "count": 1
   }
 }

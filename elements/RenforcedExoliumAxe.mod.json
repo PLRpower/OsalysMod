@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_osalium_axe",
+    "texture": "renforced_exolium_axe",
     "customModelName": "Normal",
     "name": "Hache en Exolium Renforc�",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Exolia"
     },
     "toolType": "Axe",
     "harvestLevel": 3,

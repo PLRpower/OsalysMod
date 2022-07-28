@@ -7,29 +7,29 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     "1": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     "2": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     "3": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     "5": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     "6": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     "8": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     }
   },
   "result": {
-    "item": "osalysmod:renforced_exolium_armor_leggings",
+    "item": "osalysmod:deleted_mod_element_leggings",
     "count": 1
   }
 }

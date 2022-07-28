@@ -64,7 +64,7 @@
       "name": "PlatineOre",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_ore"
     },
@@ -80,7 +80,7 @@
       "name": "PlatineIngot",
       "type": "item",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "platine_ingot"
     },
@@ -102,7 +102,7 @@
       "name": "Exolium_Renforced_Hammer",
       "type": "tool",
       "sortid": 47,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "renforced_exolium_hammer"
     },
@@ -146,7 +146,7 @@
       "name": "Explosifbow",
       "type": "rangeditem",
       "sortid": 59,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "explosive_bow"
     },
@@ -168,7 +168,7 @@
       "name": "FeedStick",
       "type": "tool",
       "sortid": 56,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "feed_stick"
     },
@@ -219,7 +219,7 @@
       "name": "RenforcedExoliumSword",
       "type": "tool",
       "sortid": 22,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "renforced_exolium_sword"
     },
@@ -379,7 +379,7 @@
       "name": "PurifingMachineOn",
       "type": "block",
       "sortid": 179,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false
     },
     {
@@ -468,7 +468,7 @@
       "name": "PurifiedSaphireSword",
       "type": "tool",
       "sortid": 193,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false
     },
     {
@@ -498,7 +498,7 @@
       "name": "OsaliumDust",
       "type": "item",
       "sortid": 197,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "osalium_dust"
     },
@@ -514,7 +514,7 @@
       "name": "OsaliumArmor",
       "type": "armor",
       "sortid": 199,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "osalium_armor",
       "metadata": {
@@ -756,7 +756,7 @@
       "name": "GoldStick",
       "type": "item",
       "sortid": 220,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gold_stick"
     },
@@ -852,7 +852,7 @@
       "name": "OsaliumSword",
       "type": "tool",
       "sortid": 234,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_sword"
     },
@@ -860,7 +860,7 @@
       "name": "OsaliumShovel",
       "type": "tool",
       "sortid": 235,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "osalium_shovel"
     },
@@ -1190,7 +1190,7 @@
       "name": "PurifiedSaphirePickaxe",
       "type": "tool",
       "sortid": 277,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "purified_saphire_pickaxe"
     },
@@ -1214,7 +1214,7 @@
       "name": "PlatineArmor",
       "type": "armor",
       "sortid": 281,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_armor",
       "metadata": {
@@ -1276,7 +1276,7 @@
       "name": "PlatineAxe",
       "type": "tool",
       "sortid": 288,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_axe"
     },
@@ -1458,7 +1458,7 @@
       "name": "CobaltArmor",
       "type": "armor",
       "sortid": 306,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cobalt_armor",
       "metadata": {
@@ -1512,7 +1512,7 @@
       "name": "CobaltPickaxe",
       "type": "tool",
       "sortid": 312,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cobalt_pickaxe"
     },
@@ -1544,7 +1544,7 @@
       "name": "CobaltHoe",
       "type": "tool",
       "sortid": 316,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cobalt_hoe"
     },

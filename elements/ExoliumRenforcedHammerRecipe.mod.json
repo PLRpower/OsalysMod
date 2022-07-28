@@ -10,28 +10,28 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumBlock"
+        "value": "CUSTOM:RenforcedExoliumBlock"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumBlock"
+        "value": "CUSTOM:RenforcedExoliumBlock"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:OsaliumStick"
+        "value": "CUSTOM:Exoliumstick"
       },
       {
         "value": ""

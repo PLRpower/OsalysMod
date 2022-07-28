@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "osalysmod:osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:osalium_ingot"
+      "item": "osalysmod:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "osalysmod:osalium_stick",
+    "item": "osalysmod:deleted_mod_element",
     "count": 2
   }
 }

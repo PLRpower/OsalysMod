@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "osalysmod:items/osalium_ingot"
+    "layer0": "osalysmod:items/exolium_ingot"
   }
 }

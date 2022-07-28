@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -49,7 +48,7 @@ public class RenforcedExoliumPickaxeItem extends OsalysmodModElements.ModElement
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RenforcedExoliumItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.8f, new Item.Properties().group(ExoliaItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {
