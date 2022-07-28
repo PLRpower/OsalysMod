@@ -33,7 +33,7 @@ public class RadiationsPotionEffect {
 
 	public static class EffectCustom extends Effect {
 		public EffectCustom() {
-			super(EffectType.HARMFUL, -10027162);
+			super(EffectType.HARMFUL, -10092544);
 			setRegistryName("radiations");
 		}
 
