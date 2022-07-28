@@ -6,18 +6,19 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
-public class CobatlIngotItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:cobatl_ingot")
+public class CobaltIngotItem extends OsalysmodModElements.ModElement {
+	@ObjectHolder("osalysmod:cobalt_ingot")
 	public static final Item block = null;
 
-	public CobatlIngotItem(OsalysmodModElements instance) {
-		super(instance, 9);
+	public CobaltIngotItem(OsalysmodModElements instance) {
+		super(instance, 332);
 	}
 
 	@Override
@@ -27,8 +28,8 @@ public class CobatlIngotItem extends OsalysmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ExoliaItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("cobatl_ingot");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("cobalt_ingot");
 		}
 
 		@Override

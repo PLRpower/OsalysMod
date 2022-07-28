@@ -2,35 +2,35 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_osalium_ingot"
     }
   ],
   "result": {
-    "item": "osalysmod:deleted_mod_element",
+    "item": "osalysmod:renforced_osalium_block",
     "count": 1
   }
 }

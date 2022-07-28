@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_exolium_sword",
+    "texture": "renforced_osalium_sword",
     "customModelName": "Normal",
     "name": "�p�e en Exolium Renforc�",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "TOOLS"
     },
     "toolType": "Sword",
     "harvestLevel": 0,

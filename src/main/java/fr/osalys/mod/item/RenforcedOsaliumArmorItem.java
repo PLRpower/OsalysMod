@@ -19,18 +19,18 @@ import net.minecraft.entity.Entity;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
-public class Exolium_Renforced_ArmorItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:renforced_exolium_armor_helmet")
+public class RenforcedOsaliumArmorItem extends OsalysmodModElements.ModElement {
+	@ObjectHolder("osalysmod:renforced_osalium_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("osalysmod:renforced_exolium_armor_chestplate")
+	@ObjectHolder("osalysmod:renforced_osalium_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("osalysmod:renforced_exolium_armor_leggings")
+	@ObjectHolder("osalysmod:renforced_osalium_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("osalysmod:renforced_exolium_armor_boots")
+	@ObjectHolder("osalysmod:renforced_osalium_armor_boots")
 	public static final Item boots = null;
 
-	public Exolium_Renforced_ArmorItem(OsalysmodModElements instance) {
-		super(instance, 16);
+	public RenforcedOsaliumArmorItem(OsalysmodModElements instance) {
+		super(instance, 333);
 	}
 
 	@Override
@@ -64,7 +64,7 @@ public class Exolium_Renforced_ArmorItem extends OsalysmodModElements.ModElement
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "renforced_exolium_armor";
+				return "renforced_osalium_armor";
 			}
 
 			@Override
@@ -82,25 +82,25 @@ public class Exolium_Renforced_ArmorItem extends OsalysmodModElements.ModElement
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/renforced_exolium___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("renforced_exolium_armor_helmet"));
+		}.setRegistryName("renforced_osalium_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/renforced_exolium___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("renforced_exolium_armor_chestplate"));
+		}.setRegistryName("renforced_osalium_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/renforced_exolium___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("renforced_exolium_armor_leggings"));
+		}.setRegistryName("renforced_osalium_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/renforced_exolium___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("renforced_exolium_armor_boots"));
+		}.setRegistryName("renforced_osalium_armor_boots"));
 	}
 
 }

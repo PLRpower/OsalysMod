@@ -8,7 +8,7 @@
     "name": "Heal Stick",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "TOOLS"
     },
     "toolType": "Special",
     "harvestLevel": 1,
@@ -22,12 +22,6 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "HealStickRightClickedInAir"
-    },
-    "onRightClickedOnBlock": {
-      "name": "HealStickRightClickedInAir"
-    }
+    "damageOnCrafting": false
   }
 }
