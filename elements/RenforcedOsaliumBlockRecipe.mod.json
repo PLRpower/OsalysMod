@@ -10,35 +10,35 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:RenforcedOsaliumIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RenforcedExoliumBlock"
+      "value": "CUSTOM:RenforcedOsaliumBlock"
     },
     "name": "renforced_osalium_block_recipe",
     "namespace": "mod"

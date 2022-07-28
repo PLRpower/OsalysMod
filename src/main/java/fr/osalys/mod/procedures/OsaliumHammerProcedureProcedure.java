@@ -12,7 +12,6 @@ import net.minecraft.block.Block;
 
 import java.util.Map;
 
-import fr.osalys.mod.item.ExoliumItem;
 import fr.osalys.mod.OsalysmodModVariables;
 import fr.osalys.mod.OsalysmodMod;
 

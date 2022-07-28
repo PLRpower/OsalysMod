@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "osalysmod:items/renforced__exolium_shovel"
+    "layer0": "osalysmod:items/renforced_osalium_shovel"
   }
 }

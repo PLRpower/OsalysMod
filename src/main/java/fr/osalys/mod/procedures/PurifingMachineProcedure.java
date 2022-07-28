@@ -21,7 +21,6 @@ import java.util.Map;
 
 import io.netty.buffer.Unpooled;
 
-import fr.osalys.mod.item.ExoliumItem;
 import fr.osalys.mod.gui.PurifingMachineDenyGuiGui;
 import fr.osalys.mod.OsalysmodMod;
 
