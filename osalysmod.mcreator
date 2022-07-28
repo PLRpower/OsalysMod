@@ -1,0 +1,2136 @@
+{
+  "mod_elements": [
+    {
+      "name": "HealStick",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_stick"
+    },
+    {
+      "name": "SpeedStick",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_stick"
+    },
+    {
+      "name": "HealStickRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "SpeedStickRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "CaveBlock",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_block"
+    },
+    {
+      "name": "CaveBlockRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ExoliumLingotRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore"
+    },
+    {
+      "name": "PlatineOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "platine_ore"
+    },
+    {
+      "name": "SaphireIngot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_ingot"
+    },
+    {
+      "name": "CobatlIngot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "cobatl_ingot"
+    },
+    {
+      "name": "PlatineIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_ingot"
+    },
+    {
+      "name": "Exolium_Renforced_Armor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_exolium_armor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "Exolium_Renforced_Hammer",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "renforced_exolium_hammer"
+    },
+    {
+      "name": "Exolium",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exolium_ingot"
+    },
+    {
+      "name": "ExoliumRenforcedHammerRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "PlatineHammerRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ExobisdienneRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "OreoRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Explosifmunition",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_munition"
+    },
+    {
+      "name": "Explosifbow",
+      "type": "rangeditem",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_bow"
+    },
+    {
+      "name": "ExplosiveBowAmoRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Exoliumstick",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exolium_stick"
+    },
+    {
+      "name": "Exoliumstickrecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Explosifbowrecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "FeedStick",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feed_stick"
+    },
+    {
+      "name": "FeedStickRightClick",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feed_stick_rightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FeedStickRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumPickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_exolium_pickaxe"
+    },
+    {
+      "name": "RenforcedExoliumAxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_exolium_axe"
+    },
+    {
+      "name": "RenforcedExoliumSword",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_exolium_sword"
+    },
+    {
+      "name": "RenforcedExoliumShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_exolium_shovel"
+    },
+    {
+      "name": "RenforcedExoliumHoe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_exolium_hoe"
+    },
+    {
+      "name": "RenforcedExoliumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumAxeRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumSwordRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RebforcedExoliuumShovelRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumHoeRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Platineapple",
+      "type": "food",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "SaphireAppleRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "CobaltAppleRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumHelmetCraft",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumChestplateCraft",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumLeggingsCraft",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "RenforcedExoliumBootsCraft",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Goldstickrecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "Fortunehoe",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "PurifingMachineInventoryGui",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "PurifingMachineDenyGui",
+      "type": "gui",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "PurifingMachine",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurifingMachineOn",
+      "type": "block",
+      "sortid": 179,
+      "compiles": false,
+      "locked_code": false
+    },
+    {
+      "name": "PurifingMachineRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "FullExo",
+      "type": "achievement",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "FullExoProcedure",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExoRenfo",
+      "type": "achievement",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "ExoRenfoProcedure",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestPotionItem",
+      "type": "potion",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false
+    },
+    {
+      "name": "TestPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurifiedSaphireSwordProcedure",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurifiedSaphireSword",
+      "type": "tool",
+      "sortid": 193,
+      "compiles": false,
+      "locked_code": false
+    },
+    {
+      "name": "HangliderProcedure",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "potioneffect",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_potion_item"
+    },
+    {
+      "name": "OsaliumDust",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_dust"
+    },
+    {
+      "name": "OsaliumOre",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_ore"
+    },
+    {
+      "name": "OsaliumArmor",
+      "type": "armor",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OsaliumBlock",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_block"
+    },
+    {
+      "name": "RenforcedOsaliumBlock",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_block"
+    },
+    {
+      "name": "CobaltBlock",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_block"
+    },
+    {
+      "name": "PlatineBlock",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_block"
+    },
+    {
+      "name": "PurifiedSaphireBlock",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_saphire_block"
+    },
+    {
+      "name": "OsaliumHammerProcedure",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_hammer_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaphireBlock",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_block"
+    },
+    {
+      "name": "Osabsidian",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osabsidian"
+    },
+    {
+      "name": "SaphireBlockRecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_block_recipe"
+    },
+    {
+      "name": "SaphireOre",
+      "type": "block",
+      "sortid": 210,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "saphire_ore"
+    },
+    {
+      "name": "PlatineBlockRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_block_recipe"
+    },
+    {
+      "name": "CobaltBlockRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_block_recipe"
+    },
+    {
+      "name": "OsaliumOreProcedure",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_ore_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveBowProcedure",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_bow_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedStickProcedure",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_stick_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealStickProcedure",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_stick_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsaliumHammer",
+      "type": "tool",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_hammer"
+    },
+    {
+      "name": "GoldStick",
+      "type": "item",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_stick"
+    },
+    {
+      "name": "HangGlider",
+      "type": "item",
+      "sortid": 222,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "hang_glider"
+    },
+    {
+      "name": "OsaliumHoe",
+      "type": "tool",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_hoe"
+    },
+    {
+      "name": "PlatineHammer",
+      "type": "tool",
+      "sortid": 224,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "platine_hammer"
+    },
+    {
+      "name": "FortuneHoeRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fortune_hoe_recipe"
+    },
+    {
+      "name": "RenforcedFortuneHoeRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_fortune_hoe_recipe"
+    },
+    {
+      "name": "RenforcedGoldStickRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_gold_stick_recipe"
+    },
+    {
+      "name": "RenforcedGoldStick",
+      "type": "item",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_gold_stick"
+    },
+    {
+      "name": "RenforcedFortuneHoe",
+      "type": "item",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_fortune_hoe"
+    },
+    {
+      "name": "PurifiedSaphireSwordRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_saphire_sword_recipe"
+    },
+    {
+      "name": "OsaliumPickaxe",
+      "type": "tool",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_pickaxe"
+    },
+    {
+      "name": "OsaliumAxe",
+      "type": "tool",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_axe"
+    },
+    {
+      "name": "OsaliumSword",
+      "type": "tool",
+      "sortid": 234,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "osalium_sword"
+    },
+    {
+      "name": "OsaliumShovel",
+      "type": "tool",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_shovel"
+    },
+    {
+      "name": "OsaliumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_pickaxe_recipe"
+    },
+    {
+      "name": "OsaliumAxeRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_axe_recipe"
+    },
+    {
+      "name": "OsaliumSwordRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_sword_recipe"
+    },
+    {
+      "name": "OsaliumShovelRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_shovel_recipe"
+    },
+    {
+      "name": "OsaliumHoeRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_hoe_recipe"
+    },
+    {
+      "name": "RenforcedOsaliumIngot",
+      "type": "item",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_ingot"
+    },
+    {
+      "name": "OsaliumRenforcedChestplateRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_renforced_chestplate_recipe"
+    },
+    {
+      "name": "RenforcedOsaliumRecipe",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_recipe"
+    },
+    {
+      "name": "RenforcedOsaliumBlockRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_block_recipe"
+    },
+    {
+      "name": "OsaliumAppleProcedure",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_apple_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsaliumOreSmelting",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_ore_smelting"
+    },
+    {
+      "name": "OsaliumIngotRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_ingot_recipe"
+    },
+    {
+      "name": "OsaliumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_helmet_recipe"
+    },
+    {
+      "name": "OsaliumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_chestplate_recipe"
+    },
+    {
+      "name": "OsaliumLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_leggings_recipe"
+    },
+    {
+      "name": "OsaliumBootsRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_boots_recipe"
+    },
+    {
+      "name": "RenforcedOsaliumLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_leggings_recipe"
+    },
+    {
+      "name": "RenforcedOsaliumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_helmet_recipe"
+    },
+    {
+      "name": "RenforcedOsaliumBootsRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_boots_recipe"
+    },
+    {
+      "name": "PurifiedSaphirePickaxeProcedure",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_saphire_pickaxe_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaphireSword",
+      "type": "tool",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_sword"
+    },
+    {
+      "name": "SaphireAxe",
+      "type": "tool",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_axe"
+    },
+    {
+      "name": "SaphireShovel",
+      "type": "tool",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_shovel"
+    },
+    {
+      "name": "SaphirePickaxe",
+      "type": "tool",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_pickaxe"
+    },
+    {
+      "name": "SaphireIngotRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_ingot_recipe"
+    },
+    {
+      "name": "SaphirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_pickaxe_recipe"
+    },
+    {
+      "name": "SaphireHoe",
+      "type": "tool",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_hoe"
+    },
+    {
+      "name": "SaphireAxeRecipe",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_axe_recipe"
+    },
+    {
+      "name": "SaphireSwordRecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_sword_recipe"
+    },
+    {
+      "name": "SaphireShovelRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_shovel_recipe"
+    },
+    {
+      "name": "SaphireHoeRecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_hoe_recipe"
+    },
+    {
+      "name": "SaphireBootsRecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_boots_recipe"
+    },
+    {
+      "name": "SaphireLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_leggings_recipe"
+    },
+    {
+      "name": "SaphireHelmetRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_helmet_recipe"
+    },
+    {
+      "name": "SaphireChestplateRecipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_chestplate_recipe"
+    },
+    {
+      "name": "SaphireArmor",
+      "type": "armor",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_armor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "PurifiedSaphirePickaxe",
+      "type": "tool",
+      "sortid": 277,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "purified_saphire_pickaxe"
+    },
+    {
+      "name": "PurifiedSaphirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_saphire_pickaxe_recipe"
+    },
+    {
+      "name": "SaphireAdvancement",
+      "type": "achievement",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphire_advancement"
+    },
+    {
+      "name": "PlatineArmor",
+      "type": "armor",
+      "sortid": 281,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "platine_armor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "PlatineHelmetRecipe",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_helmet_recipe"
+    },
+    {
+      "name": "PlatineChestplateRecipe",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_chestplate_recipe"
+    },
+    {
+      "name": "PlatineLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_leggings_recipe"
+    },
+    {
+      "name": "PlatineBootsRecipe",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_boots_recipe"
+    },
+    {
+      "name": "PlatineRecipe",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_recipe"
+    },
+    {
+      "name": "PlatinePickaxe",
+      "type": "tool",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_pickaxe"
+    },
+    {
+      "name": "PlatineAxe",
+      "type": "tool",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_axe"
+    },
+    {
+      "name": "PlatineSword",
+      "type": "tool",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_sword"
+    },
+    {
+      "name": "PlatineShovel",
+      "type": "tool",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_shovel"
+    },
+    {
+      "name": "PlatineHoe",
+      "type": "tool",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_hoe"
+    },
+    {
+      "name": "PlatinePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_pickaxe_recipe"
+    },
+    {
+      "name": "PlatineAxeRecipe",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_axe_recipe"
+    },
+    {
+      "name": "PlatineSwordRecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_sword_recipe"
+    },
+    {
+      "name": "PlatineShovelRecipe",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_shovel_recipe"
+    },
+    {
+      "name": "PlatineHoeRecipe",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_hoe_recipe"
+    },
+    {
+      "name": "FarmArmor",
+      "type": "armor",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_armor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "FarmBootsProcedure",
+      "type": "procedure",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_boots_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmLeggingsProcedure",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_leggings_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmChestplateProcedure",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_chestplate_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmHelmetProcedure",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_helmet_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmBootsRecipe",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_boots_recipe"
+    },
+    {
+      "name": "FarmLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_leggings_recipe"
+    },
+    {
+      "name": "FarmChestplateRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_chestplate_recipe"
+    },
+    {
+      "name": "FarmHelmetRecipe",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_helmet_recipe"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "CobaltHelmetRecipe",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_helmet_recipe"
+    },
+    {
+      "name": "CobaltChestplateRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_chestplate_recipe"
+    },
+    {
+      "name": "CobaltLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_leggings_recipe"
+    },
+    {
+      "name": "CobaltBootsRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_boots_recipe"
+    },
+    {
+      "name": "CobaltRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_recipe"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe_recipe"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe_recipe"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword_recipe"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel_recipe"
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe_recipe"
+    },
+    {
+      "name": "CobaltAdvancement",
+      "type": "achievement",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_advancement"
+    },
+    {
+      "name": "OsaliumHammerRecipe",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_hammer_recipe"
+    },
+    {
+      "name": "OsaliumBlockRecipe",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_block_recipe"
+    },
+    {
+      "name": "RenforcedOsaliumIngotRecipe",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renforced_osalium_ingot_recipe"
+    },
+    {
+      "name": "OsalysTab",
+      "type": "tab",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalys_tab"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "RANDOM",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "CONSO",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "CASQUE",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "PLASTRON",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "PANTALON",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "BOTTES",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "VARI_TRUE",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "test",
+      "files": [
+        "test"
+      ],
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.osalysmos.purifing_machine_on": "Machine de Purification",
+      "item.speed_stick.name": "Speed Stick",
+      "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
+      "item.saphire_armorbody.name": "Plastron en Saphire",
+      "item.osalysmod.renforced_exolium_shovel": "Pelle en Exolium",
+      "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
+      "item.platine_hammer.name": "Hammer en Platine",
+      "item.saphire_shovel.name": "Pelle en Saphire",
+      "item.exoliamod.platine_hoe": "Houe en Platine",
+      "item.exoliamod.saphire_axe": "Hache en Saphire",
+      "item.exoliamod.heal_stick": "Heal Stick",
+      "item.saphire_apple.name": "Pomme en Saphire",
+      "item.osalysmos.cobalt_armor_leggings": "Jambi�res en Cobalt",
+      "item.exoliamod.saphire_pickaxe": "Pioche en Saphire",
+      "item.osalysmod.renforced_osalium_ingot": "Exolium Renforc�",
+      "item.osalysmos.saphire_hoe": "Houe en Saphire",
+      "block.osalysmod.osabsidian": "Exobsidienne",
+      "item.exoliamod.exolium_armor_chestplate": "Plastron en Exolium",
+      "item.cobalt_hoe.name": "Houe en Cobalt",
+      "item.exoliamod.hanglider": "Hanglider",
+      "item.exoliamod.exolium_hoe": "Houe en Exolium",
+      "block.osalysmos.saphire_block": "Bloc de Saphire",
+      "tipped_arrow.effect.test": "Arrow of Test",
+      "item.osalysmod.cobalt_armor_helmet": "Casque en Cobalt",
+      "advancements.exorenfo.descr": "Equiper une amure compl�te en exolium renforc�",
+      "item.osalysmos.feed_stick": "Feed Stick",
+      "block.osalysmod.saphire_block": "Bloc de Saphire",
+      "item.osalysmos.exolium_stick": "Stick en Exolium",
+      "item.renforced_exolium_armorbody.name": "Plastron en Exolium Renforc�",
+      "item.platine_pickaxe.name": "Pioche en Platine",
+      "item.osalysmod.gold_stick": "B�ton d\u0027Or",
+      "item.farm_armorboots.name": "Bottes d\u0027Aventurier",
+      "item.osalysmos.exolium_shovel": "Pelle en Exolium",
+      "item.osalysmos.platine_pickaxe": "Pioche en Platine",
+      "block.exoliamod.sapphire_ore": "Minerais de Saphire",
+      "tile.purifingmachineon.name": "Machine de Purification",
+      "item.platine_armorboots.name": "Bottes en Platine",
+      "item.osalysmod.cobalt_armor_boots": "Bottes en Cobalt",
+      "item.osalysmos.platine_sword": "�p�e en Platine",
+      "item.osalysmod.platine_pickaxe": "Pioche en Platine",
+      "tile.exolium_block.name": "Bloc d\u0027Exolium",
+      "item.osalysmos.cobalt_hoe": "Houe en Cobalt",
+      "item.osalysmos.purified_saphire_sword": "Purified Saphire Sword",
+      "item.osalysmos.renforced_exolium_armor_leggings": "Jambi�res en Exolium Renforc�",
+      "item.exoliamod.platine_shovel": "Pelle en Platine",
+      "block.exoliamod.exobsidienne_block": "Exobsidienne",
+      "item.osalysmos.cobalt_armor_helmet": "Casque en Cobalt",
+      "item.renforced_fortune_hoe.name": "Houe de Fortune Renforc�e",
+      "item.osalysmos.platine_ingot": "Platine",
+      "item.osalysmos.saphire_armor_helmet": "Casque en Saphire",
+      "item.exoliamod.renforced_exolium_hoe": "Houe en Exolium Renforc�",
+      "item.osalysmod.cobalt_armor_chestplate": "Plastron en Cobalt",
+      "item.exoliamod.explosive_bow": "Arc Explosif ",
+      "item.saphire_pickaxe.name": "Pioche en Saphire",
+      "item.osalysmod.saphire_armor_chestplate": "Plastron en Saphire",
+      "item.exoliamod.renforced_exolium_armor_chestplate": "Plastron en Exolium Renforc�",
+      "item.purifiedsaphiresword.name": "Purified Saphire Sword",
+      "item.osalysmos.cobalt_pickaxe": "Pioche en Cobalt",
+      "item.osalysmod.saphire_armor_helmet": "Casque en Saphire",
+      "item.osalysmod.osalium_axe": "Hache en Exolium",
+      "item.cobalt_armorboots.name": "Bottes en Cobalt",
+      "item.osalysmod.osalium_armor_helmet": "Casque en Exolium",
+      "block.exoliamod.cobalt_block": "Bloc de Cobalt",
+      "block.osalysmos.platine_ore": "Minerais de Platine",
+      "block.osalysmod.platine_ore": "Minerais de Platine",
+      "item.osalysmod.platine_axe": "Hache en Platine",
+      "item.exoliamod.cobatl_ingot": "Cobalt",
+      "item.osalysmos.renforced_fortune_hoe": "Houe de Fortune Renforc�e",
+      "block.osalysmos.exobsidienne_block": "Exobsidienne",
+      "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifi�",
+      "item.osalysmod.saphire_hoe": "Houe en Saphire",
+      "item.osalysmod.exolium_stick": "Stick en Exolium",
+      "item.osalysmos.saphire_armor_leggings": "Jambi�res en Saphire",
+      "item.exoliamod.saphire_ingot": "Saphire",
+      "item.osalysmos.platine_axe": "Hache en Platine",
+      "item.renforced_exolium_hoe.name": "Houe en Exolium Renforc�",
+      "item.renforced_exolium_axe.name": "Hache en Exolium Renforc�",
+      "block.osalysmod.cave_block": "Cave Block",
+      "item.osalysmos.renforced_exolium_axe": "Hache en Exolium Renforc�",
+      "item.osalysmod.osalium_pickaxe": "Pioche en Exolium",
+      "item.saphire_axe.name": "Hache en Saphire",
+      "lingering_potion.effect.test": "Lingering Test",
+      "item.exoliamod.renforced_exolium_armor_leggings": "Jambi�res en Exolium Renforc�",
+      "item.cobalt_pickaxe.name": "Pioche en Cobalt",
+      "block.osalysmos.sapphire_ore": "Minerais de Saphire",
+      "item.platine_armorbody.name": "Plastron en Platine",
+      "item.exoliamod.renforced_exolium_shovel": "Pelle en Exolium",
+      "item.osalysmos.platine_armor_leggings": "Jambi�res en Platine",
+      "item.osalysmos.platine_armor_boots": "Bottes en Platine",
+      "item.cobalt_axe.name": "Hache en Cobalt",
+      "item.heal_stick.name": "Heal Stick",
+      "item.cobalt_shovel.name": "Pelle en Cobalt",
+      "item.exoliamod.saphire_purified_pickaxe": "Pioche en Saphire Purifi�",
+      "item.exoliamod.saphire_armor_chestplate": "Plastron en Saphire",
+      "item.osalysmos.exolium_armor_boots": "Bottes en Exolium",
+      "item.exoliamod.speed_stick": "Speed Stick",
+      "item.osalysmos.osalium_dust": "Poudre d\u0027Exolium",
+      "tile.sapphire_ore.name": "Minerais de Saphire",
+      "item.renforced_gold_stick.name": "B�ton d\u0027Or Renforc�",
+      "block.osalysmod.platine_block": "Bloc de Platine",
+      "item.exolium_armorlegs.name": "Jambi�res en Exolium",
+      "item.farm_armorbody.name": "Plastron d\u0027Aventurier",
+      "item.osalysmod.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
+      "item.exoliamod.farm_armor_leggings": "Jambi�res d\u0027Aventurier",
+      "item.renforced_exolium_armorboots.name": "Bottes en Exolium Renforc�",
+      "item.osalysmod.cobalt_axe": "Hache en Cobalt",
+      "item.osalysmos.exolium_axe": "Hache en Exolium",
+      "block.osalysmod.purifing_machine_on": "Machine de Purification",
+      "item.exolium_shovel.name": "Pelle en Exolium",
+      "item.exoliamod.platine_armor_helmet": "Casque en Platine",
+      "effect.test": "Test",
+      "item.osalysmod.platine_hammer": "Hammer en Platine",
+      "item.platine_axe.name": "Hache en Platine",
+      "item.exoliamod.exolium_ingot": "Exolium",
+      "item.exoliamod.cobalt_axe": "Hache en Cobalt",
+      "advancements.cobalt_advancement.title": "Meilleur que le diamant !",
+      "item.cobalt_armorhelmet.name": "Casque en Cobalt",
+      "item.osalysmod.feed_stick": "Feed Stick",
+      "item.exoliamod.saphire_armor_boots": "Bottes en Saphire",
+      "item.osalysmod.renforced_exolium_armor_helmet": "Casque en Exolium Renforc�",
+      "potion.effect.test": "Test",
+      "item.osalysmod.saphire_sword": "�p�e en Saphire",
+      "item.saphire_armorhelmet.name": "Casque en Saphire",
+      "item.osalysmos.farm_armor_chestplate": "Plastron d\u0027Aventurier",
+      "item.renforced_exolium_hammer.name": "Hammer en Exolium Renforc�",
+      "item.cobalt_sword.name": "�p�e en Cobalt",
+      "item.exoliamod.farm_armor_boots": "Bottes d\u0027Aventurier",
+      "item.farm_armorlegs.name": "Jambi�res d\u0027Aventurier",
+      "item.exoliamod.saphire_sword": "�p�e en Saphire",
+      "item.osalysmos.platine_shovel": "Pelle en Platine",
+      "item.osalysmos.renforced_exolium_hoe": "Houe en Exolium Renforc�",
+      "item.osalysmod.fortunehoe": "Houe de Fortune",
+      "block.exoliamod.exolium_ore": "Minerais d\u0027Exolium",
+      "advancements.exo_renfo.descr": "Equiper une amure compl�te en exolium renforc�",
+      "item.osalysmos.saphire_sword": "�p�e en Saphire",
+      "item.exoliamod.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
+      "item.osalysmos.explosive_munition": "Munition d\u0027arc explosif",
+      "item.osalysmos.fortunehoe": "Houe de Fortune",
+      "tile.purifiedsaphireblock.name": "Bloc de Saphire Purifi�",
+      "item.osalysmod.farm_armor_boots": "Bottes d\u0027Aventurier",
+      "item.exolium_apple.name": "Pomme en Exolium",
+      "item.osalysmos.cobalt_axe": "Hache en Cobalt",
+      "item.exoliamod.exolium_armor_helmet": "Casque en Exolium",
+      "item.exoliamod.cobalt_pickaxe": "Pioche en Cobalt",
+      "item.exoliamod.explosive_munition": "Munition d\u0027arc explosif",
+      "item.osalysmos.saphire_purified_pickaxe": "Pioche en Saphire Purifi�",
+      "item.platine_armorlegs.name": "Jambi�res en Platine",
+      "item.exoliamod.exolium_armor_boots": "Bottes en Exolium",
+      "item.osalysmod.platine_armor_helmet": "Casque en Platine",
+      "item.explosive_bow.name": "Arc Explosif ",
+      "item.exolium_sword.name": "�p�e en Exolium",
+      "item.osalysmod.explosive_munition": "Munition d\u0027arc explosif",
+      "item.osalysmod.cobalt_armor_leggings": "Jambi�res en Cobalt",
+      "item.explosive_munition.name": "Munition d\u0027arc explosif",
+      "item.minecraft.tipped_arrow.effect.test_potion_item": "Arrow of Test",
+      "item.osalysmos.exolium_pickaxe": "Pioche en Exolium",
+      "item.saphire_sword.name": "�p�e en Saphire",
+      "advancements.full_exo.title": "L\u0027armure la plus puissante ?",
+      "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforc�e",
+      "item.exoliamod.farm_armor_helmet": "Casque d\u0027Aventurier",
+      "item.exoliamod.saphire_shovel": "Pelle en Saphire",
+      "item.osalysmod.renforced_exolium_hoe": "Houe en Exolium Renforc�",
+      "item.osalysmod.platine_sword": "�p�e en Platine",
+      "item.exoliamod.exolium_stick": "Stick en Exolium",
+      "item.osalysmod.osalium_dust": "Poudre d\u0027Exolium",
+      "block.osalysmod.purified_saphire_block": "Bloc de Saphire Purifi�",
+      "item.platine_ingot.name": "Platine",
+      "item.osalysmos.hanglider": "Hanglider",
+      "item.osalysmod.platine_armor_boots": "Bottes en Platine",
+      "item.osalysmos.exolium_armor_chestplate": "Plastron en Exolium",
+      "item.exoliamod.fortunehoe": "Houe de Fortune",
+      "item.minecraft.potion.effect.test_potion_item": "Test",
+      "tile.cobalt_block.name": "Bloc de Cobalt",
+      "item.exoliamod.exolium_shovel": "Pelle en Exolium",
+      "tile.cobalt_ore.name": "Minerais de Cobalt",
+      "item.exolium_armorbody.name": "Plastron en Exolium",
+      "item.osalysmod.osalium_shovel": "Pelle en Exolium",
+      "tile.saphire_block.name": "Bloc de Saphire",
+      "item.osalysmod.osalium_hoe": "Houe en Exolium",
+      "item.saphire_purified_pickaxe.name": "Pioche en Saphire Purifi�",
+      "item.cobalt_armorbody.name": "Plastron en Cobalt",
+      "tile.renforced_exolium_block.name": "Bloc d\u0027Exolium Renforc�",
+      "itemGroup.tabosalys_tab": "Osalys",
+      "item.osalysmos.farm_armor_boots": "Bottes d\u0027Aventurier",
+      "item.osalysmos.platine_armor_chestplate": "Plastron en Platine",
+      "block.osalysmos.cobalt_ore": "Minerais de Cobalt",
+      "block.osalysmos.cave_block": "Cave Block",
+      "item.saphire_armorlegs.name": "Jambi�res en Saphire",
+      "item.osalysmod.platine_hoe": "Houe en Platine",
+      "item.osalysmod.explosive_bow": "Arc Explosif ",
+      "item.exoliamod.platine_ingot": "Platine",
+      "item.osalysmos.saphire_pickaxe": "Pioche en Saphire",
+      "item.osalysmod.saphire_axe": "Hache en Saphire",
+      "item.cobalt_apple.name": "Pomme en Cobalt",
+      "item.osalysmos.renforced_exolium_armor_chestplate": "Plastron en Exolium Renforc�",
+      "block.exoliamod.purifiedsaphireblock": "Bloc de Saphire Purifi�",
+      "item.osalysmos.gold_stick": "B�ton d\u0027Or",
+      "item.osalysmos.farm_armor_helmet": "Casque d\u0027Aventurier",
+      "advancements.saphire_advancement.descr": "Obtenez un minerais de Saphire",
+      "item.renforced_exolium_shovel.name": "Pelle en Exolium",
+      "item.osalysmos.renforced_exolium_sword": "�p�e en Exolium Renforc�",
+      "item.exoliamod.platine_armor_boots": "Bottes en Platine",
+      "item.osalysmos.renforced_exolium_shovel": "Pelle en Exolium",
+      "item.saphire_ingot.name": "Saphire",
+      "item.osalysmos.exolium_ingot": "Exolium",
+      "item.osalysmos.renforced_exolium_armor_helmet": "Casque en Exolium Renforc�",
+      "item.osalysmos.saphire_ingot": "Saphire",
+      "item.osalysmod.platine_armor_leggings": "Jambi�res en Platine",
+      "item.osalysmos.saphire_armor_chestplate": "Plastron en Saphire",
+      "item.saphire_armorboots.name": "Bottes en Saphire",
+      "tile.exolium_ore.name": "Minerais d\u0027Exolium",
+      "item.osalysmos.cobalt_armor_boots": "Bottes en Cobalt",
+      "item.osalysmos.saphire_armor_boots": "Bottes en Saphire",
+      "item.osalysmod.platine_shovel": "Pelle en Platine",
+      "splash_potion.effect.test": "Splash Test",
+      "block.osalysmod.cobalt_block": "Bloc de Cobalt",
+      "advancements.fullexo.title": "L\u0027armure la plus puissante ?",
+      "item.exoliamod.renforced_exolium_ingot": "Exolium Renforc�",
+      "item.exoliamod.platine_pickaxe": "Pioche en Platine",
+      "block.exoliamod.saphire_block": "Bloc de Saphire",
+      "item.osalysmos.renforced_exolium_pickaxe": "Pioche en Exolium Renforc�",
+      "item.exolium_stick.name": "Stick en Exolium",
+      "item.osalysmos.cobalt_shovel": "Pelle en Cobalt",
+      "item.osalysmod.exolium_ingot": "Exolium",
+      "item.osalysmod.saphire_pickaxe": "Pioche en Saphire",
+      "item.osalysmod.renforced_exolium_armor_chestplate": "Plastron en Exolium Renforc�",
+      "item.fortunehoe.name": "Houe de Fortune",
+      "item.osalysmos.platine_hammer": "Hammer en Platine",
+      "effect.test_potion_item": "Test",
+      "item.osalysmos.platine_hoe": "Houe en Platine",
+      "item.exolium_armorhelmet.name": "Casque en Exolium",
+      "item.renforced_exolium_armorhelmet.name": "Casque en Exolium Renforc�",
+      "item.osalysmod.osalium_sword": "�p�e en Exolium",
+      "item.exolium_pickaxe.name": "Pioche en Exolium",
+      "item.osalysmod.speed_stick": "Speed Stick",
+      "item.osalysmod.purified_saphire_sword": "Purified Saphire Sword",
+      "item.exoliamod.renforced_exolium_armor_helmet": "Casque en Exolium Renforc�",
+      "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
+      "item.osalysmos.cobalt_sword": "�p�e en Cobalt",
+      "item.osalysmos.exolium_hammer": "Hammer en Exolium",
+      "item.hanglider.name": "Hanglider",
+      "item.osalysmos.renforced_exolium_ingot": "Exolium Renforc�",
+      "advancements.exo_renfo.title": "Mieux que l\u0027exolium",
+      "item.osalysmod.renforced_exolium_hammer": "Hammer en Exolium Renforc�",
+      "item.exolium_axe.name": "Hache en Exolium",
+      "item.exolium_ingot.name": "Exolium",
+      "item.exoliamod.renforced_exolium_armor_boots": "Bottes en Exolium Renforc�",
+      "item.minecraft.lingering_potion.effect.test_potion_item": "Lingering Test",
+      "item.exoliamod.cobalt_armor_chestplate": "Plastron en Cobalt",
+      "item.exoliamod.purified_saphire_sword": "Purified Saphire Sword",
+      "block.exoliamod.platine_ore": "Minerais de Platine",
+      "item.exoliamod.platine_sword": "�p�e en Platine",
+      "item.osalysmod.osalium_armor_boots": "Bottes en Exolium",
+      "item.exoliamod.platine_axe": "Hache en Platine",
+      "block.osalysmos.cobalt_block": "Bloc de Cobalt",
+      "item.osalysmod.renforced_exolium_armor_leggings": "Jambi�res en Exolium Renforc�",
+      "item.exoliamod.saphire_hoe": "Houe en Saphire",
+      "item.osalysmos.exolium_sword": "�p�e en Exolium",
+      "item.renforced_exolium_pickaxe.name": "Pioche en Exolium Renforc�",
+      "item.exoliamod.renforced_exolium_sword": "�p�e en Exolium Renforc�",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
+      "tile.exobsidienne_block.name": "Exobsidienne",
+      "item.osalysmos.saphire_axe": "Hache en Saphire",
+      "item.osalysmod.cobatl_ingot": "Cobalt",
+      "item.renforced_exolium_sword.name": "�p�e en Exolium Renforc�",
+      "item.exoliamod.renforced_exolium_pickaxe": "Pioche en Exolium Renforc�",
+      "item.exoliamod.platine_armor_leggings": "Jambi�res en Platine",
+      "item.osalysmos.explosive_bow": "Arc Explosif ",
+      "item.exolium_hoe.name": "Houe en Exolium",
+      "item.exoliamod.saphire_armor_leggings": "Jambi�res en Saphire",
+      "item.exolium_dust.name": "Poudre d\u0027Exolium",
+      "item.osalysmos.farm_armor_leggings": "Jambi�res d\u0027Aventurier",
+      "item.osalysmos.speed_stick": "Speed Stick",
+      "item.exoliamod.renforced_exolium_axe": "Hache en Exolium Renforc�",
+      "item.exoliamod.feed_stick": "Feed Stick",
+      "item.exoliamod.platine_hammer": "Hammer en Platine",
+      "item.renforced_exolium_armorlegs.name": "Jambi�res en Exolium Renforc�",
+      "item.exoliamod.exolium_sword": "�p�e en Exolium",
+      "item.exoliamod.renforced_exolium_hammer": "Hammer en Exolium Renforc�",
+      "item.osalysmod.cobalt_shovel": "Pelle en Cobalt",
+      "item.platine_hoe.name": "Houe en Platine",
+      "item.exoliamod.cobalt_armor_helmet": "Casque en Cobalt",
+      "block.osalysmos.platine_block": "Bloc de Platine",
+      "item.exoliamod.cobalt_shovel": "Pelle en Cobalt",
+      "tile.platine_block.name": "Bloc de Platine",
+      "item.exoliamod.saphire_armor_helmet": "Casque en Saphire",
+      "item.exoliamod.renforced_fortune_hoe": "Houe de Fortune Renforc�e",
+      "item.osalysmod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
+      "item.osalysmos.cobalt_armor_chestplate": "Plastron en Cobalt",
+      "item.osalysmod.cobalt_sword": "�p�e en Cobalt",
+      "item.farm_armorhelmet.name": "Casque d\u0027Aventurier",
+      "item.osalysmod.renforced_exolium_axe": "Hache en Exolium Renforc�",
+      "item.platineapple.name": "Pomme en Platine",
+      "item.osalysmos.renforced_exolium_hammer": "Hammer en Exolium Renforc�",
+      "item.platine_armorhelmet.name": "Casque en Platine",
+      "item.cobatl_ingot.name": "Cobalt",
+      "item.exoliamod.cobalt_sword": "�p�e en Cobalt",
+      "item.exoliamod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
+      "block.osalysmod.osalium_ore": "Minerais d\u0027Exolium",
+      "advancements.saphire_advancement.title": "Un nouveau minerais ?",
+      "item.osalysmos.heal_stick": "Heal Stick",
+      "item.osalysmod.renforced_exolium_armor_boots": "Bottes en Exolium Renforc�",
+      "tile.platine_ore.name": "Minerais de Platine",
+      "block.exoliamod.cobalt_ore": "Minerais de Cobalt",
+      "advancements.full_exo.descr": "S\u0027�quiper d\u0027une amure compl�te en �xolium",
+      "block.osalysmod.osalium_block": "Bloc d\u0027Exolium",
+      "item.saphire_hoe.name": "Houe en Saphire",
+      "block.osalysmos.renforced_exolium_block": "Bloc d\u0027Exolium Renforc�",
+      "item.osalysmos.renforced_exolium_armor_boots": "Bottes en Exolium Renforc�",
+      "item.exoliamod.exolium_dust": "Poudre d\u0027Exolium",
+      "item.exoliamod.cobalt_armor_boots": "Bottes en Cobalt",
+      "item.osalysmos.platine_armor_helmet": "Casque en Platine",
+      "item.osalysmod.hang_glider": "Hanglider",
+      "item.osalysmos.exolium_armor_helmet": "Casque en Exolium",
+      "block.osalysmod.saphire_ore": "Minerais de Saphire",
+      "item.osalysmod.saphire_armor_boots": "Bottes en Saphire",
+      "item.minecraft.splash_potion.effect.test_potion_item": "Splash Test",
+      "item.osalysmod.renforced_exolium_pickaxe": "Pioche en Exolium Renforc�",
+      "block.exoliamod.cave_block": "Cave Block",
+      "item.exolium_hammer.name": "Hammer en Exolium",
+      "item.osalysmod.saphire_shovel": "Pelle en Saphire",
+      "item.platine_shovel.name": "Pelle en Platine",
+      "item.osalysmos.exolium_hoe": "Houe en Exolium",
+      "item.renforced_exolium_ingot.name": "Exolium Renforc�",
+      "item.osalysmos.saphire_shovel": "Pelle en Saphire",
+      "item.osalysmod.osalium_armor_leggings": "Jambi�res en Exolium",
+      "item.osalysmod.osalium_armor_chestplate": "Plastron en Exolium",
+      "block.exoliamod.platine_block": "Bloc de Platine",
+      "item.osalysmod.renforced_exolium_sword": "�p�e en Exolium Renforc�",
+      "item.platine_sword.name": "�p�e en Platine",
+      "block.exoliamod.purifing_machine_on": "Machine de Purification",
+      "block.osalysmos.purifiedsaphireblock": "Bloc de Saphire Purifi�",
+      "item.feed_stick.name": "Feed Stick",
+      "tile.cave_block.name": "Cave Block",
+      "item.exoliamod.cobalt_armor_leggings": "Jambi�res en Cobalt",
+      "item.exoliamod.platine_armor_chestplate": "Plastron en Platine",
+      "item.osalysmod.platine_ingot": "Platine",
+      "item.osalysmod.farm_armor_helmet": "Casque d\u0027Aventurier",
+      "advancements.fullexo.descr": "S\u0027�quiper d\u0027une amure compl�te en �xolium",
+      "item.gold_stick.name": "B�ton d\u0027Or",
+      "block.osalysmod.renforced_osalium_block": "Bloc d\u0027Exolium Renforc�",
+      "item.osalysmos.cobatl_ingot": "Cobalt",
+      "advancements.cobalt_advancement.descr": "Obtenir une armure en Cobalt",
+      "item.exolium_armorboots.name": "Bottes en Exolium",
+      "item.osalysmod.heal_stick": "Heal Stick",
+      "block.osalysmos.exolium_ore": "Minerais d\u0027Exolium",
+      "item.exoliamod.gold_stick": "B�ton d\u0027Or",
+      "block.osalysmos.exolium_block": "Bloc d\u0027Exolium",
+      "block.exoliamod.renforced_exolium_block": "Bloc d\u0027Exolium Renforc�",
+      "item.osalysmod.saphire_ingot": "Saphire",
+      "item.osalysmos.exolium_armor_leggings": "Jambi�res en Exolium",
+      "block.exoliamod.exolium_block": "Bloc d\u0027Exolium",
+      "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
+      "advancements.exorenfo.title": "Mieux que l\u0027exolium",
+      "item.exoliamod.exolium_axe": "Hache en Exolium",
+      "item.exoliamod.exolium_armor_leggings": "Jambi�res en Exolium",
+      "item.exoliamod.exolium_hammer": "Hammer en Exolium",
+      "item.osalysmod.farm_armor_leggings": "Jambi�res d\u0027Aventurier",
+      "item.exoliamod.cobalt_hoe": "Houe en Cobalt",
+      "item.osalysmod.osalium_hammer": "Hammer en Exolium",
+      "item.cobalt_armorlegs.name": "Jambi�res en Cobalt",
+      "item.osalysmod.platine_armor_chestplate": "Plastron en Platine",
+      "block.osalysmod.cobalt_ore": "Minerais de Cobalt"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "osalysmod",
+    "modName": "OsalysMod",
+    "version": "1.0.0",
+    "description": "Mod Officiel d\u0027Osalys",
+    "author": "PLR, SkyScube, Ketchua_",
+    "websiteURL": "https://exolia.site",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "fr.osalys.mod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

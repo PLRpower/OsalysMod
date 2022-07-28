@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "osalysmod:blocks/purifing_machine_top_on",
+    "up": "osalysmod:blocks/purifing_machine_top_on",
+    "north": "osalysmod:blocks/purifing_machine_face_on",
+    "east": "osalysmod:blocks/purifing_machine_face",
+    "south": "osalysmod:blocks/purifing_machine_face",
+    "west": "osalysmod:blocks/purifing_machine_face",
+    "particle": "osalysmod:blocks/purifing_machine_top_on"
+  }
+}

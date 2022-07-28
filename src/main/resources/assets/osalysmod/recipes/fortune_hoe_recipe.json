@@ -1,0 +1,27 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_block"
+    },
+    "1": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "3": {
+      "item": "exoliamod:gold_stick"
+    },
+    "5": {
+      "item": "exoliamod:gold_stick"
+    }
+  },
+  "result": {
+    "item": "exoliamod:fortunehoe",
+    "count": 1
+  }
+}

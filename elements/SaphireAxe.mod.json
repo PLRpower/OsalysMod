@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "saphire_axe",
+    "customModelName": "Normal",
+    "name": "Hache en Saphire",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 0.8,
+    "enchantability": 8,
+    "damageVsEntity": 11.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SaphireIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

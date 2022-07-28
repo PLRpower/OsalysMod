@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exoliamod:blocks/purifing_machine_top_on",
+    "up": "exoliamod:blocks/purifing_machine_top_on",
+    "north": "exoliamod:blocks/purifing_machine_face_on",
+    "east": "exoliamod:blocks/purifing_machine_face",
+    "south": "exoliamod:blocks/purifing_machine_face",
+    "west": "exoliamod:blocks/purifing_machine_face",
+    "particle": "exoliamod:blocks/purifing_machine_top_on"
+  }
+}

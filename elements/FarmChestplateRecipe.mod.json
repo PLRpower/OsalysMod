@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLDEN_PICKAXE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLDEN_PICKAXE"
+      },
+      {
+        "value": "CUSTOM:ExoliumDust"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:ExoliumDust"
+      },
+      {
+        "value": "CUSTOM:Exolium"
+      },
+      {
+        "value": "CUSTOM:ExoliumDust"
+      },
+      {
+        "value": "CUSTOM:Exolium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Aventure_Armor.body"
+    },
+    "name": "farm_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

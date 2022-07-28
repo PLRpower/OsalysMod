@@ -1,0 +1,24 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "4": {
+      "item": "minecraft:cooked_beef"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "exoliamod:feed_stick",
+    "count": 1
+  }
+}

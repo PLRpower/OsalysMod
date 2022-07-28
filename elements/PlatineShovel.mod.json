@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platine_shovel",
+    "customModelName": "Normal",
+    "name": "Pelle en Platine",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 3,
+    "efficiency": 16.0,
+    "attackSpeed": 1.2,
+    "enchantability": 8,
+    "damageVsEntity": 7.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlatineIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "osalysmod:blocks/platine_block",
+    "particle": "osalysmod:blocks/platine_block"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "renforced_exolium_helmet",
+    "enableBody": true,
+    "textureBody": "renforced_exolium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "renforced_exolium_leggings",
+    "enableBoots": true,
+    "textureBoots": "renforced_exolium_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "armorTextureFile": "renforced_exolium_",
+    "helmetName": "Casque en Exolium Renforc�",
+    "bodyName": "Plastron en Exolium Renforc�",
+    "leggingsName": "Jambi�res en Exolium Renforc�",
+    "bootsName": "Bottes en Exolium Renforc�",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 85,
+    "damageValueHelmet": 7,
+    "damageValueBody": 12,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 7,
+    "enchantability": 20,
+    "toughness": 2.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:RenforcedExolium"
+      }
+    ]
+  }
+}

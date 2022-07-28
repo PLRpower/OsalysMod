@@ -1,0 +1,42 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:saphire_block"
+    },
+    "1": {
+      "item": "exoliamod:saphire_block"
+    },
+    "2": {
+      "item": "exoliamod:saphire_block"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "minecraft:furnace"
+    },
+    "5": {
+      "item": "minecraft:cobblestone"
+    },
+    "6": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "exoliamod:exolium_block"
+    },
+    "8": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "exoliamod:purifingmachineon",
+    "count": 1
+  }
+}

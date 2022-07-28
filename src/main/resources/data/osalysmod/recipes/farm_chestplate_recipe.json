@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "2": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "3": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "6": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "7": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "8": {
+      "item": "osalysmod:exolium_ingot"
+    }
+  },
+  "result": {
+    "item": "osalysmod:deleted_mod_element_chestplate",
+    "count": 1
+  }
+}

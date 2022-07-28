@@ -1,0 +1,27 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "1": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "exoliamod:exolium_stick"
+    }
+  },
+  "result": {
+    "item": "exoliamod:exolium_hoe",
+    "count": 1
+  }
+}

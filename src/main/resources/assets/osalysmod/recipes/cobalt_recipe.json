@@ -1,0 +1,16 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:cobalt_block"
+    }
+  },
+  "result": {
+    "item": "exoliamod:cobatl_ingot",
+    "count": 9
+  }
+}

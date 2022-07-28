@@ -1,0 +1,34 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "saphire_purified_pickaxe",
+    "customModelName": "Normal",
+    "name": "Pioche en Saphire Purifi�",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 1.2,
+    "enchantability": 8,
+    "damageVsEntity": 6.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SaphireIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "SaphirePurifiedPickaxeProcedure"
+    }
+  }
+}

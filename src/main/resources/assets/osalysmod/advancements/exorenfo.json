@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "exoliamod:renforced_exolium_armorbody"
+    },
+    "title": {
+      "translate": "advancements.exorenfo.title"
+    },
+    "description": {
+      "translate": "advancements.exorenfo.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "exorenfo": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "exoliamod:fullexo"
+}

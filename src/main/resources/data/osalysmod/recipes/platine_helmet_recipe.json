@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "1": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "2": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "3": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "5": {
+      "item": "osalysmod:platine_ingot"
+    }
+  },
+  "result": {
+    "item": "osalysmod:deleted_mod_element_helmet",
+    "count": 1
+  }
+}

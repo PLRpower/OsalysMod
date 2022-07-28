@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "1": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "2": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "4": {
+      "item": "osalysmod:exolium_stick"
+    },
+    "7": {
+      "item": "osalysmod:exolium_stick"
+    }
+  },
+  "result": {
+    "item": "osalysmod:renforced_exolium_pickaxe",
+    "count": 1
+  }
+}

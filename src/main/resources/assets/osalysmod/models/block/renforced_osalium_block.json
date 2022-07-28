@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "osalysmod:blocks/renforced_osalium_block",
+    "particle": "osalysmod:blocks/renforced_osalium_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:exoliumblock"
+    }
+  },
+  "result": {
+    "item": "exoliamod:exoliumdust",
+    "count": 9
+  }
+}

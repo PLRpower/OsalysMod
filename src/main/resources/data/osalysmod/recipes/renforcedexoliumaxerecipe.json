@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "1": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "2": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "3": {
+      "item": "osalysmod:exolium_stick"
+    },
+    "5": {
+      "item": "osalysmod:exolium_stick"
+    }
+  },
+  "result": {
+    "item": "osalysmod:renforced_exolium_axe",
+    "count": 1
+  }
+}

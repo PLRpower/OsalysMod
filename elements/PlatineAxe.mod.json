@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platine_axe",
+    "customModelName": "Normal",
+    "name": "Hache en Platine",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 16.0,
+    "attackSpeed": 0.8,
+    "enchantability": 8,
+    "damageVsEntity": 13.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlatineIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

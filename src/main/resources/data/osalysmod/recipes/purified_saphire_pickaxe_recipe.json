@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "1": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "2": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "4": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "7": {
+      "item": "osalysmod:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "osalysmod:deleted_mod_element",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "2": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "3": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "4": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "5": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "6": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "7": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "8": {
+      "item": "osalysmod:exolium_ingot"
+    }
+  },
+  "result": {
+    "item": "osalysmod:deleted_mod_element_chestplate",
+    "count": 1
+  }
+}

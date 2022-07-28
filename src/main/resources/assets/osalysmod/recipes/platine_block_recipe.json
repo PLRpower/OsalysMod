@@ -1,0 +1,37 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    },
+    {
+      "item": "exoliamod:platine_ingot"
+    }
+  ],
+  "result": {
+    "item": "exoliamod:platine_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:renforced_exolium_block"
+    }
+  },
+  "result": {
+    "item": "exoliamod:renforced_exolium_ingot",
+    "count": 9
+  }
+}

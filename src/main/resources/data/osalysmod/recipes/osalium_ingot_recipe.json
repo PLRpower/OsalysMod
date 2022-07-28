@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    {
+      "item": "osalysmod:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "osalysmod:exolium_ingot",
+    "count": 1
+  }
+}

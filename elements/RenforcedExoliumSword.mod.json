@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "renforced_exolium_sword",
+    "customModelName": "Normal",
+    "name": "�p�e en Exolium Renforc�",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.6,
+    "enchantability": 8,
+    "damageVsEntity": 21.0,
+    "usageCount": 3500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:RenforcedExolium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

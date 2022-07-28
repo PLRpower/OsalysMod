@@ -1,0 +1,39 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "2": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "3": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "4": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "5": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "6": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "7": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "8": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    }
+  },
+  "result": {
+    "item": "exoliamod:unknown_elementbody",
+    "count": 1
+  }
+}

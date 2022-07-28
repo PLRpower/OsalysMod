@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Purifiedsaphireblock"
+      },
+      {
+        "value": "CUSTOM:Exolium"
+      },
+      {
+        "value": "CUSTOM:Purifiedsaphireblock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Renforced_gold_stick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Renforced_gold_stick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Saphire_purified_pickaxe"
+    },
+    "name": "purified_saphire_pickaxe_recipe",
+    "namespace": "mod"
+  }
+}

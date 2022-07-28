@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "renforced_exolium_hoe",
+    "customModelName": "Normal",
+    "name": "Houe en Exolium Renforc�",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 22.0,
+    "attackSpeed": 1.2,
+    "enchantability": 8,
+    "damageVsEntity": 7.0,
+    "usageCount": 3500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:RenforcedExolium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

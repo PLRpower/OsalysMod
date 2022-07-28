@@ -1,0 +1,16 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exoliamod:exolium_ingot"
+    },
+    {
+      "item": "exoliamod:exolium_ingot"
+    }
+  ],
+  "result": {
+    "item": "exoliamod:exolium_stick",
+    "count": 2
+  }
+}

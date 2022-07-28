@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "cobalt_hoe",
+    "customModelName": "Normal",
+    "name": "Houe en Cobalt",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 13.0,
+    "attackSpeed": 1.2,
+    "enchantability": 8,
+    "damageVsEntity": 6.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CobatlIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

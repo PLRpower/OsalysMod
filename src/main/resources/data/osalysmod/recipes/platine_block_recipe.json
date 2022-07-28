@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    },
+    {
+      "item": "osalysmod:platine_ingot"
+    }
+  ],
+  "result": {
+    "item": "osalysmod:platine_block",
+    "count": 1
+  }
+}

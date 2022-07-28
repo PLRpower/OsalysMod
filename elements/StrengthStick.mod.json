@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stick_heal",
+    "customModelName": "Normal",
+    "name": "Strength Stick",
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 3,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onRightClickedInAir": {
+      "name": "StrengthStickRightClickedOnBlock"
+    },
+    "onRightClickedOnBlock": {
+      "name": "StrengthStickRightClickedOnBlock"
+    }
+  }
+}

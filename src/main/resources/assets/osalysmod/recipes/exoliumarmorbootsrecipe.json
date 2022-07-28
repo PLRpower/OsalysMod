@@ -1,0 +1,26 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "2": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "3": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "5": {
+      "item": "exoliamod:exolium_ingot"
+    }
+  },
+  "result": {
+    "item": "exoliamod:exolium_armorboots",
+    "count": 1
+  }
+}

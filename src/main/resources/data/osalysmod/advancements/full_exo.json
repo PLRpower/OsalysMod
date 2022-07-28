@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "osalysmod:deleted_mod_element_chestplate"
+    },
+    "title": {
+      "translate": "advancements.full_exo.title"
+    },
+    "description": {
+      "translate": "advancements.full_exo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "full_exo": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "osalysmod:deleted_mod_element"
+}

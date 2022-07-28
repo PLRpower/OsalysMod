@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "osalysmod:blocks/cave_block",
+    "up": "osalysmod:blocks/cave_block",
+    "north": "osalysmod:blocks/cave_block",
+    "east": "osalysmod:blocks/cave_block",
+    "south": "osalysmod:blocks/cave_block",
+    "west": "osalysmod:blocks/cave_block",
+    "particle": "osalysmod:blocks/cave_block"
+  }
+}

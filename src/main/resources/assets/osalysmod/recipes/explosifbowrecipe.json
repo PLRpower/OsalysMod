@@ -1,0 +1,33 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "3 5",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:exolium_stick"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "exoliamod:exolium_stick"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "exoliamod:exolium_stick"
+    },
+    "7": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "exoliamod:explosive_bow",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "test": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "osalysmod:test",
+        "stream": false
+      }
+    ]
+  }
+}

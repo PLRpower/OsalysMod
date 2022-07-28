@@ -1,0 +1,29 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "1": {
+      "item": "minecraft:glowstone"
+    },
+    "2": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "exoliamod:farm_armorhelmet",
+    "count": 1
+  }
+}

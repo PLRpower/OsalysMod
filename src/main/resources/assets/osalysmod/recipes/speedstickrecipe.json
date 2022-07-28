@@ -1,0 +1,30 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:nether_wart"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "5": {
+      "item": "minecraft:nether_wart"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "exoliamod:speed_stick",
+    "count": 1
+  }
+}

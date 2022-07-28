@@ -1,0 +1,29 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "1": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "2": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "3": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    "5": {
+      "item": "exoliamod:renforced_exolium_ingot"
+    }
+  },
+  "result": {
+    "item": "exoliamod:unknown_elementhelmet",
+    "count": 1
+  }
+}

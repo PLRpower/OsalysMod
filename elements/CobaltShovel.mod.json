@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "cobalt_shovel",
+    "customModelName": "Normal",
+    "name": "Pelle en Cobalt",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 3,
+    "efficiency": 13.0,
+    "attackSpeed": 1.2,
+    "enchantability": 8,
+    "damageVsEntity": 6.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CobatlIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "osalysmod:blocks/purified_saphire_block",
+    "up": "osalysmod:blocks/saphire_block_purified",
+    "north": "osalysmod:blocks/saphire_block_purified",
+    "east": "osalysmod:blocks/saphire_block_purified",
+    "south": "osalysmod:blocks/saphire_block_purified",
+    "west": "osalysmod:blocks/saphire_block_purified",
+    "particle": "osalysmod:blocks/purified_saphire_block"
+  }
+}

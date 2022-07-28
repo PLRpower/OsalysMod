@@ -1,0 +1,39 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "2": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "3": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "4": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "5": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "6": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "7": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "8": {
+      "item": "exoliamod:exolium_ingot"
+    }
+  },
+  "result": {
+    "item": "exoliamod:exolium_armorbody",
+    "count": 1
+  }
+}

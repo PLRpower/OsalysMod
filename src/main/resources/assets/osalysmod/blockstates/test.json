@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "exoliamod:test"
+    },
+    "age=1": {
+      "model": "exoliamod:test"
+    },
+    "age=2": {
+      "model": "exoliamod:test"
+    },
+    "age=3": {
+      "model": "exoliamod:test"
+    },
+    "age=4": {
+      "model": "exoliamod:test"
+    },
+    "age=5": {
+      "model": "exoliamod:test"
+    },
+    "age=6": {
+      "model": "exoliamod:test"
+    },
+    "age=7": {
+      "model": "exoliamod:test"
+    },
+    "age=8": {
+      "model": "exoliamod:test"
+    },
+    "age=9": {
+      "model": "exoliamod:test"
+    },
+    "age=10": {
+      "model": "exoliamod:test"
+    },
+    "age=11": {
+      "model": "exoliamod:test"
+    },
+    "age=12": {
+      "model": "exoliamod:test"
+    },
+    "age=13": {
+      "model": "exoliamod:test"
+    },
+    "age=14": {
+      "model": "exoliamod:test"
+    },
+    "age=15": {
+      "model": "exoliamod:test"
+    }
+  }
+}

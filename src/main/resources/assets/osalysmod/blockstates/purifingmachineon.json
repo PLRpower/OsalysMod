@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "exoliamod:purifingmachineon"
+    },
+    "facing=north": {
+      "model": "exoliamod:purifingmachineon"
+    },
+    "facing=east": {
+      "model": "exoliamod:purifingmachineon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "exoliamod:purifingmachineon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exoliamod:purifingmachineon",
+      "y": 270
+    }
+  }
+}

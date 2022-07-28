@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "osalysmod:renforced_exolium_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.exo_renfo.title"
+    },
+    "description": {
+      "translate": "advancements.exo_renfo.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "exo_renfo": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "osalysmod:full_exo"
+}

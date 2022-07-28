@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:nether_wart"
+    },
+    "2": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "4": {
+      "item": "osalysmod:exolium_ingot"
+    },
+    "5": {
+      "item": "minecraft:nether_wart"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "osalysmod:heal_stick",
+    "count": 1
+  }
+}

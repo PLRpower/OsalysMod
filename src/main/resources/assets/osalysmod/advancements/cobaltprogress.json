@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "exoliamod:cobalt_armorbody"
+    },
+    "title": {
+      "translate": "advancements.cobaltprogress.title"
+    },
+    "description": {
+      "translate": "advancements.cobaltprogress.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cobaltprogress": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "exoliamod:cobalt_armorbody",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "exoliamod:saphireprogress"
+}

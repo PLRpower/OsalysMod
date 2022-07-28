@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammerexolium",
+    "customModelName": "Normal",
+    "name": "Hammer",
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 1500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ExoliumIngot"
+      }
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "HammerBlockDestroyedWithTool"
+    }
+  }
+}

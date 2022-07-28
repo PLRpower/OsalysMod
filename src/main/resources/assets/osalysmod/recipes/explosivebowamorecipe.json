@@ -1,0 +1,16 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exoliamod:exolium_dust"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "exoliamod:explosive_munition",
+    "count": 1
+  }
+}

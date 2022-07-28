@@ -1,0 +1,37 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    },
+    {
+      "item": "exoliamod:renforced_exolium_ingot"
+    }
+  ],
+  "result": {
+    "item": "exoliamod:renforced_exolium_block",
+    "count": 1
+  }
+}

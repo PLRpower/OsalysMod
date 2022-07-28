@@ -1,0 +1,28 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exoliamod:exolium_dust"
+    },
+    {
+      "item": "exoliamod:exolium_dust"
+    },
+    {
+      "item": "exoliamod:exolium_dust"
+    },
+    {
+      "item": "exoliamod:exolium_dust"
+    },
+    {
+      "item": "exoliamod:exolium_dust"
+    },
+    {
+      "item": "exoliamod:exolium_dust"
+    }
+  ],
+  "result": {
+    "item": "exoliamod:exolium_ingot",
+    "count": 1
+  }
+}

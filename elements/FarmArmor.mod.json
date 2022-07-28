@@ -1,0 +1,72 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "farm_helmet",
+    "enableBody": true,
+    "textureBody": "farm_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "farm_leggings",
+    "enableBoots": true,
+    "textureBoots": "farm_boots",
+    "onHelmetTick": {
+      "name": "AventureArmorArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "AventureArmorArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "AventureArmorArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "AventureArmorArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "armorTextureFile": "farm_",
+    "helmetName": "Casque d'Aventurier",
+    "bodyName": "Plastron d'Aventurier",
+    "leggingsName": "Jambi�res d'Aventurier",
+    "bootsName": "Bottes d'Aventurier",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 40,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ExoliumIngot"
+      }
+    ]
+  }
+}

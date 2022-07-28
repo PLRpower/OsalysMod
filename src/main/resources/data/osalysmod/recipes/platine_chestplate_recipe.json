@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "2": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "3": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "4": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "5": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "6": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "7": {
+      "item": "osalysmod:platine_ingot"
+    },
+    "8": {
+      "item": "osalysmod:platine_ingot"
+    }
+  },
+  "result": {
+    "item": "osalysmod:deleted_mod_element_chestplate",
+    "count": 1
+  }
+}

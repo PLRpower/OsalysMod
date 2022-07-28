@@ -1,0 +1,39 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "2": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "3": {
+      "item": "exoliamod:exolium_dust"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "exoliamod:exolium_dust"
+    },
+    "6": {
+      "item": "exoliamod:exolium_ingot"
+    },
+    "7": {
+      "item": "exoliamod:exolium_dust"
+    },
+    "8": {
+      "item": "exoliamod:exolium_ingot"
+    }
+  },
+  "result": {
+    "item": "exoliamod:farm_armorbody",
+    "count": 1
+  }
+}

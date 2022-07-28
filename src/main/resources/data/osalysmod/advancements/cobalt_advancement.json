@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "osalysmod:deleted_mod_element_chestplate"
+    },
+    "title": {
+      "translate": "advancements.cobalt_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.cobalt_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cobalt_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "osalysmod:deleted_mod_element_chestplate",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "osalysmod:deleted_mod_element"
+}

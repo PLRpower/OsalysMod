@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "1": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "2": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "minecraft:furnace"
+    },
+    "5": {
+      "item": "minecraft:cobblestone"
+    },
+    "6": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "osalysmod:deleted_mod_element"
+    },
+    "8": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "osalysmod:purifing_machine_on",
+    "count": 1
+  }
+}

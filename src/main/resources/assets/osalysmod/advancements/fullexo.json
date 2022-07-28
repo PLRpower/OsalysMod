@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "exoliamod:exolium_armorbody"
+    },
+    "title": {
+      "translate": "advancements.fullexo.title"
+    },
+    "description": {
+      "translate": "advancements.fullexo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fullexo": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "exoliamod:cobaltprogress"
+}

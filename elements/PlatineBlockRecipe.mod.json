@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlatineBlock"
+    },
+    "name": "platine_block_recipe",
+    "namespace": "mod"
+  }
+}

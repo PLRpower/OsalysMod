@@ -1,0 +1,42 @@
+{
+  "group": "exoliamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "1": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "2": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "3": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "4": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "5": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "6": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "7": {
+      "item": "exoliamod:saphire_ingot"
+    },
+    "8": {
+      "item": "exoliamod:saphire_ingot"
+    }
+  },
+  "result": {
+    "item": "exoliamod:saphire_block",
+    "count": 1
+  }
+}

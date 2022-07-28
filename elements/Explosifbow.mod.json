@@ -1,0 +1,43 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "explosive_bow",
+    "customModelName": "Normal",
+    "name": "Arc Explosif ",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Exolia"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Explosifmunition"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.5,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Explosifmunition"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "ExplosifbowBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "ExplosifbowBulletHitsBlock"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "osalysmod:osalium_ore"
+  },
+  "result": {
+    "item": "osalysmod:osalium_dust"
+  }
+}
