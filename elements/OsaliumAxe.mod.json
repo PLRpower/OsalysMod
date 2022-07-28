@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "exolium_axe",
+    "texture": "osalium_axe",
     "customModelName": "Normal",
     "name": "Hache en Exolium",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "TOOLS"
     },
     "toolType": "Axe",
     "harvestLevel": 3,

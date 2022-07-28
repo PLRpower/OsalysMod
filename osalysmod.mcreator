@@ -1080,7 +1080,7 @@
       "name": "SaphirePickaxe",
       "type": "tool",
       "sortid": 264,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "saphire_pickaxe"
     },
@@ -1176,7 +1176,7 @@
       "name": "SaphireArmor",
       "type": "armor",
       "sortid": 276,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "saphire_armor",
       "metadata": {
@@ -1754,11 +1754,11 @@
   ],
   "language_map": {
     "en_us": {
-      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.speed_stick.name": "Speed Stick",
+      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
-      "item.osalysmod.renforced_exolium_shovel": "Pelle en Exolium",
       "item.saphire_armorbody.name": "Plastron en Saphire",
+      "item.osalysmod.renforced_exolium_shovel": "Pelle en Exolium",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
       "item.platine_hammer.name": "Hammer en Platine",
       "item.saphire_shovel.name": "Pelle en Saphire",
