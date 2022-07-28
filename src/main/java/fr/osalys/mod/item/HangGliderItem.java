@@ -9,7 +9,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
@@ -38,7 +37,7 @@ public class HangGliderItem extends OsalysmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ExoliaItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("hang_glider");
 		}
 

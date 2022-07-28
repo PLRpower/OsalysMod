@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "renforced_osalium_helmet",
+    "textureHelmet": "renforced_exolium_helmet",
     "enableBody": true,
-    "textureBody": "renforced_osalium_chestplate",
+    "textureBody": "renforced_exolium_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "renforced_osalium_leggings",
+    "textureLeggings": "renforced_exolium_leggings",
     "enableBoots": true,
-    "textureBoots": "renforced_osalium_boots",
+    "textureBoots": "renforced_exolium_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Exolia"
     },
-    "armorTextureFile": "renforced_exolium__",
+    "armorTextureFile": "renforced_exolium_",
     "helmetName": "Casque en Exolium Renforc�",
     "bodyName": "Plastron en Exolium Renforc�",
     "leggingsName": "Jambi�res en Exolium Renforc�",

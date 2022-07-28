@@ -13,8 +13,6 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
-    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -39,7 +37,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:OsalysTab"
+      "value": "CUSTOM:Exolia"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -58,9 +56,6 @@
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
-    "emittedRedstonePower": {
-      "fixedValue": 15.0
-    },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -78,21 +73,6 @@
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "STONE"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
@@ -120,7 +100,6 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
-    "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface"
     ],

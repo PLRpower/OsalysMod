@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_osalium_pickaxe",
+    "texture": "renforced_exolium_pickaxe",
     "customModelName": "Normal",
     "name": "Pioche en Exolium Renforc�",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Exolia"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,

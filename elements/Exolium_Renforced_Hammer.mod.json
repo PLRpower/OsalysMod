@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_osalium_hammer",
+    "texture": "renforced_exolium_hammer",
     "customModelName": "Normal",
     "name": "Hammer en Exolium Renforc�",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Exolia"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,
@@ -26,6 +26,9 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "ExoliumHammerBlock"
+    }
   }
 }

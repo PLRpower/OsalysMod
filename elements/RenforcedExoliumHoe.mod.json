@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_osalium_hoe",
+    "texture": "renforced_exolium_hoe",
     "customModelName": "Normal",
     "name": "Houe en Exolium Renforc�",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Exolia"
     },
     "toolType": "Hoe",
     "harvestLevel": 3,

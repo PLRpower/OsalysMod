@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
-      },
-      {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumIngot"
+        "value": "CUSTOM:RenforcedExolium"
+      },
+      {
+        "value": "CUSTOM:RenforcedExolium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RenforcedExolium"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Exolium_Renforced_Armor.legs"
+      "value": "CUSTOM:ExoliumRenforcedArmor.legs"
     },
     "name": "renforced_osalium_leggings_recipe",
     "namespace": "mod"

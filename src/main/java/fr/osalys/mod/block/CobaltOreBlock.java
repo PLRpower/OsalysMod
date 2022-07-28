@@ -40,7 +40,6 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import fr.osalys.mod.item.CobatlIngotItem;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag

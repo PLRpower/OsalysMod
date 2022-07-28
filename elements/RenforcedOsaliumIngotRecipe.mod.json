@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:RenforcedOsaliumBlock"
+        "value": "CUSTOM:RenforcedExoliumBlock"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RenforcedOsaliumIngot"
+      "value": "CUSTOM:RenforcedExolium"
     },
     "name": "renforced_osalium_ingot_recipe",
     "namespace": "mod"
