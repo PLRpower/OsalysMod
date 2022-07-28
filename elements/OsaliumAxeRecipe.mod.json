@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:OsaliumIngot"
+        "value": "CUSTOM:Exolium"
       },
       {
-        "value": "CUSTOM:OsaliumIngot"
+        "value": "CUSTOM:Exolium"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:OsaliumIngot"
+        "value": "CUSTOM:Exolium"
       },
       {
         "value": "Items.STICK"
@@ -31,14 +31,14 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:OsaliumStick"
+        "value": "CUSTOM:Exoliumstick"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:OsaliumAxe"
+      "value": "CUSTOM:ExoliumAxe"
     },
     "name": "osalium_axe_recipe",
     "namespace": "mod"

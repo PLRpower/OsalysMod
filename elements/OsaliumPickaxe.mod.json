@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "osalium_pickaxe",
+    "texture": "exolium_pickaxe",
     "customModelName": "Normal",
     "name": "Pioche en Exolium",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Exolia"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,

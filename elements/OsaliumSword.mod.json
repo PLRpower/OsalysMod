@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "osalium_sword",
+    "texture": "exolium_sword",
     "customModelName": "Normal",
     "name": "Epée en Exolium",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Exolia"
     },
     "toolType": "Sword",
     "harvestLevel": 0,

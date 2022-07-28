@@ -4,13 +4,13 @@ package fr.osalys.mod.item;
 import net.minecraft.entity.ai.attributes.Attributes;
 
 @OsalysmodModElements.ModElement.Tag
-public class PlatineIngotItem extends OsalysmodModElements.ModElement {
+public class TestKetchuaItem extends OsalysmodModElements.ModElement {
 
-	@ObjectHolder("osalysmod:platine_ingot")
+	@ObjectHolder("osalysmod:test_ketchua")
 	public static final Item block = null;
 
-	public PlatineIngotItem(OsalysmodModElements instance) {
-		super(instance, 8);
+	public TestKetchuaItem(OsalysmodModElements instance) {
+		super(instance, 334);
 
 	}
 
@@ -22,8 +22,8 @@ public class PlatineIngotItem extends OsalysmodModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(ExoliaItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("platine_ingot");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("test_ketchua");
 		}
 
 		@Override

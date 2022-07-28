@@ -6,7 +6,6 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -47,7 +46,7 @@ public class OsaliumPickaxeItem extends OsalysmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(ExoliumItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.8f, new Item.Properties().group(ExoliaItemGroup.tab)) {
 		}.setRegistryName("osalium_pickaxe"));
 	}
 }
