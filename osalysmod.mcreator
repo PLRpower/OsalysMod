@@ -1705,6 +1705,66 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "plr_vegetable"
+    },
+    {
+      "name": "AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatiere_ingot_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiationsQuandLeffetCommenceEstApplique",
+      "type": "procedure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiations_quand_leffet_commence_est_applique",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiationsTickActifSurEffet",
+      "type": "procedure",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiations_tick_actif_sur_effet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radiations",
+      "type": "potioneffect",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiations"
     }
   ],
   "variable_elements": [
@@ -1762,11 +1822,11 @@
   ],
   "language_map": {
     "en_us": {
-      "item.speed_stick.name": "Speed Stick",
       "block.osalysmos.purifing_machine_on": "Machine de Purification",
+      "item.speed_stick.name": "Speed Stick",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
-      "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.osalysmod.renforced_exolium_shovel": "Pelle en Exolium",
+      "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
       "item.platine_hammer.name": "Hammer en Platine",
       "item.saphire_shovel.name": "Pelle en Saphire",
@@ -1943,6 +2003,7 @@
       "tile.cobalt_ore.name": "Minerais de Cobalt",
       "item.exolium_armorbody.name": "Plastron en Exolium",
       "item.osalysmod.osalium_shovel": "Pelle en Exolium",
+      "effect.radiations": "Radiations",
       "tile.saphire_block.name": "Bloc de Saphire",
       "item.osalysmod.osalium_hoe": "Houe en Exolium",
       "item.saphire_purified_pickaxe.name": "Pioche en Saphire Purifi�",

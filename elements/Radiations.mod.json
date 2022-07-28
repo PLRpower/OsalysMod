@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Radiations",
+    "icon": "antiparticule.png",
+    "color": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "RadiationsQuandLeffetCommenceEstApplique"
+    },
+    "onActiveTick": {
+      "name": "RadiationsTickActifSurEffet"
+    }
+  }
+}
