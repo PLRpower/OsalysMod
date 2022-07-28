@@ -64,7 +64,7 @@
       "name": "PlatineOre",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_ore"
     },
@@ -80,7 +80,7 @@
       "name": "CobatlIngot",
       "type": "item",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobatl_ingot"
     },
@@ -110,7 +110,7 @@
       "name": "Exolium_Renforced_Hammer",
       "type": "tool",
       "sortid": 47,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "renforced_exolium_hammer"
     },
@@ -417,7 +417,7 @@
       "name": "PurifingMachineOn",
       "type": "block",
       "sortid": 179,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false
     },
     {
@@ -528,7 +528,7 @@
       "name": "PurifiedSaphireSword",
       "type": "tool",
       "sortid": 193,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false
     },
     {
@@ -684,7 +684,7 @@
       "name": "SaphireOre",
       "type": "block",
       "sortid": 210,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "saphire_ore"
     },
@@ -824,7 +824,7 @@
       "name": "HangGlider",
       "type": "item",
       "sortid": 222,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hang_glider"
     },
@@ -840,7 +840,7 @@
       "name": "PlatineHammer",
       "type": "tool",
       "sortid": 224,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_hammer"
     },
@@ -912,7 +912,7 @@
       "name": "OsaliumSword",
       "type": "tool",
       "sortid": 234,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_sword"
     },
@@ -1250,7 +1250,7 @@
       "name": "PurifiedSaphirePickaxe",
       "type": "tool",
       "sortid": 277,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "purified_saphire_pickaxe"
     },
@@ -1274,7 +1274,7 @@
       "name": "PlatineArmor",
       "type": "armor",
       "sortid": 281,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_armor",
       "metadata": {
