@@ -40,6 +40,7 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.item.SaphireIngotItem;
 import fr.osalys.mod.OsalysmodModElements;
 
@@ -57,7 +58,7 @@ public class SaphireOreBlock extends OsalysmodModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ExoliaItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(OsalysTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	public static class CustomBlock extends Block {

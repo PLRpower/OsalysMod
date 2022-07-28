@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "osalysmod:blocks/cobalt_ore",
+    "particle": "osalysmod:blocks/cobalt_ore"
+  }
+}

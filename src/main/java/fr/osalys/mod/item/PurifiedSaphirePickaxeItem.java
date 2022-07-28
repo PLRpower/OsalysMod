@@ -3,17 +3,12 @@ package fr.osalys.mod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.block.BlockState;
-
-import java.util.Collections;
 
 import fr.osalys.mod.OsalysmodModElements;
 
@@ -52,17 +47,7 @@ public class PurifiedSaphirePickaxeItem extends OsalysmodModElements.ModElement 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SaphireIngotItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(ExoliaItemGroup.tab)) {
-			@Override
-			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
-				boolean retval = super.onBlockDestroyed(itemstack, world, blockstate, pos, entity);
-				int x = pos.getX();
-				int y = pos.getY();
-				int z = pos.getZ();
-
-				SaphirePurifiedPickaxeProcedureProcedure.executeProcedure(Collections.emptyMap());
-				return retval;
-			}
+		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("purified_saphire_pickaxe"));
 	}
 }
