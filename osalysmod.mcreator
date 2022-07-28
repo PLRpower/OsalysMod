@@ -80,7 +80,7 @@
       "name": "PlatineIngot",
       "type": "item",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_ingot"
     },
@@ -514,7 +514,7 @@
       "name": "OsaliumArmor",
       "type": "armor",
       "sortid": 199,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_armor",
       "metadata": {
@@ -780,7 +780,7 @@
       "name": "PlatineHammer",
       "type": "tool",
       "sortid": 224,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "platine_hammer"
     },
@@ -1080,7 +1080,7 @@
       "name": "SaphirePickaxe",
       "type": "tool",
       "sortid": 264,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "saphire_pickaxe"
     },
@@ -1705,14 +1705,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "plr_vegetable"
-    },
-    {
-      "name": "TestKetchua",
-      "type": "item",
-      "sortid": 334,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_ketchua"
     }
   ],
   "variable_elements": [
@@ -1770,11 +1762,11 @@
   ],
   "language_map": {
     "en_us": {
-      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.speed_stick.name": "Speed Stick",
+      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
-      "item.osalysmod.renforced_exolium_shovel": "Pelle en Exolium",
       "item.saphire_armorbody.name": "Plastron en Saphire",
+      "item.osalysmod.renforced_exolium_shovel": "Pelle en Exolium",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
       "item.platine_hammer.name": "Hammer en Platine",
       "item.saphire_shovel.name": "Pelle en Saphire",
@@ -1804,6 +1796,7 @@
       "item.osalysmod.gold_stick": "B�ton d\u0027Or",
       "item.farm_armorboots.name": "Bottes d\u0027Aventurier",
       "item.osalysmos.exolium_shovel": "Pelle en Exolium",
+      "block.osalysmod.plr_vegetable": "PLR Vegetable",
       "item.osalysmos.platine_pickaxe": "Pioche en Platine",
       "block.exoliamod.sapphire_ore": "Minerais de Saphire",
       "tile.purifingmachineon.name": "Machine de Purification",
