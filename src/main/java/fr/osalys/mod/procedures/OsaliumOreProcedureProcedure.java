@@ -11,7 +11,6 @@ import net.minecraft.enchantment.EnchantmentHelper;
 
 import java.util.Map;
 
-import fr.osalys.mod.item.ExoliumItem;
 import fr.osalys.mod.OsalysmodModVariables;
 import fr.osalys.mod.OsalysmodMod;
 

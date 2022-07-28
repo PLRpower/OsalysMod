@@ -235,7 +235,7 @@
       "name": "RenforcedExoliumShovel",
       "type": "tool",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "renforced_exolium_shovel"
     },
@@ -1527,7 +1527,7 @@
       "name": "CobaltPickaxe",
       "type": "tool",
       "sortid": 312,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_pickaxe"
     },
@@ -1747,11 +1747,11 @@
   ],
   "language_map": {
     "en_us": {
-      "item.speed_stick.name": "Speed Stick",
       "block.osalysmos.purifing_machine_on": "Machine de Purification",
+      "item.speed_stick.name": "Speed Stick",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
-      "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.osalysmod.renforced_exolium_shovel": "Pelle en Exolium",
+      "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
       "item.platine_hammer.name": "Hammer en Platine",
       "item.saphire_shovel.name": "Pelle en Saphire",

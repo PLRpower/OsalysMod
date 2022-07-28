@@ -65,7 +65,7 @@ public class FullOsaliumProcedureProcedure {
 						: ItemStack.EMPTY).getItem()) {
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-						.getAdvancement(new ResourceLocation("osalysmod:full_exo"));
+						.getAdvancement(new ResourceLocation("osalysmod:deleted_mod_element"));
 				AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemaningCriteria().iterator();

@@ -35,7 +35,6 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import fr.osalys.mod.procedures.PurifingMachineProcedure;
-import fr.osalys.mod.item.ExoliumItem;
 import fr.osalys.mod.OsalysmodModElements;
 import fr.osalys.mod.OsalysmodMod;
 
