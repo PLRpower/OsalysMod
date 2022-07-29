@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "antimatiere_ingot",
+    "texture": "antimatiereingot",
     "customModelName": "Normal",
     "name": "Antimatiere Ingot",
     "rarity": "EPIC",

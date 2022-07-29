@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_osalium_pickaxe",
+    "texture": "antimatiere_pickaxe",
     "customModelName": "Normal",
     "name": "Pioche en Exolium Renforc�",
     "specialInfo": [],

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_osalium_hammer",
+    "texture": "antimatiere_hammer",
     "customModelName": "Normal",
     "name": "Hammer en Exolium Renforc�",
     "specialInfo": [],

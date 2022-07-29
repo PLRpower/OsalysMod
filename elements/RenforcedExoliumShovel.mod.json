@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_osalium_shovel",
+    "texture": "antimatiere_shovel",
     "customModelName": "Normal",
     "name": "Pelle en Exolium",
     "specialInfo": [],
