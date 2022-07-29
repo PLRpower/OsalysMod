@@ -10,16 +10,16 @@ import java.util.Collection;
 import fr.osalys.mod.potion.RadiationsPotionEffect;
 import fr.osalys.mod.OsalysmodMod;
 
-public class AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure {
+public class AntimatiereIngotQuandLitemEstDansLinventaireParTickProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				OsalysmodMod.LOGGER.warn("Failed to load dependency entity for procedure AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem!");
+				OsalysmodMod.LOGGER.warn("Failed to load dependency entity for procedure AntimatiereIngotQuandLitemEstDansLinventaireParTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((new Object() {
+		while ((new Object() {
 			boolean check(Entity _entity) {
 				if (_entity instanceof LivingEntity) {
 					Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();

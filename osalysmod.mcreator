@@ -34,7 +34,7 @@
       "name": "CaveBlock",
       "type": "block",
       "sortid": 53,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cave_block"
     },
@@ -327,7 +327,7 @@
       "name": "PurifingMachineDenyGui",
       "type": "gui",
       "sortid": 176,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false
     },
     {
@@ -492,7 +492,7 @@
       "name": "OsaliumOre",
       "type": "block",
       "sortid": 198,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "osalium_ore"
     },
@@ -522,7 +522,7 @@
       "name": "RenforcedOsaliumBlock",
       "type": "block",
       "sortid": 201,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "renforced_osalium_block"
     },
@@ -554,7 +554,7 @@
       "name": "SaphireBlock",
       "type": "block",
       "sortid": 207,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "saphire_block"
     },
@@ -562,7 +562,7 @@
       "name": "Osabsidian",
       "type": "block",
       "sortid": 208,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "osabsidian"
     },
@@ -1034,7 +1034,7 @@
       "name": "SaphirePickaxe",
       "type": "tool",
       "sortid": 264,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "saphire_pickaxe"
     },
@@ -1661,22 +1661,6 @@
       "registry_name": "plr_vegetable"
     },
     {
-      "name": "AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem",
-      "type": "procedure",
-      "sortid": 335,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_ingot_quand_une_entite_vivante_est_frappee_avec_litem",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "RadiationsQuandLeffetCommenceEstApplique",
       "type": "procedure",
       "sortid": 336,
@@ -1719,6 +1703,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "radiations"
+    },
+    {
+      "name": "AntimatiereIngotQuandLitemEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatiere_ingot_quand_litem_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntimatiereIngot",
+      "type": "item",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatiere_ingot"
+    },
+    {
+      "name": "AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatiere_ingot_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1898,7 +1922,7 @@
       "item.osalysmod.feed_stick": "Feed Stick",
       "item.osalysmod.osalium_stick": "Stick en Exolium",
       "item.exoliamod.saphire_armor_boots": "Bottes en Saphire",
-      "item.osalysmod.renforced_exolium_armor_helmet": "Casque en Exolium Renforc�",
+      "item.osalysmod.renforced_exolium_armor_helmet": "Casque en Antimatiere ",
       "potion.effect.test": "Test",
       "item.osalysmod.saphire_sword": "�p�e en Saphire",
       "item.saphire_armorhelmet.name": "Casque en Saphire",
@@ -2006,7 +2030,7 @@
       "item.exolium_stick.name": "Stick en Exolium",
       "item.osalysmos.cobalt_shovel": "Pelle en Cobalt",
       "item.osalysmod.saphire_pickaxe": "Pioche en Saphire",
-      "item.osalysmod.renforced_exolium_armor_chestplate": "Plastron en Exolium Renforc�",
+      "item.osalysmod.renforced_exolium_armor_chestplate": "Plastron en Antimatiere ",
       "item.fortunehoe.name": "Houe de Fortune",
       "item.osalysmos.platine_hammer": "Hammer en Platine",
       "effect.test_potion_item": "Test",
@@ -2019,6 +2043,7 @@
       "item.osalysmod.purified_saphire_sword": "Purified Saphire Sword",
       "item.exoliamod.renforced_exolium_armor_helmet": "Casque en Exolium Renforc�",
       "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
+      "item.osalysmod.antimatiere_ingot": "Antimatiere Ingot",
       "item.osalysmos.cobalt_sword": "�p�e en Cobalt",
       "item.osalysmos.exolium_hammer": "Hammer en Exolium",
       "item.hanglider.name": "Hanglider",
@@ -2036,7 +2061,7 @@
       "item.osalysmod.osalium_armor_boots": "Bottes en Exolium",
       "item.exoliamod.platine_axe": "Hache en Platine",
       "block.osalysmos.cobalt_block": "Bloc de Cobalt",
-      "item.osalysmod.renforced_exolium_armor_leggings": "Jambi�res en Exolium Renforc�",
+      "item.osalysmod.renforced_exolium_armor_leggings": "Jambieres en Antimatiere",
       "item.exoliamod.saphire_hoe": "Houe en Saphire",
       "item.osalysmos.exolium_sword": "�p�e en Exolium",
       "item.renforced_exolium_pickaxe.name": "Pioche en Exolium Renforc�",
@@ -2083,7 +2108,7 @@
       "block.osalysmod.osalium_ore": "Minerais d\u0027Exolium",
       "advancements.saphire_advancement.title": "Un nouveau minerais ?",
       "item.osalysmos.heal_stick": "Heal Stick",
-      "item.osalysmod.renforced_exolium_armor_boots": "Bottes en Exolium Renforc�",
+      "item.osalysmod.renforced_exolium_armor_boots": "Bottes en  Antimatiere",
       "tile.platine_ore.name": "Minerais de Platine",
       "block.exoliamod.cobalt_ore": "Minerais de Cobalt",
       "block.osalysmod.osalium_block": "Bloc d\u0027Exolium",
