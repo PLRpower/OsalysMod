@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "osalysmod:deleted_mod_element_chestplate"
+    },
+    "title": {
+      "translate": "advancements.antimatiere_armor_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.antimatiere_armor_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "antimatiere_armor_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "osalysmod:deleted_mod_element"
+}

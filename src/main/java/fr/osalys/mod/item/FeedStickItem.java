@@ -11,7 +11,6 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
@@ -27,6 +26,7 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import fr.osalys.mod.procedures.FeedStickRightClickProcedure;
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 import com.google.common.collect.Multimap;
@@ -38,7 +38,7 @@ public class FeedStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public FeedStickItem(OsalysmodModElements instance) {
-		super(instance, 56);
+		super(instance, 57);
 	}
 
 	@Override
@@ -81,7 +81,7 @@ public class FeedStickItem extends OsalysmodModElements.ModElement {
 
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(20));
+			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxDamage(20));
 		}
 
 		@Override

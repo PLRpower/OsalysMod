@@ -8,7 +8,7 @@
     "name": "Pelle en Cobalt",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "toolType": "Spade",
     "harvestLevel": 3,

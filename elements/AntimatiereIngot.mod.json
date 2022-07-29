@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "antimatiereingot",
+    "texture": "antimatiere_ingot",
     "customModelName": "Normal",
-    "name": "Antimatiere Ingot",
+    "name": "Lingot d'Antimatiere",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OsalysTab"
     },
     "stackSize": 1,
     "enchantability": 0,

@@ -8,7 +8,7 @@
     "name": "Hanglider",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OsalysTab"
     },
     "stackSize": 1,
     "enchantability": 0,

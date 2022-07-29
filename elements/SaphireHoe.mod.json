@@ -8,7 +8,7 @@
     "name": "Houe en Saphire",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 3,

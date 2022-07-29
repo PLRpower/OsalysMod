@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AntimatiereIngot"
+      },
+      {
+        "value": "CUSTOM:AntimatiereIngot"
+      },
+      {
+        "value": "CUSTOM:AntimatiereBlock"
+      },
+      {
+        "value": "CUSTOM:AntimatiereIngot"
+      },
+      {
+        "value": "CUSTOM:AntimatiereIngot"
+      },
+      {
+        "value": "CUSTOM:AntimatiereBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OsaliumStick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AntimatiereHammer"
+    },
+    "name": "antimatiere_hammer_recipe",
+    "namespace": "mod"
+  }
+}

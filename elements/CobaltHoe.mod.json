@@ -8,7 +8,7 @@
     "name": "Houe en Cobalt",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 3,

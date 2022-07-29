@@ -7,7 +7,6 @@ import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
@@ -20,6 +19,7 @@ import java.util.AbstractMap;
 
 import fr.osalys.mod.procedures.AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure;
 import fr.osalys.mod.procedures.AntimatiereIngotQuandLitemEstDansLinventaireParTickProcedure;
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
@@ -28,7 +28,7 @@ public class AntimatiereIngotItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public AntimatiereIngotItem(OsalysmodModElements instance) {
-		super(instance, 338);
+		super(instance, 2);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class AntimatiereIngotItem extends OsalysmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC));
+			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC));
 			setRegistryName("antimatiere_ingot");
 		}
 

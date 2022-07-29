@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RenforcedExolium"
+      "value": "CUSTOM:AntimatiereIngot"
     },
     "name": "renforced_osalium_recipe",
     "namespace": "mod"

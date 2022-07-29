@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "cobalt_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:OsalysTab"
     },
     "armorTextureFile": "cobalt_",
     "helmetName": "Casque en Cobalt",

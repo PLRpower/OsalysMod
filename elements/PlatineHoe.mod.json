@@ -8,7 +8,7 @@
     "name": "Houe en Platine",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 3,

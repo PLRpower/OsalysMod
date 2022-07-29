@@ -8,7 +8,7 @@
     "name": "Hammer en Platine",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,

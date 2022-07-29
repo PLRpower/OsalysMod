@@ -10,7 +10,7 @@ import net.minecraft.entity.Entity;
 
 import java.util.Map;
 
-import fr.osalys.mod.item.RenforcedOsaliumIngotItem;
+import fr.osalys.mod.item.AntimatiereIngotItem;
 import fr.osalys.mod.OsalysmodModVariables;
 import fr.osalys.mod.OsalysmodMod;
 
@@ -54,7 +54,7 @@ public class PurifiedSaphireSwordProcedureProcedure {
 			OsalysmodModVariables.MapVariables.get(world).syncData(world);
 			if (OsalysmodModVariables.MapVariables.get(world).RANDOM < 0.5) {
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(RenforcedOsaliumIngotItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(AntimatiereIngotItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}

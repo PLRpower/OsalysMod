@@ -6,23 +6,23 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:antimatiere_ingot"
     },
     "1": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:antimatiere_ingot"
     },
     "2": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:antimatiere_ingot"
     },
     "3": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:antimatiere_ingot"
     },
     "5": {
-      "item": "osalysmod:renforced_osalium_ingot"
+      "item": "osalysmod:antimatiere_ingot"
     }
   },
   "result": {
-    "item": "osalysmod:renforced_osalium_armor_helmet",
+    "item": "osalysmod:deleted_mod_element_helmet",
     "count": 1
   }
 }

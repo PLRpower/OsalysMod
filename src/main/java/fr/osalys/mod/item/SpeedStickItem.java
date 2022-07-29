@@ -6,7 +6,6 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.ai.attributes.Attributes;
@@ -15,6 +14,7 @@ import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 import com.google.common.collect.Multimap;
@@ -26,7 +26,7 @@ public class SpeedStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SpeedStickItem(OsalysmodModElements instance) {
-		super(instance, 58);
+		super(instance, 55);
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class SpeedStickItem extends OsalysmodModElements.ModElement {
 
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(4));
+			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxDamage(4));
 		}
 
 		@Override

@@ -20,7 +20,6 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ShootableItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -33,6 +32,7 @@ import net.minecraft.entity.Entity;
 
 import java.util.Random;
 
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.entity.renderer.ExplosifbowRenderer;
 import fr.osalys.mod.OsalysmodModElements;
 
@@ -45,7 +45,7 @@ public class ExplosifbowItem extends OsalysmodModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_explosive_bow").setRegistryName("projectile_explosive_bow");
 
 	public ExplosifbowItem(OsalysmodModElements instance) {
-		super(instance, 59);
+		super(instance, 58);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ExplosifbowRenderer.ModelRegisterHandler());
 	}
 
@@ -57,7 +57,7 @@ public class ExplosifbowItem extends OsalysmodModElements.ModElement {
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
+			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxDamage(100));
 			setRegistryName("explosive_bow");
 		}
 

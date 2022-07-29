@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "renforced_renforced_hoe_2",
+    "texture": "renforced_fortune_hoe",
     "customModelName": "Normal",
-    "name": "Houe de Fortune Renforc�e",
+    "name": "Houe de Fortune Renforcée",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OsalysTab"
     },
     "stackSize": 64,
     "enchantability": 0,

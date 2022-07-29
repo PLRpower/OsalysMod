@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "farm_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:OsalysTab"
     },
     "armorTextureFile": "farm_",
     "helmetName": "Casque d'Aventurier",

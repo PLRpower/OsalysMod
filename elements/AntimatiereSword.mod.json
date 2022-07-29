@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "antimatiere_sword",
+    "customModelName": "Normal",
+    "name": "Epée en Antimatière",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:OsalysTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.6,
+    "enchantability": 8,
+    "damageVsEntity": 21.0,
+    "usageCount": 3500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

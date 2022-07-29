@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class PlatineSwordItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatineSwordItem(OsalysmodModElements instance) {
-		super(instance, 289);
+		super(instance, 24);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class PlatineSwordItem extends OsalysmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.4f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 3, -2.4f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 		}.setRegistryName("platine_sword"));
 	}
 }

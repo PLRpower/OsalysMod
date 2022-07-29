@@ -8,7 +8,7 @@
     "name": "Epée en Exolium",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "toolType": "Sword",
     "harvestLevel": 0,

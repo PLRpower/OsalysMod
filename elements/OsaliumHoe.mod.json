@@ -8,7 +8,7 @@
     "name": "Houe en Exolium",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 3,

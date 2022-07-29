@@ -4,11 +4,11 @@ package fr.osalys.mod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class PlatineHoeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatineHoeItem(OsalysmodModElements instance) {
-		super(instance, 291);
+		super(instance, 28);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class PlatineHoeItem extends OsalysmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 0, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -2.8f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 		}.setRegistryName("platine_hoe"));
 	}
 }

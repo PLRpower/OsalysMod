@@ -8,7 +8,7 @@
     "name": "B�ton d'Or",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OsalysTab"
     },
     "stackSize": 64,
     "enchantability": 0,

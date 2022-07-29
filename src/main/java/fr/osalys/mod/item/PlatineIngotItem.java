@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class PlatineIngotItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatineIngotItem(OsalysmodModElements instance) {
-		super(instance, 8);
+		super(instance, 23);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class PlatineIngotItem extends OsalysmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("platine_ingot");
 		}
 

@@ -4,11 +4,11 @@ package fr.osalys.mod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class OsaliumAxeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public OsaliumAxeItem(OsalysmodModElements instance) {
-		super(instance, 233);
+		super(instance, 16);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class OsaliumAxeItem extends OsalysmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3.2f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3.2f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 		}.setRegistryName("osalium_axe"));
 	}
 }

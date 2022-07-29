@@ -8,7 +8,7 @@
     "name": "Munition d'arc explosif",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OsalysTab"
     },
     "stackSize": 16,
     "enchantability": 0,

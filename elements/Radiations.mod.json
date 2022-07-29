@@ -5,7 +5,7 @@
     "effectName": "Radiations",
     "icon": "antiparticule.png",
     "color": {
-      "value": -10092544,
+      "value": -10027162,
       "falpha": 0.0
     },
     "isInstant": false,

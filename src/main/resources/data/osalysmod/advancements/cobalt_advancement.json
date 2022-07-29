@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "osalysmod:deleted_mod_element_chestplate"
+      "item": "osalysmod:cobalt_ingot"
     },
     "title": {
       "translate": "advancements.cobalt_advancement.title"
@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "osalysmod:deleted_mod_element_chestplate",
+            "item": "osalysmod:cobalt_armor_chestplate",
             "count": {
               "min": 1,
               "max": 1
@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 1
   },
-  "parent": "osalysmod:deleted_mod_element"
+  "parent": "osalysmod:saphire_advancement"
 }
