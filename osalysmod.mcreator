@@ -34,7 +34,7 @@
       "name": "CaveBlock",
       "type": "block",
       "sortid": 53,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cave_block"
     },
@@ -146,7 +146,7 @@
       "name": "Explosifbow",
       "type": "rangeditem",
       "sortid": 59,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "explosive_bow"
     },
@@ -168,7 +168,7 @@
       "name": "FeedStick",
       "type": "tool",
       "sortid": 56,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "feed_stick"
     },
@@ -341,7 +341,7 @@
       "name": "PurifingMachineDenyGui",
       "type": "gui",
       "sortid": 176,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false
     },
     {
@@ -506,7 +506,7 @@
       "name": "OsaliumOre",
       "type": "block",
       "sortid": 198,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "osalium_ore"
     },
@@ -536,7 +536,7 @@
       "name": "RenforcedOsaliumBlock",
       "type": "block",
       "sortid": 201,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "renforced_osalium_block"
     },
@@ -600,7 +600,7 @@
       "name": "SaphireBlock",
       "type": "block",
       "sortid": 207,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "saphire_block"
     },
@@ -608,7 +608,7 @@
       "name": "Osabsidian",
       "type": "block",
       "sortid": 208,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "osabsidian"
     },
@@ -1080,7 +1080,7 @@
       "name": "SaphirePickaxe",
       "type": "tool",
       "sortid": 264,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "saphire_pickaxe"
     },
@@ -1458,7 +1458,7 @@
       "name": "CobaltArmor",
       "type": "armor",
       "sortid": 306,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor",
       "metadata": {
@@ -1544,7 +1544,7 @@
       "name": "CobaltHoe",
       "type": "tool",
       "sortid": 316,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hoe"
     },
@@ -1773,6 +1773,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "antimatiere_ingot"
+    },
+    {
+      "name": "AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatiere_ingot_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [

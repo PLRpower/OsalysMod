@@ -8,7 +8,7 @@
     "name": "Arc Explosif ",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "COMBAT"
     },
     "stackSize": 1,
     "ammoItem": {
@@ -32,12 +32,6 @@
       "value": "CUSTOM:Explosifmunition"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": "",
-    "onBulletHitsBlock": {
-      "name": "ExplosifbowBulletHitsBlock"
-    },
-    "onBulletHitsEntity": {
-      "name": "ExplosifbowBulletHitsBlock"
-    }
+    "customBulletModelTexture": ""
   }
 }

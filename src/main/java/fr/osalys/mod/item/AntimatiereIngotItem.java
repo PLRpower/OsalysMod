@@ -9,6 +9,7 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
@@ -17,6 +18,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
+import fr.osalys.mod.procedures.AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure;
 import fr.osalys.mod.procedures.AntimatiereIngotQuandLitemEstDansLinventaireParTickProcedure;
 import fr.osalys.mod.OsalysmodModElements;
 
@@ -58,6 +60,20 @@ public class AntimatiereIngotItem extends OsalysmodModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 0F;
+		}
+
+		@Override
+		public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+			boolean retval = super.hitEntity(itemstack, entity, sourceentity);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			World world = entity.world;
+
+			AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+							(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			return retval;
 		}
 
 		@Override
