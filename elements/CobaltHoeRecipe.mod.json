@@ -10,10 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobalt_Hoe"
+      "value": "CUSTOM:CobaltHoe"
     },
     "name": "cobalt_hoe_recipe",
     "namespace": "mod"

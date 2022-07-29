@@ -19,26 +19,26 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ExoliumArmor.boots"
+      "value": "CUSTOM:OsaliumArmor.boots"
     },
     "name": "osalium_boots_recipe",
     "namespace": "mod"

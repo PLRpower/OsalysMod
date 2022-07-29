@@ -47,7 +47,7 @@ public class RenforcedExoliumHoeItem extends OsalysmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RenforcedExoliumItem.block));
+				return Ingredient.EMPTY;
 			}
 		}, 0, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 			@Override

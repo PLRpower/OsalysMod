@@ -10,22 +10,22 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Exolium"
+      "value": "CUSTOM:OsaliumIngot"
     },
     "name": "osalium_ingot_recipe",
     "namespace": "mod"

@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": "Items.STICK"
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobalt_Axe"
+      "value": "CUSTOM:CobaltAxe"
     },
     "name": "cobalt_axe_recipe",
     "namespace": "mod"

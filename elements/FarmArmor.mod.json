@@ -10,20 +10,8 @@
     "textureLeggings": "farm_leggings",
     "enableBoots": true,
     "textureBoots": "farm_boots",
-    "onHelmetTick": {
-      "name": "AventureArmorArmorHelmetTickEvent"
-    },
-    "onBodyTick": {
-      "name": "AventureArmorArmorBodyTickEvent"
-    },
-    "onLeggingsTick": {
-      "name": "AventureArmorArmorLeggingsTickEvent"
-    },
-    "onBootsTick": {
-      "name": "AventureArmorArmorBootsTickEvent"
-    },
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "COMBAT"
     },
     "armorTextureFile": "farm_",
     "helmetName": "Casque d'Aventurier",
@@ -63,10 +51,6 @@
     "equipSound": {
       "value": ""
     },
-    "repairItems": [
-      {
-        "value": "CUSTOM:ExoliumIngot"
-      }
-    ]
+    "repairItems": []
   }
 }

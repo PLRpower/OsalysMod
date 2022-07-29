@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ExoliumArmor.helmet"
+      "value": "CUSTOM:OsaliumArmor.helmet"
     },
     "name": "osalium_helmet_recipe",
     "namespace": "mod"

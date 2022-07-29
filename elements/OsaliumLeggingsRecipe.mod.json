@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Exolium"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Exolium"
-      },
-      {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
+      },
+      {
+        "value": "CUSTOM:OsaliumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OsaliumIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ExoliumArmor.legs"
+      "value": "CUSTOM:OsaliumArmor.legs"
     },
     "name": "osalium_leggings_recipe",
     "namespace": "mod"

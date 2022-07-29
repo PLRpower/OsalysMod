@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_ingot"
     },
     "1": {
       "item": "minecraft:iron_ingot"
     },
     "2": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_ingot"
     },
     "3": {
       "item": "minecraft:feather"
@@ -29,7 +29,7 @@
     }
   },
   "result": {
-    "item": "osalysmod:deleted_mod_element_leggings",
+    "item": "osalysmod:farm_armor_leggings",
     "count": 1
   }
 }

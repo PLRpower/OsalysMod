@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "cobalt_boots",
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "COMBAT"
     },
     "armorTextureFile": "cobalt_",
     "helmetName": "Casque en Cobalt",
@@ -51,10 +51,6 @@
     "equipSound": {
       "value": ""
     },
-    "repairItems": [
-      {
-        "value": "CUSTOM:CobatlIngot"
-      }
-    ]
+    "repairItems": []
   }
 }

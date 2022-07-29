@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
@@ -31,14 +31,14 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Exoliumstick"
+        "value": "CUSTOM:OsaliumStick"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ExoliumSword"
+      "value": "CUSTOM:OsaliumSword"
     },
     "name": "osalium_sword_recipe",
     "namespace": "mod"

@@ -8,7 +8,7 @@
     "name": "Houe en Cobalt",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "TOOLS"
     },
     "toolType": "Hoe",
     "harvestLevel": 3,
@@ -19,11 +19,7 @@
     "usageCount": 2000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:CobatlIngot"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

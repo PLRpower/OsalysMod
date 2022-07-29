@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Purifiedsaphireblock"
+        "value": "CUSTOM:PurifiedSaphireBlock"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:Purifiedsaphireblock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Renforced_gold_stick"
+        "value": "CUSTOM:PurifiedSaphireBlock"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:RenforcedGoldStick"
+      },
+      {
         "value": ""
       },
       {
-        "value": "CUSTOM:Renforced_gold_stick"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RenforcedGoldStick"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Saphire_purified_pickaxe"
+      "value": "CUSTOM:PurifiedSaphirePickaxe"
     },
     "name": "purified_saphire_pickaxe_recipe",
     "namespace": "mod"

@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobalt_Pickaxe"
+      "value": "CUSTOM:CobaltPickaxe"
     },
     "name": "cobalt_pickaxe_recipe",
     "namespace": "mod"

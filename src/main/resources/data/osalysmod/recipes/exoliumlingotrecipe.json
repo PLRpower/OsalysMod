@@ -5,11 +5,11 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_block"
     }
   },
   "result": {
-    "item": "osalysmod:deleted_mod_element",
+    "item": "osalysmod:osalium_ingot",
     "count": 9
   }
 }

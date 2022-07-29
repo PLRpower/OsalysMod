@@ -39,7 +39,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Exolium"
+            "value": "CUSTOM:OsaliumIngot"
           },
           "id": 0,
           "disableStackInteraction": false,
@@ -53,7 +53,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Saphire_Block"
+            "value": "CUSTOM:SaphireBlock"
           },
           "id": 1,
           "disableStackInteraction": false,
@@ -67,7 +67,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Saphire_Block"
+            "value": "CUSTOM:SaphireBlock"
           },
           "id": 2,
           "disableStackInteraction": false,
@@ -81,7 +81,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Saphire_Block"
+            "value": "CUSTOM:SaphireBlock"
           },
           "id": 3,
           "disableStackInteraction": false,
@@ -95,7 +95,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Saphire_Block"
+            "value": "CUSTOM:SaphireBlock"
           },
           "id": 4,
           "disableStackInteraction": false,

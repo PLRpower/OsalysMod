@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
-        "value": "CUSTOM:RenforcedExolium"
+        "value": "CUSTOM:OsaliumIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ExoliumRenforcedArmor.body"
+      "value": "CUSTOM:OsaliumArmor.body"
     },
     "name": "osalium_renforced_chestplate_recipe",
     "namespace": "mod"

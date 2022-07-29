@@ -8,7 +8,7 @@
     "name": "Hache en Platine",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "TOOLS"
     },
     "toolType": "Axe",
     "harvestLevel": 3,
@@ -19,11 +19,7 @@
     "usageCount": 2500,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:PlatineIngot"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

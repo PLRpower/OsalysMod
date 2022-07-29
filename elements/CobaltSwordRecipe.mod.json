@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobalt_Sword"
+      "value": "CUSTOM:CobaltSword"
     },
     "name": "cobalt_sword_recipe",
     "namespace": "mod"

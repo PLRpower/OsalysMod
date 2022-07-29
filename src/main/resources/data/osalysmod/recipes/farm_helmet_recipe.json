@@ -6,13 +6,13 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_ingot"
     },
     "1": {
       "item": "minecraft:glowstone"
     },
     "2": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_ingot"
     },
     "3": {
       "item": "minecraft:iron_ingot"
@@ -22,7 +22,7 @@
     }
   },
   "result": {
-    "item": "osalysmod:deleted_mod_element_helmet",
+    "item": "osalysmod:farm_armor_helmet",
     "count": 1
   }
 }

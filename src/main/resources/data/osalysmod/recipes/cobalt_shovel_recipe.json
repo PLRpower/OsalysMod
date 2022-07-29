@@ -7,7 +7,7 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:cobalt_ingot"
     },
     "1": {
       "item": "minecraft:stick"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "osalysmod:deleted_mod_element",
+    "item": "osalysmod:cobalt_shovel",
     "count": 1
   }
 }

@@ -1,11 +1,18 @@
 
 package fr.osalys.mod.item;
 
-import net.minecraft.entity.ai.attributes.Attributes;
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
 public class OsaliumShovelItem extends OsalysmodModElements.ModElement {
-
 	@ObjectHolder("osalysmod:osalium_shovel")
 	public static final Item block = null;
 
@@ -37,11 +44,9 @@ public class OsaliumShovelItem extends OsalysmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(ExoliumItem.block));
+				return Ingredient.EMPTY;
 			}
 		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("osalium_shovel"));
 	}
-
 }

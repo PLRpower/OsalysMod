@@ -128,13 +128,6 @@
       "locked_code": false
     },
     {
-      "name": "OreoRecipe",
-      "type": "recipe",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false
-    },
-    {
       "name": "Explosifmunition",
       "type": "item",
       "sortid": 60,
@@ -146,7 +139,7 @@
       "name": "Explosifbow",
       "type": "rangeditem",
       "sortid": 59,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "explosive_bow"
     },
@@ -168,7 +161,7 @@
       "name": "FeedStick",
       "type": "tool",
       "sortid": 56,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "feed_stick"
     },
@@ -278,13 +271,6 @@
       "name": "SaphireAppleRecipe",
       "type": "recipe",
       "sortid": 156,
-      "compiles": true,
-      "locked_code": false
-    },
-    {
-      "name": "CobaltAppleRecipe",
-      "type": "recipe",
-      "sortid": 157,
       "compiles": true,
       "locked_code": false
     },
@@ -498,7 +484,7 @@
       "name": "OsaliumDust",
       "type": "item",
       "sortid": 197,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_dust"
     },
@@ -563,38 +549,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "purified_saphire_block"
-    },
-    {
-      "name": "OsaliumHammerProcedure",
-      "type": "procedure",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osalium_hammer_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "SaphireBlock",
@@ -756,7 +710,7 @@
       "name": "GoldStick",
       "type": "item",
       "sortid": 220,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "gold_stick"
     },
@@ -860,7 +814,7 @@
       "name": "OsaliumShovel",
       "type": "tool",
       "sortid": 235,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_shovel"
     },
@@ -1353,9 +1307,9 @@
       "registry_name": "farm_armor",
       "metadata": {
         "eh": true,
+        "el": true,
         "eb": true,
-        "ec": true,
-        "el": true
+        "ec": true
       }
     },
     {
@@ -1458,14 +1412,14 @@
       "name": "CobaltArmor",
       "type": "armor",
       "sortid": 306,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor",
       "metadata": {
         "eh": true,
+        "el": true,
         "eb": true,
-        "ec": true,
-        "el": true
+        "ec": true
       }
     },
     {
@@ -1512,7 +1466,7 @@
       "name": "CobaltPickaxe",
       "type": "tool",
       "sortid": 312,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_pickaxe"
     },
@@ -1544,7 +1498,7 @@
       "name": "CobaltHoe",
       "type": "tool",
       "sortid": 316,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hoe"
     },
@@ -1693,9 +1647,9 @@
       "registry_name": "renforced_osalium_armor",
       "metadata": {
         "eh": true,
+        "el": true,
         "eb": true,
-        "ec": true,
-        "el": true
+        "ec": true
       }
     },
     {
@@ -2059,7 +2013,7 @@
       "item.osalysmos.platine_hoe": "Houe en Platine",
       "item.exolium_armorhelmet.name": "Casque en Exolium",
       "item.renforced_exolium_armorhelmet.name": "Casque en Exolium Renforc�",
-      "item.osalysmod.osalium_sword": "�p�e en Exolium",
+      "item.osalysmod.osalium_sword": "Epée en Exolium",
       "item.exolium_pickaxe.name": "Pioche en Exolium",
       "item.osalysmod.speed_stick": "Speed Stick",
       "item.osalysmod.purified_saphire_sword": "Purified Saphire Sword",

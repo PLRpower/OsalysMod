@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobalt_Armor.helmet"
+      "value": "CUSTOM:CobaltArmor.helmet"
     },
     "name": "cobalt_helmet_recipe",
     "namespace": "mod"

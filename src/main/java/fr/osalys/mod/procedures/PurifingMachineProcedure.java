@@ -21,7 +21,10 @@ import java.util.Map;
 
 import io.netty.buffer.Unpooled;
 
+import fr.osalys.mod.item.OsaliumIngotItem;
 import fr.osalys.mod.gui.PurifingMachineDenyGuiGui;
+import fr.osalys.mod.block.SaphireBlockBlock;
+import fr.osalys.mod.block.PurifiedSaphireBlockBlock;
 import fr.osalys.mod.OsalysmodMod;
 
 public class PurifingMachineProcedure {
@@ -71,7 +74,7 @@ public class PurifingMachineProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (1))).getItem() == Saphire_BlockItem.block && (new Object() {
+		}.getItemStack((int) (1))).getItem() == SaphireBlockBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -85,7 +88,7 @@ public class PurifingMachineProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (2))).getItem() == Saphire_BlockItem.block && (new Object() {
+		}.getItemStack((int) (2))).getItem() == SaphireBlockBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -99,7 +102,7 @@ public class PurifingMachineProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (3))).getItem() == Saphire_BlockItem.block && (new Object() {
+		}.getItemStack((int) (3))).getItem() == SaphireBlockBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -113,7 +116,7 @@ public class PurifingMachineProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (4))).getItem() == Saphire_BlockItem.block && (new Object() {
+		}.getItemStack((int) (4))).getItem() == SaphireBlockBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -127,7 +130,7 @@ public class PurifingMachineProcedure {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (0))).getItem() == ExoliumItem.block) {
+		}.getItemStack((int) (0))).getItem() == OsaliumIngotItem.block) {
 			if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0) >= 10) {
 				{
 					Entity _ent = entity;
@@ -201,7 +204,7 @@ public class PurifingMachineProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(PurifiedsaphireblockItem.block);
+							ItemStack _setstack = new ItemStack(PurifiedSaphireBlockBlock.block);
 							_setstack.setCount((int) 1);
 							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
 							_current.detectAndSendChanges();

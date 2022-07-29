@@ -1,11 +1,18 @@
 
 package fr.osalys.mod.item;
 
-import net.minecraft.entity.ai.attributes.Attributes;
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
+
+import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
 public class CobaltHoeItem extends OsalysmodModElements.ModElement {
-
 	@ObjectHolder("osalysmod:cobalt_hoe")
 	public static final Item block = null;
 
@@ -37,11 +44,9 @@ public class CobaltHoeItem extends OsalysmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(CobatlIngotItem.block));
+				return Ingredient.EMPTY;
 			}
-		}, 0, -2.8f, new Item.Properties().group(ExoliaItemGroup.tab)) {
-
+		}, 0, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("cobalt_hoe"));
 	}
-
 }

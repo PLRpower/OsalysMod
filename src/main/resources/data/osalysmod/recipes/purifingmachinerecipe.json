@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:saphire_block"
     },
     "1": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:saphire_block"
     },
     "2": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:saphire_block"
     },
     "3": {
       "item": "minecraft:cobblestone"
@@ -28,7 +28,7 @@
       "item": "minecraft:cobblestone"
     },
     "7": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_block"
     },
     "8": {
       "item": "minecraft:cobblestone"

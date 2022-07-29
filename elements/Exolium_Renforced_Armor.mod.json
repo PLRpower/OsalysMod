@@ -51,10 +51,6 @@
     "equipSound": {
       "value": ""
     },
-    "repairItems": [
-      {
-        "value": "CUSTOM:RenforcedExolium"
-      }
-    ]
+    "repairItems": []
   }
 }

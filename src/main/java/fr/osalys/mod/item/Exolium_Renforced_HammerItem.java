@@ -47,7 +47,7 @@ public class Exolium_Renforced_HammerItem extends OsalysmodModElements.ModElemen
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RenforcedExoliumItem.block));
+				return Ingredient.EMPTY;
 			}
 		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 			@Override

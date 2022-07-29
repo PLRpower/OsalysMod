@@ -19,11 +19,7 @@
     "usageCount": 3500,
     "blocksAffected": [],
     "hasGlow": true,
-    "repairItems": [
-      {
-        "value": "CUSTOM:RenforcedExolium"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

@@ -8,7 +8,7 @@
     "name": "Hammer en Platine",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "TOOLS"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,
@@ -19,16 +19,9 @@
     "usageCount": 2000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:ExoliumIngot"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
-      "name": "ExoliumHammerBlock"
-    }
+    "damageOnCrafting": false
   }
 }

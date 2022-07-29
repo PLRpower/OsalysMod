@@ -4,7 +4,7 @@ package fr.osalys.mod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
@@ -44,9 +44,9 @@ public class PlatineAxeItem extends OsalysmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PlatineIngotItem.block));
+				return Ingredient.EMPTY;
 			}
-		}, 1, -3.2f, new Item.Properties().group(ExoliaItemGroup.tab)) {
+		}, 1, -3.2f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("platine_axe"));
 	}
 }

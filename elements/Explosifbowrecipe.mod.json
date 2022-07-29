@@ -10,7 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Exoliumstick"
+        "value": "CUSTOM:OsaliumStick"
       },
       {
         "value": "Items.STRING"
@@ -19,7 +19,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Exoliumstick"
+        "value": "CUSTOM:OsaliumStick"
       },
       {
         "value": ""
@@ -28,7 +28,7 @@
         "value": "Items.STRING"
       },
       {
-        "value": "CUSTOM:Exoliumstick"
+        "value": "CUSTOM:OsaliumStick"
       },
       {
         "value": "Items.STRING"

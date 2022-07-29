@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CobatlIngot"
-      },
-      {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobaltIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobalt_Armor.legs"
+      "value": "CUSTOM:CobaltArmor.legs"
     },
     "name": "cobalt_leggings_recipe",
     "namespace": "mod"

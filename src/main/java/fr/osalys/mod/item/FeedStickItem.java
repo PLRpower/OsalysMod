@@ -1,11 +1,39 @@
 
 package fr.osalys.mod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.util.ActionResult;
+import net.minecraft.item.ItemUseContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.ai.attributes.Attributes;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.ai.attributes.Attribute;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.block.BlockState;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
+
+import fr.osalys.mod.procedures.FeedStickRightClickProcedure;
+import fr.osalys.mod.OsalysmodModElements;
+
+import com.google.common.collect.Multimap;
+import com.google.common.collect.ImmutableMultimap;
 
 @OsalysmodModElements.ModElement.Tag
 public class FeedStickItem extends OsalysmodModElements.ModElement {
-
 	@ObjectHolder("osalysmod:feed_stick")
 	public static final Item block = null;
 
@@ -16,7 +44,6 @@ public class FeedStickItem extends OsalysmodModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-
 			@Override
 			public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);
@@ -49,14 +76,12 @@ public class FeedStickItem extends OsalysmodModElements.ModElement {
 								.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
-
 		}.setRegistryName("feed_stick"));
 	}
 
 	private static class ItemToolCustom extends Item {
-
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ExoliaItemGroup.tab).maxDamage(20));
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(20));
 		}
 
 		@Override
@@ -92,10 +117,7 @@ public class FeedStickItem extends OsalysmodModElements.ModElement {
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
 				return builder.build();
 			}
-
 			return super.getAttributeModifiers(equipmentSlot);
 		}
-
 	}
-
 }

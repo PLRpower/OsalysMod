@@ -58,7 +58,7 @@ public class Exolium_Renforced_ArmorItem extends OsalysmodModElements.ModElement
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RenforcedExoliumItem.block));
+				return Ingredient.EMPTY;
 			}
 
 			@OnlyIn(Dist.CLIENT)

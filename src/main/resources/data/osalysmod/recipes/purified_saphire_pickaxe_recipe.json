@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:purified_saphire_block"
     },
     "1": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_ingot"
     },
     "2": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:purified_saphire_block"
     },
     "4": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_gold_stick"
     },
     "7": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:renforced_gold_stick"
     }
   },
   "result": {
-    "item": "osalysmod:deleted_mod_element",
+    "item": "osalysmod:purified_saphire_pickaxe",
     "count": 1
   }
 }

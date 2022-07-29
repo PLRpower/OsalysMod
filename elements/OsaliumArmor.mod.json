@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "osalium_boots",
     "creativeTab": {
-      "value": "CUSTOM:Exolia"
+      "value": "COMBAT"
     },
     "armorTextureFile": "osalium_",
     "helmetName": "Casque en Exolium",
@@ -51,10 +51,6 @@
     "equipSound": {
       "value": ""
     },
-    "repairItems": [
-      {
-        "value": "CUSTOM:Exolium"
-      }
-    ]
+    "repairItems": []
   }
 }

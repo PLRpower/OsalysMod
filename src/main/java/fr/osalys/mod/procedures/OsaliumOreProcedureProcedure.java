@@ -11,6 +11,9 @@ import net.minecraft.enchantment.EnchantmentHelper;
 
 import java.util.Map;
 
+import fr.osalys.mod.item.RenforcedOsaliumIngotItem;
+import fr.osalys.mod.item.OsaliumIngotItem;
+import fr.osalys.mod.item.OsaliumDustItem;
 import fr.osalys.mod.OsalysmodModVariables;
 import fr.osalys.mod.OsalysmodMod;
 
@@ -53,46 +56,46 @@ public class OsaliumOreProcedureProcedure {
 				((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))) {
 			if (OsalysmodModVariables.MapVariables.get(world).RANDOM < 0.001) {
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(RenforcedExoliumItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(RenforcedOsaliumIngotItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}
 			} else if (OsalysmodModVariables.MapVariables.get(world).RANDOM < 0.01) {
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(ExoliumItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumIngotItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}
 			} else if (OsalysmodModVariables.MapVariables.get(world).RANDOM < 0.5) {
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(ExoliumDustItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumDustItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(ExoliumDustItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumDustItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}
 			} else if (OsalysmodModVariables.MapVariables.get(world).RANDOM < 0.75) {
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(ExoliumDustItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumDustItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}
 			} else {
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(ExoliumDustItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumDustItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(ExoliumDustItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumDustItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(ExoliumDustItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumDustItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}

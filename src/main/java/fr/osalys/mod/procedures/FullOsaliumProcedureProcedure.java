@@ -19,6 +19,7 @@ import java.util.Map;
 import java.util.Iterator;
 import java.util.HashMap;
 
+import fr.osalys.mod.item.OsaliumArmorItem;
 import fr.osalys.mod.OsalysmodMod;
 
 public class FullOsaliumProcedureProcedure {
@@ -51,16 +52,16 @@ public class FullOsaliumProcedureProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (ExoliumArmorItem.helmet == ((entity instanceof LivingEntity)
+		if (OsaliumArmorItem.helmet == ((entity instanceof LivingEntity)
 				? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.HEAD)
 				: ItemStack.EMPTY).getItem()
-				&& ExoliumArmorItem.body == ((entity instanceof LivingEntity)
+				&& OsaliumArmorItem.body == ((entity instanceof LivingEntity)
 						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.CHEST)
 						: ItemStack.EMPTY).getItem()
-				&& ExoliumArmorItem.legs == ((entity instanceof LivingEntity)
+				&& OsaliumArmorItem.legs == ((entity instanceof LivingEntity)
 						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.LEGS)
 						: ItemStack.EMPTY).getItem()
-				&& ExoliumArmorItem.boots == ((entity instanceof LivingEntity)
+				&& OsaliumArmorItem.boots == ((entity instanceof LivingEntity)
 						? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.FEET)
 						: ItemStack.EMPTY).getItem()) {
 			if (entity instanceof ServerPlayerEntity) {

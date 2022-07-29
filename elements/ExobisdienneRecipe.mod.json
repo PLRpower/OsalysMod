@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
         "value": ""
@@ -31,14 +31,14 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ExoliumDust"
+        "value": "CUSTOM:OsaliumDust"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Exobsidienne"
+      "value": "CUSTOM:Osabsidian"
     },
     "name": "exobisdiennerecipe",
     "namespace": "mod"

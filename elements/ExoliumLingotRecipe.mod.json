@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ExoliumBlock"
+        "value": "CUSTOM:OsaliumBlock"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Exolium"
+      "value": "CUSTOM:OsaliumIngot"
     },
     "name": "exoliumlingotrecipe",
     "namespace": "mod"

@@ -35,6 +35,8 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import fr.osalys.mod.procedures.PurifingMachineProcedure;
+import fr.osalys.mod.item.OsaliumIngotItem;
+import fr.osalys.mod.block.SaphireBlockBlock;
 import fr.osalys.mod.OsalysmodModElements;
 import fr.osalys.mod.OsalysmodMod;
 
@@ -130,31 +132,31 @@ public class PurifingMachineDenyGuiGui extends OsalysmodModElements.ModElement {
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 39) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (ExoliumItem.block == stack.getItem());
+					return (OsaliumIngotItem.block == stack.getItem());
 				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 16, 39) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (Saphire_BlockItem.block == stack.getItem());
+					return (SaphireBlockBlock.block.asItem() == stack.getItem());
 				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 12) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (Saphire_BlockItem.block == stack.getItem());
+					return (SaphireBlockBlock.block.asItem() == stack.getItem());
 				}
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 70, 39) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (Saphire_BlockItem.block == stack.getItem());
+					return (SaphireBlockBlock.block.asItem() == stack.getItem());
 				}
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 66) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (Saphire_BlockItem.block == stack.getItem());
+					return (SaphireBlockBlock.block.asItem() == stack.getItem());
 				}
 			}));
 			int si;

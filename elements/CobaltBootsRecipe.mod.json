@@ -19,26 +19,26 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CobatlIngot"
+        "value": "CUSTOM:CobaltIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cobalt_Armor.boots"
+      "value": "CUSTOM:CobaltArmor.boots"
     },
     "name": "cobalt_boots_recipe",
     "namespace": "mod"

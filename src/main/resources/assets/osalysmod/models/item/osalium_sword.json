@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "osalysmod:items/exolium_sword"
+    "layer0": "osalysmod:items/osalium_sword"
   }
 }

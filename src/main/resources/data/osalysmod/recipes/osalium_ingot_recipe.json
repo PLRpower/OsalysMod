@@ -2,26 +2,26 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_dust"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_dust"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_dust"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_dust"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_dust"
     },
     {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_dust"
     }
   ],
   "result": {
-    "item": "osalysmod:deleted_mod_element",
+    "item": "osalysmod:osalium_ingot",
     "count": 1
   }
 }

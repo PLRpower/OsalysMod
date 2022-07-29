@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_ingot"
     },
     "1": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_ingot"
     },
     "3": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "osalysmod:deleted_mod_element"
+      "item": "osalysmod:osalium_stick"
     }
   },
   "result": {
-    "item": "osalysmod:deleted_mod_element",
+    "item": "osalysmod:osalium_hoe",
     "count": 1
   }
 }

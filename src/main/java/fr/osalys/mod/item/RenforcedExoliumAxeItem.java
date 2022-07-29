@@ -47,7 +47,7 @@ public class RenforcedExoliumAxeItem extends OsalysmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(RenforcedExoliumItem.block));
+				return Ingredient.EMPTY;
 			}
 		}, 1, -3.2f, new Item.Properties().group(ItemGroup.TOOLS)) {
 			@Override

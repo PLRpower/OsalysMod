@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": "Blocks.GLOWSTONE"
       },
       {
-        "value": "CUSTOM:Exolium"
+        "value": "CUSTOM:OsaliumIngot"
       },
       {
         "value": "Items.IRON_INGOT"
@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Aventure_Armor.helmet"
+      "value": "CUSTOM:FarmArmor.helmet"
     },
     "name": "farm_helmet_recipe",
     "namespace": "mod"
