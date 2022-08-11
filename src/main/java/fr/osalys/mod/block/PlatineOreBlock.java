@@ -50,7 +50,7 @@ public class PlatineOreBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public PlatineOreBlock(OsalysmodModElements instance) {
-		super(instance, 2);
+		super(instance, 22);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

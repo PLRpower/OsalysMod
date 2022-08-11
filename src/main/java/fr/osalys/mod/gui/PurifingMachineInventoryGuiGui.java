@@ -44,7 +44,7 @@ public class PurifingMachineInventoryGuiGui extends OsalysmodModElements.ModElem
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public PurifingMachineInventoryGuiGui(OsalysmodModElements instance) {
-		super(instance, 175);
+		super(instance, 75);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

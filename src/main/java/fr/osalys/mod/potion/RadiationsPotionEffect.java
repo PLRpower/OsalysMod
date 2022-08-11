@@ -10,7 +10,6 @@ import net.minecraft.world.World;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
-import net.minecraft.entity.ai.attributes.AttributeModifierManager;
 import net.minecraft.entity.LivingEntity;
 
 import java.util.stream.Stream;
@@ -19,7 +18,6 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import fr.osalys.mod.procedures.RadiationsTickActifSurEffetProcedure;
-import fr.osalys.mod.procedures.RadiationsQuandLeffetCommenceEstAppliqueProcedure;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class RadiationsPotionEffect {
@@ -33,7 +31,7 @@ public class RadiationsPotionEffect {
 
 	public static class EffectCustom extends Effect {
 		public EffectCustom() {
-			super(EffectType.HARMFUL, -10027162);
+			super(EffectType.HARMFUL, -6291456);
 			setRegistryName("radiations");
 		}
 
@@ -49,7 +47,7 @@ public class RadiationsPotionEffect {
 
 		@Override
 		public boolean isInstant() {
-			return false;
+			return true;
 		}
 
 		@Override
@@ -65,17 +63,6 @@ public class RadiationsPotionEffect {
 		@Override
 		public boolean shouldRenderHUD(EffectInstance effect) {
 			return true;
-		}
-
-		@Override
-		public void applyAttributesModifiersToEntity(LivingEntity entity, AttributeModifierManager attributeMapIn, int amplifier) {
-			World world = entity.world;
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-
-			RadiationsQuandLeffetCommenceEstAppliqueProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override

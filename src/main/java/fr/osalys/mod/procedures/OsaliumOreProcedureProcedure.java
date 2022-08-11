@@ -11,9 +11,9 @@ import net.minecraft.enchantment.EnchantmentHelper;
 
 import java.util.Map;
 
+import fr.osalys.mod.item.OsaliumStickItem;
 import fr.osalys.mod.item.OsaliumIngotItem;
 import fr.osalys.mod.item.OsaliumDustItem;
-import fr.osalys.mod.item.AntimatiereIngotItem;
 import fr.osalys.mod.OsalysmodModVariables;
 import fr.osalys.mod.OsalysmodMod;
 
@@ -56,7 +56,7 @@ public class OsaliumOreProcedureProcedure {
 				((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY))) {
 			if (OsalysmodModVariables.MapVariables.get(world).RANDOM < 0.001) {
 				if (world instanceof World && !world.isRemote()) {
-					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(AntimatiereIngotItem.block));
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(OsaliumStickItem.block));
 					entityToSpawn.setPickupDelay((int) 10);
 					world.addEntity(entityToSpawn);
 				}

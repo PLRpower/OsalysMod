@@ -27,7 +27,7 @@ public class PlatineBlockBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public PlatineBlockBlock(OsalysmodModElements instance) {
-		super(instance, 203);
+		super(instance, 21);
 	}
 
 	@Override

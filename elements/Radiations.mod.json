@@ -5,17 +5,14 @@
     "effectName": "Radiations",
     "icon": "antiparticule.png",
     "color": {
-      "value": -10027162,
+      "value": -6291456,
       "falpha": 0.0
     },
-    "isInstant": false,
+    "isInstant": true,
     "isBad": true,
     "isBenefitical": false,
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
-    "onStarted": {
-      "name": "RadiationsQuandLeffetCommenceEstApplique"
-    },
     "onActiveTick": {
       "name": "RadiationsTickActifSurEffet"
     }

@@ -50,7 +50,7 @@ public class CobaltOreBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public CobaltOreBlock(OsalysmodModElements instance) {
-		super(instance, 3);
+		super(instance, 32);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

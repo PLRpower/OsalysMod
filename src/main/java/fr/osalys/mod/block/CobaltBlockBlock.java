@@ -27,7 +27,7 @@ public class CobaltBlockBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public CobaltBlockBlock(OsalysmodModElements instance) {
-		super(instance, 202);
+		super(instance, 31);
 	}
 
 	@Override

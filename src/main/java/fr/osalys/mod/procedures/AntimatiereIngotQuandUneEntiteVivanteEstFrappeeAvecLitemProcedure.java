@@ -1,12 +1,12 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import java.util.Map;
 
+import fr.osalys.mod.potion.RadiationsPotionEffect;
 import fr.osalys.mod.OsalysmodMod;
 
 public class AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure {
@@ -19,6 +19,6 @@ public class AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 300, (int) 3, (true), (true)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(RadiationsPotionEffect.potion, (int) 300, (int) 1));
 	}
 }

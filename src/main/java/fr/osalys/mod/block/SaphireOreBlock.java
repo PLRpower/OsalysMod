@@ -50,7 +50,7 @@ public class SaphireOreBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public SaphireOreBlock(OsalysmodModElements instance) {
-		super(instance, 210);
+		super(instance, 41);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

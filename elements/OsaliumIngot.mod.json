@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "osalium_ingot",
+    "texture": "osalium_ingot2",
     "customModelName": "Normal",
     "name": "Exolium",
     "rarity": "COMMON",

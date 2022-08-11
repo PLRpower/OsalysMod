@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "osalysmod:deleted_mod_element_chestplate"
+    },
+    "title": {
+      "translate": "advancements.full_antimatter_armor_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.full_antimatter_armor_achievement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "full_antimatter_armor_achievement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "osalysmod:deleted_mod_element"
+}

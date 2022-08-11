@@ -13,7 +13,7 @@ import fr.osalys.mod.OsalysmodModElements;
 @OsalysmodModElements.ModElement.Tag
 public class OsalysTabItemGroup extends OsalysmodModElements.ModElement {
 	public OsalysTabItemGroup(OsalysmodModElements instance) {
-		super(instance, 326);
+		super(instance, 157);
 	}
 
 	@Override

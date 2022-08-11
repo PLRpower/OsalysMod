@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "osalysmod:blocks/medium_antimatter_bud",
+    "particle": "osalysmod:blocks/medium_antimatter_bud"
+  }
+}

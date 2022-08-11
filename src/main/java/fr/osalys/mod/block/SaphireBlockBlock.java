@@ -27,7 +27,7 @@ public class SaphireBlockBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public SaphireBlockBlock(OsalysmodModElements instance) {
-		super(instance, 207);
+		super(instance, 40);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class OsaliumBlockBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public OsaliumBlockBlock(OsalysmodModElements instance) {
-		super(instance, 200);
+		super(instance, 10);
 	}
 
 	@Override

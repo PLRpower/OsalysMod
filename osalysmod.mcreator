@@ -245,37 +245,6 @@
       }
     },
     {
-      "name": "PurifiedSaphireSwordProcedure",
-      "type": "procedure",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "HangliderProcedure",
       "type": "procedure",
       "sortid": 82,
@@ -935,14 +904,6 @@
       "registry_name": "purified_saphire_pickaxe_recipe"
     },
     {
-      "name": "SaphireAdvancement",
-      "type": "achievement",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "saphire_advancement"
-    },
-    {
       "name": "PlatineArmor",
       "type": "armor",
       "sortid": 30,
@@ -1321,14 +1282,6 @@
       "registry_name": "cobalt_hoe_recipe"
     },
     {
-      "name": "CobaltAdvancement",
-      "type": "achievement",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_advancement"
-    },
-    {
       "name": "OsaliumHammerRecipe",
       "type": "recipe",
       "sortid": 154,
@@ -1401,14 +1354,6 @@
       }
     },
     {
-      "name": "FullOsaliumAchievement",
-      "type": "achievement",
-      "sortid": 160,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "full_osalium_achievement"
-    },
-    {
       "name": "CobaltIngot",
       "type": "item",
       "sortid": 33,
@@ -1417,12 +1362,12 @@
       "registry_name": "cobalt_ingot"
     },
     {
-      "name": "RadiationsQuandLeffetCommenceEstApplique",
+      "name": "AntimatiereIngotQuandLitemEstDansLinventaireParTick",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "radiations_quand_leffet_commence_est_applique",
+      "registry_name": "antimatiere_ingot_quand_litem_est_dans_linventaire_par_tick",
       "metadata": {
         "dependencies": [
           {
@@ -1433,9 +1378,49 @@
       }
     },
     {
+      "name": "AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatiere_ingot_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsaliumBlockIngotRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_block_ingot_recipe"
+    },
+    {
+      "name": "OsabsidianRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osabsidian_recipe"
+    },
+    {
+      "name": "PurifiedSaphireBlock",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_saphire_block"
+    },
+    {
       "name": "RadiationsTickActifSurEffet",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radiations_tick_actif_sur_effet",
@@ -1455,248 +1440,383 @@
     {
       "name": "Radiations",
       "type": "potioneffect",
-      "sortid": 163,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radiations"
     },
     {
-      "name": "AntimatiereIngotQuandLitemEstDansLinventaireParTick",
-      "type": "procedure",
-      "sortid": 164,
+      "name": "SaphireAchievement",
+      "type": "achievement",
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_ingot_quand_litem_est_dans_linventaire_par_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "saphire_achievement"
     },
     {
-      "name": "AntimatiereIngot",
-      "type": "item",
-      "sortid": 2,
+      "name": "CobaltAchievement",
+      "type": "achievement",
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_ingot"
+      "registry_name": "cobalt_achievement"
     },
     {
-      "name": "AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem",
-      "type": "procedure",
-      "sortid": 165,
+      "name": "FullAntimatterArmorAchievement",
+      "type": "achievement",
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_ingot_quand_une_entite_vivante_est_frappee_avec_litem",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "full_antimatter_armor_achievement"
     },
     {
-      "name": "AntimatiereHammer",
-      "type": "tool",
-      "sortid": 8,
+      "name": "FullOsaliumAmorAchievement",
+      "type": "achievement",
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_hammer"
+      "registry_name": "full_osalium_amor_achievement"
     },
     {
-      "name": "AntimatiereSword",
-      "type": "tool",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_sword"
-    },
-    {
-      "name": "AntimatiereShovel",
-      "type": "tool",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_shovel"
-    },
-    {
-      "name": "AntimatiereAxe",
-      "type": "tool",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_axe"
-    },
-    {
-      "name": "AntimatiereHoe",
-      "type": "tool",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_hoe"
-    },
-    {
-      "name": "AntimatierePickaxe",
-      "type": "tool",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_pickaxe"
-    },
-    {
-      "name": "AntimatiereArmor",
+      "name": "AntimatterArmor",
       "type": "armor",
-      "sortid": 9,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_armor",
+      "registry_name": "antimatter_armor",
       "metadata": {
         "eh": true,
-        "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "el": true
       }
     },
     {
-      "name": "AntimatiereArmorAdvancement",
-      "type": "achievement",
-      "sortid": 166,
+      "name": "AntimatterFragment",
+      "type": "item",
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_armor_advancement"
+      "registry_name": "antimatter_fragment"
     },
     {
-      "name": "AntimatiereArmorProcedure",
-      "type": "procedure",
-      "sortid": 167,
+      "name": "AntimatterHammer",
+      "type": "tool",
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_armor_procedure",
+      "registry_name": "antimatter_hammer"
+    },
+    {
+      "name": "AntimatterSword",
+      "type": "tool",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_sword"
+    },
+    {
+      "name": "AntimatterShovel",
+      "type": "tool",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_shovel"
+    },
+    {
+      "name": "AntimatterAxe",
+      "type": "tool",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_axe"
+    },
+    {
+      "name": "AntimatterHoe",
+      "type": "tool",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hoe"
+    },
+    {
+      "name": "AntimatterPickaxe",
+      "type": "tool",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_pickaxe"
+    },
+    {
+      "name": "AntimatterCluster",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_cluster"
+    },
+    {
+      "name": "AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_fragment_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
     },
     {
-      "name": "OsaliumBlockIngotRecipe",
-      "type": "recipe",
-      "sortid": 168,
+      "name": "SmallAntimatterCludMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "osalium_block_ingot_recipe"
+      "registry_name": "small_antimatter_clud_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "AntimatiereHammerRecipe",
-      "type": "recipe",
-      "sortid": 169,
+      "name": "SmallAntimatterCludQuandLeBlocVoisinChange",
+      "type": "procedure",
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_hammer_recipe"
+      "registry_name": "small_antimatter_clud_quand_le_bloc_voisin_change",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "OsabsidianRecipe",
-      "type": "recipe",
-      "sortid": 170,
+      "name": "MediumAntimatterCludQuandLeBlocVoisinChange",
+      "type": "procedure",
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "osabsidian_recipe"
+      "registry_name": "medium_antimatter_clud_quand_le_bloc_voisin_change",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "AntimatierePickaxeRecipe",
-      "type": "recipe",
-      "sortid": 171,
+      "name": "MediumAntimatterCludMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_pickaxe_recipe"
+      "registry_name": "medium_antimatter_clud_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "AntimatiereAxeRecipe",
-      "type": "recipe",
-      "sortid": 172,
+      "name": "LargeAntimatterCludQuandLeBlocVoisinChange",
+      "type": "procedure",
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_axe_recipe"
+      "registry_name": "large_antimatter_clud_quand_le_bloc_voisin_change",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "AntimatiereSwordRecipe",
-      "type": "recipe",
-      "sortid": 173,
+      "name": "LargeAntimatterCludMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_sword_recipe"
+      "registry_name": "large_antimatter_clud_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "AntimatiereShovelRecipe",
-      "type": "recipe",
-      "sortid": 174,
+      "name": "AntimatterClusterQuandLeBlocVoisinChange",
+      "type": "procedure",
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_shovel_recipe"
+      "registry_name": "antimatter_cluster_quand_le_bloc_voisin_change",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "AntimatiereHoeRecipe",
-      "type": "recipe",
-      "sortid": 175,
+      "name": "AntimatterClusterMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_hoe_recipe"
+      "registry_name": "antimatter_cluster_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": []
+      }
     },
     {
-      "name": "AntimatiereHelmetRecipe",
-      "type": "recipe",
-      "sortid": 176,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_helmet_recipe"
-    },
-    {
-      "name": "AntimatiereChestplateRecipe",
-      "type": "recipe",
-      "sortid": 177,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_chestplate_recipe"
-    },
-    {
-      "name": "AntimatiereLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 178,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_leggings_recipe"
-    },
-    {
-      "name": "AntimatiereBootsRecipe",
-      "type": "recipe",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_boots_recipe"
-    },
-    {
-      "name": "AntimatiereBlock",
+      "name": "SmallAntimatterBud",
       "type": "block",
-      "sortid": 1,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatiere_block"
+      "registry_name": "small_antimatter_bud"
     },
     {
-      "name": "PurifiedSaphireBlock",
+      "name": "MediumAntimatterBud",
       "type": "block",
-      "sortid": 65,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "purified_saphire_block"
+      "registry_name": "medium_antimatter_bud"
+    },
+    {
+      "name": "LargeAntimatterBud",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_antimatter_bud"
     }
   ],
   "variable_elements": [
@@ -1754,30 +1874,29 @@
   ],
   "language_map": {
     "en_us": {
-      "item.speed_stick.name": "Speed Stick",
       "block.osalysmos.purifing_machine_on": "Machine de Purification",
+      "item.speed_stick.name": "Speed Stick",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
       "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
       "item.platine_hammer.name": "Hammer en Platine",
       "item.saphire_shovel.name": "Pelle en Saphire",
       "item.exoliamod.platine_hoe": "Houe en Platine",
-      "item.exoliamod.saphire_axe": "Hache en Saphire",
-      "item.exoliamod.heal_stick": "Heal Stick",
       "item.saphire_apple.name": "Pomme en Saphire",
+      "item.exoliamod.heal_stick": "Heal Stick",
+      "item.exoliamod.saphire_axe": "Hache en Saphire",
       "item.osalysmos.cobalt_armor_leggings": "Jambi�res en Cobalt",
       "item.exoliamod.saphire_pickaxe": "Pioche en Saphire",
       "item.osalysmos.saphire_hoe": "Houe en Saphire",
       "block.osalysmod.osabsidian": "Exobsidienne",
+      "block.osalysmod.small_antimatter_bud": "Small Antimatter Clud",
       "item.exoliamod.exolium_armor_chestplate": "Plastron en Exolium",
       "item.cobalt_hoe.name": "Houe en Cobalt",
       "item.exoliamod.hanglider": "Hanglider",
       "item.exoliamod.exolium_hoe": "Houe en Exolium",
       "block.osalysmos.saphire_block": "Bloc de Saphire",
       "tipped_arrow.effect.test": "Arrow of Test",
-      "item.osalysmod.antimatiere_pickaxe": "Pioche en Antimatière",
       "item.osalysmod.cobalt_armor_helmet": "Casque en Cobalt",
-      "advancements.full_osalium_achievement.title": "L\u0027armure la plus puissante ?",
       "advancements.exorenfo.descr": "Equiper une amure compl�te en exolium renforc�",
       "item.osalysmos.feed_stick": "Feed Stick",
       "block.osalysmod.saphire_block": "Bloc de Saphire",
@@ -1785,6 +1904,7 @@
       "item.renforced_exolium_armorbody.name": "Plastron en Exolium Renforc�",
       "item.platine_pickaxe.name": "Pioche en Platine",
       "item.osalysmod.gold_stick": "B�ton d\u0027Or",
+      "item.osalysmod.antimatter_shovel": "Pelle en Antimatière",
       "item.farm_armorboots.name": "Bottes d\u0027Aventurier",
       "item.osalysmos.exolium_shovel": "Pelle en Exolium",
       "item.osalysmos.platine_pickaxe": "Pioche en Platine",
@@ -1803,7 +1923,6 @@
       "item.osalysmos.cobalt_armor_helmet": "Casque en Cobalt",
       "item.renforced_fortune_hoe.name": "Houe de Fortune Renforc�e",
       "item.osalysmos.platine_ingot": "Platine",
-      "block.osalysmod.antimatiere_block": "Bloc d\u0027Antimatière",
       "item.osalysmos.saphire_armor_helmet": "Casque en Saphire",
       "item.exoliamod.renforced_exolium_hoe": "Houe en Exolium Renforc�",
       "item.osalysmod.cobalt_armor_chestplate": "Plastron en Cobalt",
@@ -1826,7 +1945,6 @@
       "block.osalysmos.exobsidienne_block": "Exobsidienne",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifi�",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
-      "item.osalysmod.antimatiere_hoe": "Houe en Antimatière",
       "item.osalysmos.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.exoliamod.saphire_ingot": "Saphire",
       "item.osalysmos.platine_axe": "Hache en Platine",
@@ -1868,9 +1986,9 @@
       "effect.test": "Test",
       "item.osalysmod.platine_hammer": "Hammer en Platine",
       "item.platine_axe.name": "Hache en Platine",
+      "advancements.full_antimatter_armor_achievement.title": "Mieux que l\u0027exolium",
       "item.exoliamod.exolium_ingot": "Exolium",
       "item.exoliamod.cobalt_axe": "Hache en Cobalt",
-      "advancements.cobalt_advancement.title": "Meilleur que le diamant !",
       "item.cobalt_armorhelmet.name": "Casque en Cobalt",
       "item.osalysmod.feed_stick": "Feed Stick",
       "item.osalysmod.osalium_stick": "Stick en Exolium",
@@ -1878,10 +1996,10 @@
       "potion.effect.test": "Test",
       "item.osalysmod.saphire_sword": "�p�e en Saphire",
       "item.saphire_armorhelmet.name": "Casque en Saphire",
-      "item.osalysmod.antimatiere_shovel": "Pelle en Antimatière",
       "item.osalysmos.farm_armor_chestplate": "Plastron d\u0027Aventurier",
       "item.renforced_exolium_hammer.name": "Hammer en Exolium Renforc�",
       "item.cobalt_sword.name": "�p�e en Cobalt",
+      "item.osalysmod.antimatter_hoe": "Houe en Antimatière",
       "item.exoliamod.farm_armor_boots": "Bottes d\u0027Aventurier",
       "item.farm_armorlegs.name": "Jambi�res d\u0027Aventurier",
       "item.exoliamod.saphire_sword": "�p�e en Saphire",
@@ -1903,7 +2021,6 @@
       "item.exoliamod.explosive_munition": "Munition d\u0027arc explosif",
       "item.osalysmos.saphire_purified_pickaxe": "Pioche en Saphire Purifi�",
       "item.platine_armorlegs.name": "Jambi�res en Platine",
-      "advancements.full_osalium_achievement.descr": "S\u0027�quiper d\u0027une amure compl�te en �xolium",
       "item.exoliamod.exolium_armor_boots": "Bottes en Exolium",
       "item.osalysmod.platine_armor_helmet": "Casque en Platine",
       "item.explosive_bow.name": "Arc Explosif ",
@@ -1917,6 +2034,7 @@
       "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforcée",
       "item.exoliamod.farm_armor_helmet": "Casque d\u0027Aventurier",
       "item.exoliamod.saphire_shovel": "Pelle en Saphire",
+      "item.osalysmod.antimatter_armor_leggings": "Jambières en Antimatière",
       "item.osalysmod.platine_sword": "�p�e en Platine",
       "item.exoliamod.exolium_stick": "Stick en Exolium",
       "item.osalysmod.osalium_dust": "Poudre d\u0027Exolium",
@@ -1954,9 +2072,10 @@
       "block.exoliamod.purifiedsaphireblock": "Bloc de Saphire Purifi�",
       "item.osalysmos.gold_stick": "B�ton d\u0027Or",
       "item.osalysmos.farm_armor_helmet": "Casque d\u0027Aventurier",
-      "advancements.saphire_advancement.descr": "Obtenez un minerais de Saphire",
       "item.renforced_exolium_shovel.name": "Pelle en Exolium",
+      "advancements.saphire_achievement.descr": "Obtenez un minerais de Saphire",
       "item.osalysmos.renforced_exolium_sword": "�p�e en Exolium Renforc�",
+      "advancements.full_osalium_amor_achievement.title": "L\u0027armure la plus puissante ?",
       "item.exoliamod.platine_armor_boots": "Bottes en Platine",
       "item.osalysmos.renforced_exolium_shovel": "Pelle en Exolium",
       "item.saphire_ingot.name": "Saphire",
@@ -1970,11 +2089,11 @@
       "item.osalysmos.cobalt_armor_boots": "Bottes en Cobalt",
       "item.osalysmos.saphire_armor_boots": "Bottes en Saphire",
       "item.osalysmod.platine_shovel": "Pelle en Platine",
-      "item.osalysmod.antimatiere_hammer": "Hammer en Antimatière",
       "splash_potion.effect.test": "Splash Test",
       "block.osalysmod.cobalt_block": "Bloc de Cobalt",
       "advancements.fullexo.title": "L\u0027armure la plus puissante ?",
       "item.exoliamod.renforced_exolium_ingot": "Exolium Renforc�",
+      "block.osalysmod.antimatter_cluster": "Antimatter Cluster",
       "item.exoliamod.platine_pickaxe": "Pioche en Platine",
       "block.exoliamod.saphire_block": "Bloc de Saphire",
       "item.osalysmos.renforced_exolium_pickaxe": "Pioche en Exolium Renforc�",
@@ -1992,20 +2111,17 @@
       "item.osalysmod.speed_stick": "Speed Stick",
       "item.exoliamod.renforced_exolium_armor_helmet": "Casque en Exolium Renforc�",
       "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
-      "item.osalysmod.antimatiere_ingot": "Lingot d\u0027Antimatiere",
       "item.osalysmos.cobalt_sword": "�p�e en Cobalt",
+      "advancements.cobalt_achievement.title": "Meilleur que le diamant !",
       "item.osalysmos.exolium_hammer": "Hammer en Exolium",
       "item.hanglider.name": "Hanglider",
       "item.osalysmos.renforced_exolium_ingot": "Exolium Renforc�",
-      "advancements.antimatiere_armor_advancement.title": "Mieux que l\u0027exolium",
       "item.exolium_axe.name": "Hache en Exolium",
-      "item.osalysmod.antimatiere_axe": "Hache en Antimatière",
       "item.exolium_ingot.name": "Exolium",
       "item.exoliamod.renforced_exolium_armor_boots": "Bottes en Exolium Renforc�",
       "item.minecraft.lingering_potion.effect.test_potion_item": "Lingering Test",
       "item.exoliamod.cobalt_armor_chestplate": "Plastron en Cobalt",
       "item.exoliamod.purified_saphire_sword": "Purified Saphire Sword",
-      "item.osalysmod.antimatiere_armor_leggings": "Jambières en Antimatière",
       "block.exoliamod.platine_ore": "Minerais de Platine",
       "item.exoliamod.platine_sword": "�p�e en Platine",
       "item.osalysmod.osalium_armor_boots": "Bottes en Exolium",
@@ -2013,10 +2129,10 @@
       "block.osalysmos.cobalt_block": "Bloc de Cobalt",
       "item.exoliamod.saphire_hoe": "Houe en Saphire",
       "item.osalysmos.exolium_sword": "�p�e en Exolium",
-      "item.osalysmod.antimatiere_armor_helmet": "Casque en Antimatière",
       "item.renforced_exolium_pickaxe.name": "Pioche en Exolium Renforc�",
       "item.exoliamod.renforced_exolium_sword": "�p�e en Exolium Renforc�",
       "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
+      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Clud ",
       "tile.exobsidienne_block.name": "Exobsidienne",
       "item.osalysmos.saphire_axe": "Hache en Saphire",
       "item.osalysmod.osalium_ingot": "Exolium",
@@ -2024,8 +2140,7 @@
       "item.exoliamod.renforced_exolium_pickaxe": "Pioche en Exolium Renforc�",
       "item.exoliamod.platine_armor_leggings": "Jambi�res en Platine",
       "item.osalysmos.explosive_bow": "Arc Explosif ",
-      "advancements.antimatiere_armor_advancement.descr": "Equiper une amure compl�te en exolium renforc�",
-      "item.osalysmod.antimatiere_sword": "Epée en Antimatière",
+      "advancements.full_antimatter_armor_achievement.descr": "Equiper une amure compl�te en exolium renforc�",
       "item.exolium_hoe.name": "Houe en Exolium",
       "item.exoliamod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.exolium_dust.name": "Poudre d\u0027Exolium",
@@ -2040,7 +2155,10 @@
       "item.osalysmod.cobalt_shovel": "Pelle en Cobalt",
       "item.platine_hoe.name": "Houe en Platine",
       "item.exoliamod.cobalt_armor_helmet": "Casque en Cobalt",
+      "advancements.full_osalium_amor_achievement.descr": "S\u0027�quiper d\u0027une amure compl�te en �xolium",
       "block.osalysmos.platine_block": "Bloc de Platine",
+      "item.osalysmod.antimatter_axe": "Hache en Antimatière",
+      "advancements.saphire_achievement.title": "Un nouveau minerais ?",
       "item.exoliamod.cobalt_shovel": "Pelle en Cobalt",
       "tile.platine_block.name": "Bloc de Platine",
       "item.exoliamod.saphire_armor_helmet": "Casque en Saphire",
@@ -2056,15 +2174,15 @@
       "item.exoliamod.cobalt_sword": "�p�e en Cobalt",
       "item.exoliamod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
       "block.osalysmod.osalium_ore": "Minerais d\u0027Exolium",
-      "advancements.saphire_advancement.title": "Un nouveau minerais ?",
+      "item.osalysmod.antimatter_hammer": "Hammer en Antimatière",
       "item.osalysmos.heal_stick": "Heal Stick",
       "tile.platine_ore.name": "Minerais de Platine",
       "block.exoliamod.cobalt_ore": "Minerais de Cobalt",
+      "item.osalysmod.antimatter_sword": "Epée en Antimatière",
       "block.osalysmod.osalium_block": "Bloc d\u0027Exolium",
       "item.saphire_hoe.name": "Houe en Saphire",
       "block.osalysmos.renforced_exolium_block": "Bloc d\u0027Exolium Renforc�",
       "item.osalysmos.renforced_exolium_armor_boots": "Bottes en Exolium Renforc�",
-      "item.osalysmod.antimatiere_armor_chestplate": "Plastron en Antimatière",
       "item.exoliamod.exolium_dust": "Poudre d\u0027Exolium",
       "item.exoliamod.cobalt_armor_boots": "Bottes en Cobalt",
       "item.osalysmos.platine_armor_helmet": "Casque en Platine",
@@ -2074,6 +2192,7 @@
       "item.osalysmod.saphire_armor_boots": "Bottes en Saphire",
       "item.minecraft.splash_potion.effect.test_potion_item": "Splash Test",
       "block.exoliamod.cave_block": "Cave Block",
+      "item.osalysmod.antimatter_armor_chestplate": "Plastron en Antimatière",
       "item.exolium_hammer.name": "Hammer en Exolium",
       "item.osalysmod.saphire_shovel": "Pelle en Saphire",
       "item.platine_shovel.name": "Pelle en Platine",
@@ -2081,6 +2200,7 @@
       "item.renforced_exolium_ingot.name": "Exolium Renforc�",
       "item.osalysmos.saphire_shovel": "Pelle en Saphire",
       "item.osalysmod.osalium_armor_leggings": "Jambi�res en Exolium",
+      "block.osalysmod.large_antimatter_bud": "Large Antimatter Clud",
       "item.osalysmod.osalium_armor_chestplate": "Plastron en Exolium",
       "block.exoliamod.platine_block": "Bloc de Platine",
       "item.platine_sword.name": "�p�e en Platine",
@@ -2092,20 +2212,22 @@
       "item.exoliamod.platine_armor_chestplate": "Plastron en Platine",
       "item.osalysmod.platine_ingot": "Platine",
       "item.osalysmod.farm_armor_helmet": "Casque d\u0027Aventurier",
+      "item.osalysmod.antimatter_pickaxe": "Pioche en Antimatière",
       "advancements.fullexo.descr": "S\u0027�quiper d\u0027une amure compl�te en �xolium",
       "item.gold_stick.name": "B�ton d\u0027Or",
       "item.osalysmos.cobatl_ingot": "Cobalt",
-      "advancements.cobalt_advancement.descr": "Obtenir une armure en Cobalt",
+      "advancements.cobalt_achievement.descr": "Obtenir une armure en Cobalt",
       "item.exolium_armorboots.name": "Bottes en Exolium",
       "item.osalysmod.heal_stick": "Heal Stick",
       "block.osalysmos.exolium_ore": "Minerais d\u0027Exolium",
       "item.exoliamod.gold_stick": "B�ton d\u0027Or",
       "block.osalysmos.exolium_block": "Bloc d\u0027Exolium",
+      "item.osalysmod.antimatter_armor_boots": "Bottes en Antimatière",
       "block.exoliamod.renforced_exolium_block": "Bloc d\u0027Exolium Renforc�",
       "item.osalysmod.saphire_ingot": "Saphire",
       "item.osalysmos.exolium_armor_leggings": "Jambi�res en Exolium",
+      "item.osalysmod.antimatter_fragment": "Fragment d\u0027Antimatiere",
       "block.exoliamod.exolium_block": "Bloc d\u0027Exolium",
-      "item.osalysmod.antimatiere_armor_boots": "Bottes en Antimatière",
       "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
       "advancements.exorenfo.title": "Mieux que l\u0027exolium",
       "item.exoliamod.exolium_axe": "Hache en Exolium",
@@ -2116,6 +2238,7 @@
       "item.osalysmod.osalium_hammer": "Hammer en Exolium",
       "item.cobalt_armorlegs.name": "Jambi�res en Cobalt",
       "item.osalysmod.platine_armor_chestplate": "Plastron en Platine",
+      "item.osalysmod.antimatter_armor_helmet": "Casque en Antimatière",
       "block.osalysmod.cobalt_ore": "Minerais de Cobalt"
     }
   },

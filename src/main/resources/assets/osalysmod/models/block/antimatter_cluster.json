@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "osalysmod:blocks/amethyst_cluster",
+    "particle": "osalysmod:blocks/amethyst_cluster"
+  }
+}

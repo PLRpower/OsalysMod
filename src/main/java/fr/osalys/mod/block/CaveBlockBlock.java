@@ -32,7 +32,7 @@ public class CaveBlockBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public CaveBlockBlock(OsalysmodModElements instance) {
-		super(instance, 53);
+		super(instance, 64);
 	}
 
 	@Override
