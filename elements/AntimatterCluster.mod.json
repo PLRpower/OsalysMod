@@ -54,7 +54,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 400,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": true,
@@ -127,9 +127,6 @@
     "fluidRestrictions": [],
     "onNeighbourBlockChanges": {
       "name": "AntimatterClusterQuandLeBlocVoisinChange"
-    },
-    "onTickUpdate": {
-      "name": "AntimatterClusterMiseAJourDuTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:antimatter_ingot"
+    },
+    "1": {
+      "item": "osalysmod:antimatter_ingot"
+    },
+    "2": {
+      "item": "osalysmod:antimatter_ingot"
+    },
+    "3": {
+      "item": "osalysmod:antimatter_ingot"
+    },
+    "4": {
+      "item": "osalysmod:antimatter_fragment"
+    },
+    "5": {
+      "item": "osalysmod:antimatter_ingot"
+    },
+    "7": {
+      "item": "osalysmod:osalium_stick"
+    }
+  },
+  "result": {
+    "item": "osalysmod:antimatter_hammer",
+    "count": 1
+  }
+}

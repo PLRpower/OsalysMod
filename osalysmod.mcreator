@@ -1362,38 +1362,6 @@
       "registry_name": "cobalt_ingot"
     },
     {
-      "name": "AntimatiereIngotQuandLitemEstDansLinventaireParTick",
-      "type": "procedure",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_ingot_quand_litem_est_dans_linventaire_par_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitem",
-      "type": "procedure",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatiere_ingot_quand_une_entite_vivante_est_frappee_avec_litem",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "OsaliumBlockIngotRecipe",
       "type": "recipe",
       "sortid": 168,
@@ -1784,17 +1752,6 @@
       }
     },
     {
-      "name": "AntimatterClusterMiseAJourDuTick",
-      "type": "procedure",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatter_cluster_mise_a_jour_du_tick",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "SmallAntimatterBud",
       "type": "block",
       "sortid": 207,
@@ -1817,6 +1774,62 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_antimatter_bud"
+    },
+    {
+      "name": "AntimatterIngot",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_ingot"
+    },
+    {
+      "name": "AntimatterIngotRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_ingot_recipe"
+    },
+    {
+      "name": "AntimatterHammerRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hammer_recipe"
+    },
+    {
+      "name": "AntimatterAxeRecipe1",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_axe_recipe_1"
+    },
+    {
+      "name": "AntimatterAxeRecipe2",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_axe_recipe_2"
+    },
+    {
+      "name": "AntimatterPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_pickaxe_recipe"
+    },
+    {
+      "name": "AntimatterSwordRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_sword_recipe"
     }
   ],
   "variable_elements": [
@@ -2044,6 +2057,7 @@
       "item.osalysmod.platine_armor_boots": "Bottes en Platine",
       "item.osalysmos.exolium_armor_chestplate": "Plastron en Exolium",
       "item.exoliamod.fortunehoe": "Houe de Fortune",
+      "item.osalysmod.antimatter_ingot": "Antimatter Ingot",
       "item.minecraft.potion.effect.test_potion_item": "Test",
       "tile.cobalt_block.name": "Bloc de Cobalt",
       "item.exoliamod.exolium_shovel": "Pelle en Exolium",
@@ -2226,7 +2240,7 @@
       "block.exoliamod.renforced_exolium_block": "Bloc d\u0027Exolium Renforc�",
       "item.osalysmod.saphire_ingot": "Saphire",
       "item.osalysmos.exolium_armor_leggings": "Jambi�res en Exolium",
-      "item.osalysmod.antimatter_fragment": "Fragment d\u0027Antimatiere",
+      "item.osalysmod.antimatter_fragment": "Fragment d\u0027Antimatière",
       "block.exoliamod.exolium_block": "Bloc d\u0027Exolium",
       "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
       "advancements.exorenfo.title": "Mieux que l\u0027exolium",

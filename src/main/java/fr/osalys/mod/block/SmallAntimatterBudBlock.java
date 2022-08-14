@@ -12,15 +12,22 @@ import net.minecraft.world.World;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.Mirror;
 import net.minecraft.util.Direction;
+import net.minecraft.state.StateContainer;
+import net.minecraft.state.DirectionProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -60,10 +67,13 @@ public class SmallAntimatterBudBlock extends OsalysmodModElements.ModElement {
 	}
 
 	public static class CustomBlock extends Block {
+		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.GLASS).hardnessAndResistance(40f, 10f).setLightLevel(s -> 15)
-					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(40f, 0f).setLightLevel(s -> 15).harvestLevel(4)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
+			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("small_antimatter_bud");
 		}
 
@@ -83,6 +93,25 @@ public class SmallAntimatterBudBlock extends OsalysmodModElements.ModElement {
 		}
 
 		@Override
+		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+			builder.add(FACING);
+		}
+
+		public BlockState rotate(BlockState state, Rotation rot) {
+			return state.with(FACING, rot.rotate(state.get(FACING)));
+		}
+
+		public BlockState mirror(BlockState state, Mirror mirrorIn) {
+			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+		}
+
+		@Override
 		public float getEnchantPowerBonus(BlockState state, IWorldReader world, BlockPos pos) {
 			return 30f;
 		}
@@ -98,8 +127,8 @@ public class SmallAntimatterBudBlock extends OsalysmodModElements.ModElement {
 		}
 
 		@Override
-		public Block.OffsetType getOffsetType() {
-			return Block.OffsetType.XYZ;
+		public PushReaction getPushReaction(BlockState state) {
+			return PushReaction.DESTROY;
 		}
 
 		@Override
@@ -116,7 +145,7 @@ public class SmallAntimatterBudBlock extends OsalysmodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(pos, this, 400);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 6000);
 		}
 
 		@Override
@@ -146,7 +175,7 @@ public class SmallAntimatterBudBlock extends OsalysmodModElements.ModElement {
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			world.getPendingBlockTicks().scheduleTick(pos, this, 400);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 6000);
 		}
 	}
 }

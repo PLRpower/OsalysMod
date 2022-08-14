@@ -7,14 +7,11 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
-import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
 import java.util.stream.Stream;
@@ -23,8 +20,6 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import fr.osalys.mod.procedures.AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure;
-import fr.osalys.mod.procedures.AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure;
-import fr.osalys.mod.procedures.AntimatiereIngotQuandLitemEstDansLinventaireParTickProcedure;
 import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
@@ -46,11 +41,6 @@ public class AntimatterFragmentItem extends OsalysmodModElements.ModElement {
 		public ItemCustom() {
 			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC));
 			setRegistryName("antimatter_fragment");
-		}
-
-		@Override
-		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.EAT;
 		}
 
 		@Override
@@ -86,31 +76,6 @@ public class AntimatterFragmentItem extends OsalysmodModElements.ModElement {
 							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
-		}
-
-		@Override
-		public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-			boolean retval = super.hitEntity(itemstack, entity, sourceentity);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			World world = entity.world;
-
-			AntimatiereIngotQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure
-					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-							(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return retval;
-		}
-
-		@Override
-		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-			super.inventoryTick(itemstack, world, entity, slot, selected);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-
-			AntimatiereIngotQuandLitemEstDansLinventaireParTickProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

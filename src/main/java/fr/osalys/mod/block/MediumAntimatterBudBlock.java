@@ -19,6 +19,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -61,8 +62,8 @@ public class MediumAntimatterBudBlock extends OsalysmodModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.GLASS).hardnessAndResistance(40f, 10f).setLightLevel(s -> 15)
-					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(40f, 10f).setLightLevel(s -> 15)
+					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
 			setRegistryName("medium_antimatter_bud");
 		}
@@ -98,8 +99,8 @@ public class MediumAntimatterBudBlock extends OsalysmodModElements.ModElement {
 		}
 
 		@Override
-		public Block.OffsetType getOffsetType() {
-			return Block.OffsetType.XYZ;
+		public PushReaction getPushReaction(BlockState state) {
+			return PushReaction.DESTROY;
 		}
 
 		@Override
@@ -116,7 +117,7 @@ public class MediumAntimatterBudBlock extends OsalysmodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(pos, this, 400);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 12000);
 		}
 
 		@Override
@@ -146,7 +147,7 @@ public class MediumAntimatterBudBlock extends OsalysmodModElements.ModElement {
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			world.getPendingBlockTicks().scheduleTick(pos, this, 400);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 12000);
 		}
 	}
 }

@@ -3,17 +3,17 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "antimatiere_ingot",
+    "texture": "antimatter_ingot",
     "customModelName": "Normal",
-    "name": "Fragment d'Antimatière",
+    "name": "Antimatter Ingot",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:OsalysTab"
+      "value": "MATERIALS"
     },
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 0.0,
+    "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
@@ -29,9 +29,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
-    },
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 4,
