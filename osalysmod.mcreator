@@ -1846,6 +1846,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "antimatter_shovel_recipe"
+    },
+    {
+      "name": "AntimatterHelmetRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_helmet_recipe"
+    },
+    {
+      "name": "AntimatterChestplateRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_chestplate_recipe"
+    },
+    {
+      "name": "AntimatterLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_leggings_recipe"
+    },
+    {
+      "name": "AntimatterBootsRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_boots_recipe"
     }
   ],
   "variable_elements": [
@@ -1903,17 +1935,17 @@
   ],
   "language_map": {
     "en_us": {
-      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.speed_stick.name": "Speed Stick",
+      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
       "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
       "item.platine_hammer.name": "Hammer en Platine",
       "item.saphire_shovel.name": "Pelle en Saphire",
       "item.exoliamod.platine_hoe": "Houe en Platine",
-      "item.saphire_apple.name": "Pomme en Saphire",
-      "item.exoliamod.heal_stick": "Heal Stick",
       "item.exoliamod.saphire_axe": "Hache en Saphire",
+      "item.exoliamod.heal_stick": "Heal Stick",
+      "item.saphire_apple.name": "Pomme en Saphire",
       "item.osalysmos.cobalt_armor_leggings": "Jambi�res en Cobalt",
       "item.exoliamod.saphire_pickaxe": "Pioche en Saphire",
       "item.osalysmos.saphire_hoe": "Houe en Saphire",
