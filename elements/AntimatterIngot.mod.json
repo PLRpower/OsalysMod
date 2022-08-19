@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "antimatter_ingot",
+    "texture": "antimatteringot",
     "customModelName": "Normal",
     "name": "Antimatter Ingot",
     "rarity": "EPIC",

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:antimatter_ingot"
+    },
+    "1": {
+      "item": "osalysmod:osalium_stick"
+    },
+    "2": {
+      "item": "osalysmod:antimatter_fragment"
+    }
+  },
+  "result": {
+    "item": "osalysmod:antimatter_shovel",
+    "count": 1
+  }
+}

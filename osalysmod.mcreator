@@ -1830,6 +1830,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "antimatter_sword_recipe"
+    },
+    {
+      "name": "AntimatterHoeRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hoe_recipe"
+    },
+    {
+      "name": "AntimatterShovelRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_shovel_recipe"
     }
   ],
   "variable_elements": [
