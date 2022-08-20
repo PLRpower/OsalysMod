@@ -1524,38 +1524,6 @@
       "registry_name": "antimatter_cluster"
     },
     {
-      "name": "AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
-      "type": "procedure",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatter_fragment_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "SmallAntimatterCludMiseAJourDuTick",
       "type": "procedure",
       "sortid": 199,
@@ -1878,6 +1846,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "antimatter_boots_recipe"
+    },
+    {
+      "name": "Testcristaux",
+      "type": "block",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testcristaux"
+    },
+    {
+      "name": "AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_fragment_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1935,17 +1943,17 @@
   ],
   "language_map": {
     "en_us": {
-      "item.speed_stick.name": "Speed Stick",
       "block.osalysmos.purifing_machine_on": "Machine de Purification",
+      "item.speed_stick.name": "Speed Stick",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
       "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
       "item.platine_hammer.name": "Hammer en Platine",
       "item.saphire_shovel.name": "Pelle en Saphire",
       "item.exoliamod.platine_hoe": "Houe en Platine",
-      "item.exoliamod.saphire_axe": "Hache en Saphire",
-      "item.exoliamod.heal_stick": "Heal Stick",
       "item.saphire_apple.name": "Pomme en Saphire",
+      "item.exoliamod.heal_stick": "Heal Stick",
+      "item.exoliamod.saphire_axe": "Hache en Saphire",
       "item.osalysmos.cobalt_armor_leggings": "Jambi�res en Cobalt",
       "item.exoliamod.saphire_pickaxe": "Pioche en Saphire",
       "item.osalysmos.saphire_hoe": "Houe en Saphire",
@@ -1978,6 +1986,7 @@
       "tile.exolium_block.name": "Bloc d\u0027Exolium",
       "item.osalysmos.cobalt_hoe": "Houe en Cobalt",
       "item.osalysmos.purified_saphire_sword": "Purified Saphire Sword",
+      "block.osalysmod.testcristaux": "Testcristaux",
       "item.osalysmos.renforced_exolium_armor_leggings": "Jambi�res en Exolium Renforc�",
       "item.exoliamod.platine_shovel": "Pelle en Platine",
       "block.exoliamod.exobsidienne_block": "Exobsidienne",

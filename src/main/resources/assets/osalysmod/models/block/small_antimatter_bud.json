@@ -1,7 +1,8 @@
 {
-  "parent": "block/cross",
+  "parent": "osalysmod:custom/crystal_0",
   "textures": {
-    "cross": "osalysmod:blocks/small_amethyst_bud",
-    "particle": "osalysmod:blocks/small_amethyst_bud"
+    "all": "osalysmod:blocks/ice_crystal_0",
+    "particle": "osalysmod:blocks/ice_crystal_0",
+    "crystal": "osalysmod:blocks/ice_crystal_0"
   }
 }

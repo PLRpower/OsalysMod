@@ -27,7 +27,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.HorizontalBlock;
+import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -63,11 +63,11 @@ public class SmallAntimatterBudBlock extends OsalysmodModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
 
 	public static class CustomBlock extends Block {
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(40f, 0f).setLightLevel(s -> 15).harvestLevel(4)
@@ -108,7 +108,7 @@ public class SmallAntimatterBudBlock extends OsalysmodModElements.ModElement {
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
 			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 
 		@Override
