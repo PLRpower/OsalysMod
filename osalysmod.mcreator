@@ -223,13 +223,6 @@
       "locked_code": false
     },
     {
-      "name": "TestPotionItem",
-      "type": "potion",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false
-    },
-    {
       "name": "TestPotionStartedapplied",
       "type": "procedure",
       "sortid": 80,
@@ -1934,6 +1927,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_antimatter_bud_loot"
+    },
+    {
+      "name": "ObsidianDoor",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_door"
+    },
+    {
+      "name": "ObsidianTrapdoor",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_trapdoor"
+    },
+    {
+      "name": "ObsidianDoorRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_door_recipe"
+    },
+    {
+      "name": "ObsidianTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_trapdoor_recipe"
     }
   ],
   "variable_elements": [
@@ -2014,6 +2039,7 @@
       "block.osalysmos.saphire_block": "Bloc de Saphire",
       "tipped_arrow.effect.test": "Arrow of Test",
       "item.osalysmod.cobalt_armor_helmet": "Casque en Cobalt",
+      "block.osalysmod.obsidian_trapdoor": "Obsidian Trapdoor",
       "advancements.exorenfo.descr": "Equiper une amure compl�te en exolium renforc�",
       "item.osalysmos.feed_stick": "Feed Stick",
       "block.osalysmod.saphire_block": "Bloc de Saphire",
@@ -2147,7 +2173,6 @@
       "item.osalysmod.explosive_munition": "Munition d\u0027arc explosif",
       "item.osalysmod.cobalt_armor_leggings": "Jambi�res en Cobalt",
       "item.explosive_munition.name": "Munition d\u0027arc explosif",
-      "item.minecraft.tipped_arrow.effect.test_potion_item": "Arrow of Test",
       "item.osalysmos.exolium_pickaxe": "Pioche en Exolium",
       "item.saphire_sword.name": "�p�e en Saphire",
       "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforcée",
@@ -2164,7 +2189,7 @@
       "item.osalysmos.exolium_armor_chestplate": "Plastron en Exolium",
       "item.exoliamod.fortunehoe": "Houe de Fortune",
       "item.osalysmod.antimatter_ingot": "Antimatter Ingot",
-      "item.minecraft.potion.effect.test_potion_item": "Test",
+      "block.osalysmod.obsidian_door": "Obsidian Door",
       "tile.cobalt_block.name": "Bloc de Cobalt",
       "item.exoliamod.exolium_shovel": "Pelle en Exolium",
       "tile.cobalt_ore.name": "Minerais de Cobalt",
@@ -2240,7 +2265,6 @@
       "item.exolium_axe.name": "Hache en Exolium",
       "item.exolium_ingot.name": "Exolium",
       "item.exoliamod.renforced_exolium_armor_boots": "Bottes en Exolium Renforc�",
-      "item.minecraft.lingering_potion.effect.test_potion_item": "Lingering Test",
       "item.exoliamod.cobalt_armor_chestplate": "Plastron en Cobalt",
       "item.exoliamod.purified_saphire_sword": "Purified Saphire Sword",
       "block.exoliamod.platine_ore": "Minerais de Platine",
@@ -2311,7 +2335,6 @@
       "item.osalysmos.exolium_armor_helmet": "Casque en Exolium",
       "block.osalysmod.saphire_ore": "Minerais de Saphire",
       "item.osalysmod.saphire_armor_boots": "Bottes en Saphire",
-      "item.minecraft.splash_potion.effect.test_potion_item": "Splash Test",
       "block.exoliamod.cave_block": "Cave Block",
       "item.osalysmod.antimatter_armor_chestplate": "Plastron en Antimatière",
       "item.exolium_hammer.name": "Hammer en Exolium",
