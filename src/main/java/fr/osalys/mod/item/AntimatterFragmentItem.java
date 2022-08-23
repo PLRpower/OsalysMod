@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import fr.osalys.mod.procedures.AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure;
+import fr.osalys.mod.procedures.SmallAntimatterCludQuandLeBlocVoisinChangeProcedure;
 import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
@@ -71,9 +71,9 @@ public class AntimatterFragmentItem extends OsalysmodModElements.ModElement {
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 
-			AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.executeProcedure(Stream
+			SmallAntimatterCludQuandLeBlocVoisinChangeProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
 		}

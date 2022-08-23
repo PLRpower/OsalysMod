@@ -1,15 +1,16 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.util.Direction;
+import net.minecraft.state.EnumProperty;
+import net.minecraft.state.DirectionProperty;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.BlockState;
 
 import java.util.Map;
 
-import fr.osalys.mod.item.AntimatterFragmentItem;
+import fr.osalys.mod.block.UnstableBuddingRockBlock;
 import fr.osalys.mod.OsalysmodMod;
 
 public class LargeAntimatterCludQuandLeBlocVoisinChangeProcedure {
@@ -39,13 +40,115 @@ public class LargeAntimatterCludQuandLeBlocVoisinChangeProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		if (((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.REDSTONE_BLOCK) == false) {
-			world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
-			if (world instanceof World && !world.isRemote()) {
-				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(AntimatterFragmentItem.block));
-				entityToSpawn.setPickupDelay((int) 0);
-				entityToSpawn.setNoDespawn();
-				world.addEntity(entityToSpawn);
+		if ((new Object() {
+			public Direction getDirection(BlockPos pos) {
+				try {
+					BlockState _bs = world.getBlockState(pos);
+					DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+					if (property != null)
+						return _bs.get(property);
+					return Direction.getFacingFromAxisDirection(
+							_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
+							Direction.AxisDirection.POSITIVE);
+				} catch (Exception e) {
+					return Direction.NORTH;
+				}
+			}
+		}.getDirection(new BlockPos(x, y, z))) == Direction.DOWN) {
+			if (((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == UnstableBuddingRockBlock.block) == false) {
+				world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
+			}
+		} else if ((new Object() {
+			public Direction getDirection(BlockPos pos) {
+				try {
+					BlockState _bs = world.getBlockState(pos);
+					DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+					if (property != null)
+						return _bs.get(property);
+					return Direction.getFacingFromAxisDirection(
+							_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
+							Direction.AxisDirection.POSITIVE);
+				} catch (Exception e) {
+					return Direction.NORTH;
+				}
+			}
+		}.getDirection(new BlockPos(x, y, z))) == Direction.UP) {
+			if (((world.getBlockState(new BlockPos(x, y + 1, z))).getBlock() == UnstableBuddingRockBlock.block) == false) {
+				world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
+			}
+		}
+		if ((new Object() {
+			public Direction getDirection(BlockPos pos) {
+				try {
+					BlockState _bs = world.getBlockState(pos);
+					DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+					if (property != null)
+						return _bs.get(property);
+					return Direction.getFacingFromAxisDirection(
+							_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
+							Direction.AxisDirection.POSITIVE);
+				} catch (Exception e) {
+					return Direction.NORTH;
+				}
+			}
+		}.getDirection(new BlockPos(x, y, z))) == Direction.NORTH) {
+			if (((world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == UnstableBuddingRockBlock.block) == false) {
+				world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
+			}
+		} else if ((new Object() {
+			public Direction getDirection(BlockPos pos) {
+				try {
+					BlockState _bs = world.getBlockState(pos);
+					DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+					if (property != null)
+						return _bs.get(property);
+					return Direction.getFacingFromAxisDirection(
+							_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
+							Direction.AxisDirection.POSITIVE);
+				} catch (Exception e) {
+					return Direction.NORTH;
+				}
+			}
+		}.getDirection(new BlockPos(x, y, z))) == Direction.SOUTH) {
+			if (((world.getBlockState(new BlockPos(x, y, z + 1))).getBlock() == UnstableBuddingRockBlock.block) == false) {
+				world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
+			}
+		}
+		if ((new Object() {
+			public Direction getDirection(BlockPos pos) {
+				try {
+					BlockState _bs = world.getBlockState(pos);
+					DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+					if (property != null)
+						return _bs.get(property);
+					return Direction.getFacingFromAxisDirection(
+							_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
+							Direction.AxisDirection.POSITIVE);
+				} catch (Exception e) {
+					return Direction.NORTH;
+				}
+			}
+		}.getDirection(new BlockPos(x, y, z))) == Direction.WEST) {
+			if (((world.getBlockState(new BlockPos(x - 1, y, z))).getBlock() == UnstableBuddingRockBlock.block) == false) {
+				world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
+			}
+		} else if ((new Object() {
+			public Direction getDirection(BlockPos pos) {
+				try {
+					BlockState _bs = world.getBlockState(pos);
+					DirectionProperty property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+					if (property != null)
+						return _bs.get(property);
+					return Direction.getFacingFromAxisDirection(
+							_bs.get((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis")),
+							Direction.AxisDirection.POSITIVE);
+				} catch (Exception e) {
+					return Direction.NORTH;
+				}
+			}
+		}.getDirection(new BlockPos(x, y, z))) == Direction.EAST) {
+			if (((world.getBlockState(new BlockPos(x + 1, y, z))).getBlock() == UnstableBuddingRockBlock.block) == false) {
+				world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
 			}
 		}
 	}

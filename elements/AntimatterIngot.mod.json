@@ -8,7 +8,7 @@
     "name": "Antimatter Ingot",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:OsalysTab"
     },
     "stackSize": 1,
     "enchantability": 0,

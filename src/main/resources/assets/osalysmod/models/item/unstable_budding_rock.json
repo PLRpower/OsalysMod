@@ -1,5 +1,5 @@
 {
-  "parent": "osalysmod:block/testcristaux",
+  "parent": "osalysmod:block/unstable_budding_rock",
   "display": {
     "thirdperson": {
       "rotation": [

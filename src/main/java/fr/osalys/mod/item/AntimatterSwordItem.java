@@ -2,12 +2,9 @@
 package fr.osalys.mod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -50,11 +47,6 @@ public class AntimatterSwordItem extends OsalysmodModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -2.4f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasEffect(ItemStack itemstack) {
-				return true;
-			}
 		}.setRegistryName("antimatter_sword"));
 	}
 }

@@ -8,34 +8,34 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
-    "rotationMode": 0,
+    "renderType": 2,
+    "customModelName": "antimattercluster3dmodel:default",
+    "rotationMode": 2,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "antimatter_cluster_3",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mx": 14.0,
+        "my": 2.0,
+        "mz": 16.0,
+        "Mx": 2.0,
+        "My": 14.0,
+        "Mz": 0.0,
         "subtract": false
       }
     ],
     "name": "Antimatter Cluster",
     "specialInfo": [],
-    "hardness": 40.0,
-    "resistance": 10.0,
+    "hardness": 1.5,
+    "resistance": 1.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,16 +43,16 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:AntimatterFragment"
+      "value": ""
     },
-    "dropAmount": 2,
-    "useLootTableForDrops": false,
+    "dropAmount": 0,
+    "useLootTableForDrops": true,
     "enchantPowerBonus": 30.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "PLANTS"
+      "value": "GLASS"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -65,7 +65,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XYZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "beaconColorModifier": {
       "value": -6750208,
@@ -98,9 +98,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 15,
+    "luminance": 4,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

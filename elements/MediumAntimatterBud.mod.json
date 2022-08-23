@@ -8,44 +8,44 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
-    "rotationMode": 0,
+    "renderType": 2,
+    "customModelName": "mediumantimatterbud3dmodel:default",
+    "rotationMode": 2,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "medium_antimatter_bud_1",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mx": 14.0,
+        "my": 2.0,
+        "mz": 16.0,
+        "Mx": 2.0,
+        "My": 14.0,
+        "Mz": 0.0,
         "subtract": false
       }
     ],
-    "name": "Medium Antimatter Clud ",
+    "name": "Medium Antimatter Bud ",
     "specialInfo": [],
-    "hardness": 40.0,
-    "resistance": 10.0,
+    "hardness": 1.5,
+    "resistance": 1.5,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:AntimatterFragment"
+      "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 30.0,
     "plantsGrowOn": false,
@@ -54,7 +54,7 @@
     "material": {
       "value": "GLASS"
     },
-    "tickRate": 12000,
+    "tickRate": 100,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": true,
@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 15,
+    "luminance": 2,
     "unbreakable": false,
     "breakHarvestLevel": 4,
     "spawnParticles": false,

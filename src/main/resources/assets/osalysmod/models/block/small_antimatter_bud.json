@@ -1,8 +1,8 @@
 {
-  "parent": "osalysmod:custom/crystal_0",
+  "parent": "osalysmod:custom/smallantimatterbud3dmodel",
   "textures": {
-    "all": "osalysmod:blocks/ice_crystal_0",
-    "particle": "osalysmod:blocks/ice_crystal_0",
-    "crystal": "osalysmod:blocks/ice_crystal_0"
+    "all": "osalysmod:blocks/small_amethyst_bud",
+    "particle": "osalysmod:blocks/small_amethyst_bud",
+    "0": "osalysmod:blocks/small_amethyst_bud"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "large_amethyst_bud"
+      },
+      "name": "default"
+    }
+  }
+}

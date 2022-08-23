@@ -15,40 +15,41 @@ import net.minecraft.block.BlockState;
 import java.util.Map;
 
 import fr.osalys.mod.item.AntimatterFragmentItem;
+import fr.osalys.mod.block.UnstableBuddingRockBlock;
 import fr.osalys.mod.block.SmallAntimatterBudBlock;
 import fr.osalys.mod.OsalysmodMod;
 
-public class AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure {
+public class AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
 				OsalysmodMod.LOGGER.warn(
-						"Failed to load dependency world for procedure AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
+						"Failed to load dependency world for procedure AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				OsalysmodMod.LOGGER
-						.warn("Failed to load dependency x for procedure AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
+				OsalysmodMod.LOGGER.warn(
+						"Failed to load dependency x for procedure AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				OsalysmodMod.LOGGER
-						.warn("Failed to load dependency y for procedure AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
+				OsalysmodMod.LOGGER.warn(
+						"Failed to load dependency y for procedure AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				OsalysmodMod.LOGGER
-						.warn("Failed to load dependency z for procedure AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
+				OsalysmodMod.LOGGER.warn(
+						"Failed to load dependency z for procedure AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
 				OsalysmodMod.LOGGER.warn(
-						"Failed to load dependency entity for procedure AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
+						"Failed to load dependency entity for procedure AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -56,11 +57,10 @@ public class AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurU
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
-		double randomNumber = 0;
 		if ((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
-				entity.getEyePosition(1f).add(entity.getLook(1f).x * 20, entity.getLook(1f).y * 20, entity.getLook(1f).z * 20),
-				RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.UP) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.REDSTONE_BLOCK
+				entity.getEyePosition(1f).add(entity.getLook(1f).x * 2, entity.getLook(1f).y * 2, entity.getLook(1f).z * 2),
+				RayTraceContext.BlockMode.COLLIDER, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.UP) {
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == UnstableBuddingRockBlock.block
 					&& ((world.getBlockState(new BlockPos(x, y + 1, z))).getBlock() == Blocks.AIR
 							|| (world.getBlockState(new BlockPos(x, y + 1, z))).getBlock() == Blocks.VOID_AIR
 							|| (world.getBlockState(new BlockPos(x, y + 1, z))).getBlock() == Blocks.CAVE_AIR)) {
@@ -84,9 +84,9 @@ public class AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurU
 			}
 		}
 		if ((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
-				entity.getEyePosition(1f).add(entity.getLook(1f).x * 20, entity.getLook(1f).y * 20, entity.getLook(1f).z * 20),
-				RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.DOWN) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.REDSTONE_BLOCK
+				entity.getEyePosition(1f).add(entity.getLook(1f).x * 2, entity.getLook(1f).y * 2, entity.getLook(1f).z * 2),
+				RayTraceContext.BlockMode.COLLIDER, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.DOWN) {
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == UnstableBuddingRockBlock.block
 					&& ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.AIR
 							|| (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.VOID_AIR
 							|| (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.CAVE_AIR)) {
@@ -110,9 +110,9 @@ public class AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurU
 			}
 		}
 		if ((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
-				entity.getEyePosition(1f).add(entity.getLook(1f).x * 20, entity.getLook(1f).y * 20, entity.getLook(1f).z * 20),
-				RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.NORTH) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.REDSTONE_BLOCK
+				entity.getEyePosition(1f).add(entity.getLook(1f).x * 2, entity.getLook(1f).y * 2, entity.getLook(1f).z * 2),
+				RayTraceContext.BlockMode.COLLIDER, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.NORTH) {
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == UnstableBuddingRockBlock.block
 					&& ((world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == Blocks.AIR
 							|| (world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == Blocks.VOID_AIR
 							|| (world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == Blocks.CAVE_AIR)) {
@@ -136,9 +136,9 @@ public class AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurU
 			}
 		}
 		if ((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
-				entity.getEyePosition(1f).add(entity.getLook(1f).x * 20, entity.getLook(1f).y * 20, entity.getLook(1f).z * 20),
-				RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.SOUTH) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.REDSTONE_BLOCK
+				entity.getEyePosition(1f).add(entity.getLook(1f).x * 2, entity.getLook(1f).y * 2, entity.getLook(1f).z * 2),
+				RayTraceContext.BlockMode.COLLIDER, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.SOUTH) {
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == UnstableBuddingRockBlock.block
 					&& ((world.getBlockState(new BlockPos(x, y, z + 1))).getBlock() == Blocks.AIR
 							|| (world.getBlockState(new BlockPos(x, y, z + 1))).getBlock() == Blocks.VOID_AIR
 							|| (world.getBlockState(new BlockPos(x, y, z + 1))).getBlock() == Blocks.CAVE_AIR)) {
@@ -162,9 +162,9 @@ public class AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurU
 			}
 		}
 		if ((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
-				entity.getEyePosition(1f).add(entity.getLook(1f).x * 20, entity.getLook(1f).y * 20, entity.getLook(1f).z * 20),
-				RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.EAST) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.REDSTONE_BLOCK
+				entity.getEyePosition(1f).add(entity.getLook(1f).x * 2, entity.getLook(1f).y * 2, entity.getLook(1f).z * 2),
+				RayTraceContext.BlockMode.COLLIDER, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.EAST) {
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == UnstableBuddingRockBlock.block
 					&& ((world.getBlockState(new BlockPos(x + 1, y, z))).getBlock() == Blocks.AIR
 							|| (world.getBlockState(new BlockPos(x + 1, y, z))).getBlock() == Blocks.VOID_AIR
 							|| (world.getBlockState(new BlockPos(x + 1, y, z))).getBlock() == Blocks.CAVE_AIR)) {
@@ -188,9 +188,9 @@ public class AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurU
 			}
 		}
 		if ((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
-				entity.getEyePosition(1f).add(entity.getLook(1f).x * 20, entity.getLook(1f).y * 20, entity.getLook(1f).z * 20),
-				RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.WEST) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.REDSTONE_BLOCK
+				entity.getEyePosition(1f).add(entity.getLook(1f).x * 2, entity.getLook(1f).y * 2, entity.getLook(1f).z * 2),
+				RayTraceContext.BlockMode.COLLIDER, RayTraceContext.FluidMode.NONE, entity)).getFace()) == Direction.WEST) {
+			if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == UnstableBuddingRockBlock.block
 					&& ((world.getBlockState(new BlockPos(x - 1, y, z))).getBlock() == Blocks.AIR
 							|| (world.getBlockState(new BlockPos(x - 1, y, z))).getBlock() == Blocks.VOID_AIR
 							|| (world.getBlockState(new BlockPos(x - 1, y, z))).getBlock() == Blocks.CAVE_AIR)) {

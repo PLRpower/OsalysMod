@@ -1,7 +1,8 @@
 {
-  "parent": "block/cross",
+  "parent": "osalysmod:custom/antimattercluster3dmodel",
   "textures": {
-    "cross": "osalysmod:blocks/amethyst_cluster",
-    "particle": "osalysmod:blocks/amethyst_cluster"
+    "all": "osalysmod:blocks/amethyst_cluster",
+    "particle": "osalysmod:blocks/amethyst_cluster",
+    "0": "osalysmod:blocks/amethyst_cluster"
   }
 }

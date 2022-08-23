@@ -1848,20 +1848,28 @@
       "registry_name": "antimatter_boots_recipe"
     },
     {
-      "name": "Testcristaux",
+      "name": "UnstableBuddingRock",
       "type": "block",
-      "sortid": 224,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "testcristaux"
+      "registry_name": "unstable_budding_rock"
     },
     {
-      "name": "AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
-      "type": "procedure",
-      "sortid": 225,
+      "name": "UnstableRock",
+      "type": "block",
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "antimatter_fragment_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "registry_name": "unstable_rock"
+    },
+    {
+      "name": "AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_crystal_actuator_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
       "metadata": {
         "dependencies": [
           {
@@ -1886,6 +1894,46 @@
           }
         ]
       }
+    },
+    {
+      "name": "AntimatterCrystalActuator",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_crystal_actuator"
+    },
+    {
+      "name": "AntimatterClusterLoot",
+      "type": "loottable",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_cluster_loot"
+    },
+    {
+      "name": "SmallAntimatterBudLoot",
+      "type": "loottable",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_antimatter_bud_loot"
+    },
+    {
+      "name": "MediumAntimatterBudLoot",
+      "type": "loottable",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medium_antimatter_bud_loot"
+    },
+    {
+      "name": "LargeAntimatterBudLoot",
+      "type": "loottable",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_antimatter_bud_loot"
     }
   ],
   "variable_elements": [
@@ -1958,7 +2006,7 @@
       "item.exoliamod.saphire_pickaxe": "Pioche en Saphire",
       "item.osalysmos.saphire_hoe": "Houe en Saphire",
       "block.osalysmod.osabsidian": "Exobsidienne",
-      "block.osalysmod.small_antimatter_bud": "Small Antimatter Clud",
+      "block.osalysmod.small_antimatter_bud": "Small Antimatter Bud",
       "item.exoliamod.exolium_armor_chestplate": "Plastron en Exolium",
       "item.cobalt_hoe.name": "Houe en Cobalt",
       "item.exoliamod.hanglider": "Hanglider",
@@ -1986,7 +2034,6 @@
       "tile.exolium_block.name": "Bloc d\u0027Exolium",
       "item.osalysmos.cobalt_hoe": "Houe en Cobalt",
       "item.osalysmos.purified_saphire_sword": "Purified Saphire Sword",
-      "block.osalysmod.testcristaux": "Testcristaux",
       "item.osalysmos.renforced_exolium_armor_leggings": "Jambi�res en Exolium Renforc�",
       "item.exoliamod.platine_shovel": "Pelle en Platine",
       "block.exoliamod.exobsidienne_block": "Exobsidienne",
@@ -2049,6 +2096,7 @@
       "item.exoliamod.farm_armor_leggings": "Jambi�res d\u0027Aventurier",
       "item.renforced_exolium_armorboots.name": "Bottes en Exolium Renforc�",
       "item.osalysmod.cobalt_axe": "Hache en Cobalt",
+      "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
       "item.osalysmos.exolium_axe": "Hache en Exolium",
       "block.osalysmod.purifing_machine_on": "Machine de Purification",
       "item.exolium_shovel.name": "Pelle en Exolium",
@@ -2063,6 +2111,7 @@
       "item.osalysmod.feed_stick": "Feed Stick",
       "item.osalysmod.osalium_stick": "Stick en Exolium",
       "item.exoliamod.saphire_armor_boots": "Bottes en Saphire",
+      "block.osalysmod.unstable_rock": "Unstable Budding Rock",
       "potion.effect.test": "Test",
       "item.osalysmod.saphire_sword": "�p�e en Saphire",
       "item.saphire_armorhelmet.name": "Casque en Saphire",
@@ -2165,6 +2214,7 @@
       "advancements.fullexo.title": "L\u0027armure la plus puissante ?",
       "item.exoliamod.renforced_exolium_ingot": "Exolium Renforc�",
       "block.osalysmod.antimatter_cluster": "Antimatter Cluster",
+      "item.osalysmod.antimatter_crystal_actuator": "Antimatter Crystal Actuator",
       "item.exoliamod.platine_pickaxe": "Pioche en Platine",
       "block.exoliamod.saphire_block": "Bloc de Saphire",
       "item.osalysmos.renforced_exolium_pickaxe": "Pioche en Exolium Renforc�",
@@ -2203,7 +2253,7 @@
       "item.renforced_exolium_pickaxe.name": "Pioche en Exolium Renforc�",
       "item.exoliamod.renforced_exolium_sword": "�p�e en Exolium Renforc�",
       "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
-      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Clud ",
+      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
       "tile.exobsidienne_block.name": "Exobsidienne",
       "item.osalysmos.saphire_axe": "Hache en Saphire",
       "item.osalysmod.osalium_ingot": "Exolium",
@@ -2271,7 +2321,7 @@
       "item.renforced_exolium_ingot.name": "Exolium Renforc�",
       "item.osalysmos.saphire_shovel": "Pelle en Saphire",
       "item.osalysmod.osalium_armor_leggings": "Jambi�res en Exolium",
-      "block.osalysmod.large_antimatter_bud": "Large Antimatter Clud",
+      "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
       "item.osalysmod.osalium_armor_chestplate": "Plastron en Exolium",
       "block.exoliamod.platine_block": "Bloc de Platine",
       "item.platine_sword.name": "�p�e en Platine",

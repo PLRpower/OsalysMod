@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "osalysmod:blocks/antimatter_soil_face_1.png",
+    "up": "osalysmod:blocks/antimatter_soil_face_1.png",
+    "north": "osalysmod:blocks/antimatter_soil_face_1.png",
+    "east": "osalysmod:blocks/antimatter_soil_face_1.png",
+    "south": "osalysmod:blocks/antimatter_soil_face_1.png",
+    "west": "osalysmod:blocks/antimatter_soil_face_1.png",
+    "particle": "osalysmod:blocks/antimatter_soil_face_1.png"
+  }
+}

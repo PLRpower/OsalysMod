@@ -30,7 +30,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
-      "name": "AntimatterFragmentLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
+      "name": "SmallAntimatterCludQuandLeBlocVoisinChange"
     },
     "hasDispenseBehavior": false,
     "isFood": false,
