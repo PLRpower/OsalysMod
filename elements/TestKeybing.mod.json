@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "Test Keybing",
+    "keyBindingCategoryKey": "inventory",
+    "onKeyPressed": {
+      "name": "TestGuiProcedure"
+    }
+  }
+}

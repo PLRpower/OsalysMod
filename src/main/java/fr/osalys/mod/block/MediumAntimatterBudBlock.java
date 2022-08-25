@@ -108,39 +108,27 @@ public class MediumAntimatterBudBlock extends OsalysmodModElements.ModElement {
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.or(makeCuboidShape(2, 2, 0, 14, 14, 16)
-
-					)
+					return VoxelShapes.or(makeCuboidShape(2, 2, 0, 14, 14, 16))
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(14, 2, 16, 2, 14, 0)
-
-					)
+					return VoxelShapes.or(makeCuboidShape(14, 2, 16, 2, 14, 0))
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.or(makeCuboidShape(0, 2, 14, 16, 14, 2)
-
-					)
+					return VoxelShapes.or(makeCuboidShape(0, 2, 14, 16, 14, 2))
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.or(makeCuboidShape(16, 2, 2, 0, 14, 14)
-
-					)
+					return VoxelShapes.or(makeCuboidShape(16, 2, 2, 0, 14, 14))
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case UP :
-					return VoxelShapes.or(makeCuboidShape(14, 0, 2, 2, 16, 14)
-
-					)
+					return VoxelShapes.or(makeCuboidShape(14, 0, 2, 2, 16, 14))
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case DOWN :
-					return VoxelShapes.or(makeCuboidShape(14, 16, 14, 2, 0, 2)
-
-					)
+					return VoxelShapes.or(makeCuboidShape(14, 16, 14, 2, 0, 2))
 
 							.withOffset(offset.x, offset.y, offset.z);
 			}
@@ -151,18 +139,18 @@ public class MediumAntimatterBudBlock extends OsalysmodModElements.ModElement {
 			builder.add(FACING, WATERLOGGED);
 		}
 
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite()).with(WATERLOGGED, flag);
+		}
+
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override
