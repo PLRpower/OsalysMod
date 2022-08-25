@@ -39,7 +39,7 @@ public class PurifingMachineDenyGuiGuiWindow extends ContainerScreen<PurifingMac
 		this.ySize = 185;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/purifing_machine_deny_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/screens/purifing_machine_deny_gui.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
