@@ -46,14 +46,6 @@
       "locked_code": false
     },
     {
-      "name": "CobaltOre",
-      "type": "block",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_ore"
-    },
-    {
       "name": "PlatineOre",
       "type": "block",
       "sortid": 22,
@@ -238,21 +230,6 @@
       }
     },
     {
-      "name": "HangliderProcedure",
-      "type": "procedure",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "OsaliumDust",
       "type": "item",
       "sortid": 13,
@@ -289,14 +266,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_block"
-    },
-    {
-      "name": "CobaltBlock",
-      "type": "block",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_block"
     },
     {
       "name": "PlatineBlock",
@@ -345,14 +314,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "platine_block_recipe"
-    },
-    {
-      "name": "CobaltBlockRecipe",
-      "type": "recipe",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_block_recipe"
     },
     {
       "name": "OsaliumOreProcedure",
@@ -469,14 +430,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_stick"
-    },
-    {
-      "name": "HangGlider",
-      "type": "item",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hang_glider"
     },
     {
       "name": "OsaliumHoe",
@@ -1093,140 +1046,6 @@
       "registry_name": "farm_helmet_recipe"
     },
     {
-      "name": "CobaltArmor",
-      "type": "armor",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "CobaltHelmetRecipe",
-      "type": "recipe",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_helmet_recipe"
-    },
-    {
-      "name": "CobaltChestplateRecipe",
-      "type": "recipe",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_chestplate_recipe"
-    },
-    {
-      "name": "CobaltLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_leggings_recipe"
-    },
-    {
-      "name": "CobaltBootsRecipe",
-      "type": "recipe",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_boots_recipe"
-    },
-    {
-      "name": "CobaltRecipe",
-      "type": "recipe",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_recipe"
-    },
-    {
-      "name": "CobaltPickaxe",
-      "type": "tool",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_pickaxe"
-    },
-    {
-      "name": "CobaltAxe",
-      "type": "tool",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_axe"
-    },
-    {
-      "name": "CobaltSword",
-      "type": "tool",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_sword"
-    },
-    {
-      "name": "CobaltShovel",
-      "type": "tool",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_shovel"
-    },
-    {
-      "name": "CobaltHoe",
-      "type": "tool",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_hoe"
-    },
-    {
-      "name": "CobaltPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_pickaxe_recipe"
-    },
-    {
-      "name": "CobaltAxeRecipe",
-      "type": "recipe",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_axe_recipe"
-    },
-    {
-      "name": "CobaltSwordRecipe",
-      "type": "recipe",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_sword_recipe"
-    },
-    {
-      "name": "CobaltShovelRecipe",
-      "type": "recipe",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_shovel_recipe"
-    },
-    {
-      "name": "CobaltHoeRecipe",
-      "type": "recipe",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_hoe_recipe"
-    },
-    {
       "name": "OsaliumHammerRecipe",
       "type": "recipe",
       "sortid": 154,
@@ -1291,14 +1110,6 @@
       }
     },
     {
-      "name": "CobaltIngot",
-      "type": "item",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_ingot"
-    },
-    {
       "name": "OsaliumBlockIngotRecipe",
       "type": "recipe",
       "sortid": 168,
@@ -1357,14 +1168,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "saphire_achievement"
-    },
-    {
-      "name": "CobaltAchievement",
-      "type": "achievement",
-      "sortid": 183,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_achievement"
     },
     {
       "name": "FullAntimatterArmorAchievement",
@@ -1921,14 +1724,6 @@
       "registry_name": "osalium_barrel_gui"
     },
     {
-      "name": "CobaltBarrelRecipe",
-      "type": "recipe",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_barrel_recipe"
-    },
-    {
       "name": "PlatineBarrelGUI",
       "type": "gui",
       "sortid": 239,
@@ -1953,28 +1748,12 @@
       "registry_name": "osalium_barrel"
     },
     {
-      "name": "CobaltBarrel",
-      "type": "block",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_barrel"
-    },
-    {
       "name": "OsaliumBarrelRecipe",
       "type": "recipe",
       "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_barrel_recipe"
-    },
-    {
-      "name": "CobaltBarrelGUI",
-      "type": "gui",
-      "sortid": 240,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_barrel_gui"
     }
   ],
   "variable_elements": [
@@ -2043,10 +1822,8 @@
       "advancements.full_osalium_amor_achievement.title": "L\u0027armure la plus puissante ?",
       "item.osalysmod.platine_armor_leggings": "Jambi�res en Platine",
       "item.osalysmod.platine_shovel": "Pelle en Platine",
-      "block.osalysmod.cobalt_block": "Bloc de Cobalt",
       "block.osalysmod.antimatter_cluster": "Antimatter Cluster",
       "item.osalysmod.antimatter_crystal_actuator": "Antimatter Crystal Actuator",
-      "item.osalysmod.cobalt_armor_helmet": "Casque en Cobalt",
       "block.osalysmod.obsidian_trapdoor": "Trappe en obsidienne",
       "block.osalysmod.saphire_block": "Bloc de Saphire",
       "item.osalysmod.saphire_pickaxe": "Pioche en Saphire",
@@ -2054,12 +1831,8 @@
       "item.osalysmod.antimatter_shovel": "Pelle en Antimatière",
       "effect.test_potion_item": "Test",
       "item.osalysmod.osalium_sword": "Epée en Exolium",
-      "item.osalysmod.cobalt_armor_boots": "Bottes en Cobalt",
       "item.osalysmod.speed_stick": "Speed Stick",
       "item.osalysmod.platine_pickaxe": "Pioche en Platine",
-      "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
-      "advancements.cobalt_achievement.title": "Meilleur que le diamant !",
-      "item.osalysmod.cobalt_armor_chestplate": "Plastron en Cobalt",
       "item.osalysmod.saphire_armor_chestplate": "Plastron en Saphire",
       "item.osalysmod.saphire_armor_helmet": "Casque en Saphire",
       "item.osalysmod.osalium_axe": "Hache en Exolium",
@@ -2070,14 +1843,13 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifi�",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
-      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.osalysmod.osalium_ingot": "Exolium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
       "advancements.full_antimatter_armor_achievement.descr": "Equiper une amure compl�te en exolium renforc�",
       "item.osalysmod.osalium_pickaxe": "Pioche en Exolium",
-      "item.osalysmod.cobalt_shovel": "Pelle en Cobalt",
       "advancements.full_osalium_amor_achievement.descr": "S\u0027�quiper d\u0027une amure compl�te en �xolium",
       "item.osalysmod.antimatter_axe": "Hache en Antimatière",
       "advancements.saphire_achievement.title": "Un nouveau minerais ?",
@@ -2085,8 +1857,6 @@
       "item.osalysmod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
       "item.osalysmod.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
       "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
-      "item.osalysmod.cobalt_axe": "Hache en Cobalt",
-      "item.osalysmod.cobalt_sword": "�p�e en Cobalt",
       "block.osalysmod.purifing_machine_on": "Machine de Purification",
       "item.osalysmod.platine_hammer": "Hammer en Platine",
       "advancements.full_antimatter_armor_achievement.title": "Mieux que l\u0027exolium",
@@ -2098,7 +1868,6 @@
       "block.osalysmod.unstable_rock": "Unstable Budding Rock",
       "block.osalysmod.osalium_block": "Bloc d\u0027Exolium",
       "item.osalysmod.saphire_sword": "�p�e en Saphire",
-      "item.osalysmod.hang_glider": "Hanglider",
       "block.osalysmod.saphire_ore": "Minerais de Saphire",
       "item.osalysmod.saphire_armor_boots": "Bottes en Saphire",
       "item.osalysmod.antimatter_hoe": "Houe en Antimatière",
@@ -2109,14 +1878,11 @@
       "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
       "item.osalysmod.farm_armor_boots": "Bottes d\u0027Aventurier",
       "item.osalysmod.osalium_armor_chestplate": "Plastron en Exolium",
-      "item.osalysmod.cobalt_ingot": "Cobalt",
       "item.osalysmod.platine_ingot": "Platine",
       "item.osalysmod.farm_armor_helmet": "Casque d\u0027Aventurier",
       "item.osalysmod.antimatter_pickaxe": "Pioche en Antimatière",
       "item.osalysmod.platine_armor_helmet": "Casque en Platine",
       "item.osalysmod.explosive_munition": "Munition d\u0027arc explosif",
-      "item.osalysmod.cobalt_armor_leggings": "Jambi�res en Cobalt",
-      "advancements.cobalt_achievement.descr": "Obtenir une armure en Cobalt",
       "item.osalysmod.heal_stick": "Heal Stick",
       "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforcée",
       "item.osalysmod.antimatter_armor_boots": "Antimatter Boots",
@@ -2127,7 +1893,6 @@
       "item.osalysmod.saphire_ingot": "Saphire",
       "item.osalysmod.platine_armor_boots": "Bottes en Platine",
       "item.osalysmod.antimatter_fragment": "Fragment d\u0027Antimatière",
-      "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
       "block.osalysmod.osalium_barrel": "Tonneau en Osalium ",
       "item.osalysmod.antimatter_ingot": "Antimatter Ingot",
       "block.osalysmod.obsidian_door": "Porte en obsidienne",
@@ -2135,10 +1900,8 @@
       "item.osalysmod.osalium_hammer": "Hammer en Exolium",
       "item.osalysmod.platine_armor_chestplate": "Plastron en Platine",
       "item.osalysmod.antimatter_armor_helmet": "Antimatter Helmet",
-      "block.osalysmod.cobalt_ore": "Minerais de Cobalt",
       "item.osalysmod.osalium_shovel": "Pelle en Exolium",
-      "effect.radiations": "Radiations",
-      "block.osalysmod.cobalt_barrel": "Tonneau en Cobalt"
+      "effect.radiations": "Radiations"
     },
     "fr_fr": {
       "item.osalysmod.osalium_hoe": "Houe en Osalium",
@@ -2152,10 +1915,8 @@
       "advancements.full_osalium_amor_achievement.title": "L\u0027armure la plus puissante ?",
       "item.osalysmod.platine_armor_leggings": "Jambières en Platine",
       "item.osalysmod.platine_shovel": "Pelle en Platine",
-      "block.osalysmod.cobalt_block": "Bloc de Cobalt",
       "block.osalysmod.antimatter_cluster": "Antimatter Cluster",
       "item.osalysmod.antimatter_crystal_actuator": "Antimatter Crystal Actuator",
-      "item.osalysmod.cobalt_armor_helmet": "Casque en Cobalt",
       "block.osalysmod.obsidian_trapdoor": "Trappe en obsidienne",
       "block.osalysmod.saphire_block": "Bloc de Saphire",
       "item.osalysmod.saphire_pickaxe": "Pioche en Saphire",
@@ -2164,11 +1925,7 @@
       "effect.test_potion_item": "Test",
       "item.osalysmod.osalium_sword": "Epée en Osalium",
       "item.osalysmod.speed_stick": "Stick de vitesse",
-      "item.osalysmod.cobalt_armor_boots": "Bottes en Cobalt",
       "item.osalysmod.platine_pickaxe": "Pioche en Platine",
-      "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
-      "advancements.cobalt_achievement.title": "Meilleur que le diamant !",
-      "item.osalysmod.cobalt_armor_chestplate": "Plastron en Cobalt",
       "item.osalysmod.saphire_armor_chestplate": "Plastron en Saphire",
       "item.osalysmod.saphire_armor_helmet": "Casque en Saphire",
       "item.osalysmod.osalium_axe": "Hache en Osalium",
@@ -2179,23 +1936,20 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifié",
-      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.osalysmod.osalium_ingot": "Minerais d\u0027Osalium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
       "advancements.full_antimatter_armor_achievement.descr": "Equiper une amure complète en Osalium renforcé",
       "item.osalysmod.osalium_pickaxe": "Pioche en Osalium",
-      "item.osalysmod.cobalt_shovel": "Pelle en Cobalt",
       "advancements.full_osalium_amor_achievement.descr": "S\u0027équiper d\u0027une amure complète en Osalium",
       "item.osalysmod.antimatter_axe": "Hache en Antimatière",
       "advancements.saphire_achievement.title": "Un nouveau minerais ?",
       "block.osalysmod.platine_block": "Bloc de Platine",
       "item.osalysmod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
       "item.osalysmod.renforced_gold_stick": "Stick d\u0027Or Renforcé",
-      "item.osalysmod.cobalt_axe": "Hache en Cobalt",
       "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
-      "item.osalysmod.cobalt_sword": "Epée en Cobalt",
       "block.osalysmod.purifing_machine_on": "Machine de Purification",
       "item.osalysmod.platine_hammer": "Hammer en Platine",
       "advancements.full_antimatter_armor_achievement.title": "Mieux que l\u0027Osalium !",
@@ -2207,7 +1961,6 @@
       "block.osalysmod.osalium_block": "Bloc d\u0027Osalium",
       "block.osalysmod.unstable_rock": "Unstable Budding Rock",
       "item.osalysmod.saphire_sword": "Epée en Saphire",
-      "item.osalysmod.hang_glider": "Hanglider",
       "block.osalysmod.saphire_ore": "Minerais de Saphire",
       "item.osalysmod.saphire_armor_boots": "Bottes en Saphire",
       "item.osalysmod.antimatter_hoe": "Houe en Antimatière",
@@ -2218,14 +1971,11 @@
       "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
       "item.osalysmod.osalium_armor_chestplate": "Plastron en Osalium",
       "item.osalysmod.farm_armor_boots": "Bottes d\u0027Aventurier",
-      "item.osalysmod.cobalt_ingot": "Minerais de Cobalt",
       "item.osalysmod.platine_ingot": "Minerais de Platine",
       "item.osalysmod.farm_armor_helmet": "Casque d\u0027Aventurier",
       "item.osalysmod.antimatter_pickaxe": "Pioche en Antimatière",
       "item.osalysmod.platine_armor_helmet": "Casque en Platine",
       "item.osalysmod.explosive_munition": "Munition d\u0027arc explosif",
-      "item.osalysmod.cobalt_armor_leggings": "Jambières en Cobalt",
-      "advancements.cobalt_achievement.descr": "Obtenir une armure en Cobalt",
       "item.osalysmod.heal_stick": "Stick de soin",
       "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforcée",
       "item.osalysmod.antimatter_armor_boots": "Bottes en Antimatière",
@@ -2236,7 +1986,6 @@
       "item.osalysmod.saphire_ingot": "Minerais de Saphire",
       "item.osalysmod.platine_armor_boots": "Bottes en Platine",
       "item.osalysmod.antimatter_fragment": "Fragment d\u0027Antimatière",
-      "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
       "block.osalysmod.osalium_barrel": "Tonneau en Osalium ",
       "item.osalysmod.antimatter_ingot": "Antimatter Ingot",
       "item.osalysmod.farm_armor_leggings": "Jambières d\u0027Aventurier",
@@ -2244,10 +1993,8 @@
       "item.osalysmod.osalium_hammer": "Hammer en Osalium",
       "item.osalysmod.platine_armor_chestplate": "Plastron en Platine",
       "item.osalysmod.antimatter_armor_helmet": "Casque en Antimatière",
-      "block.osalysmod.cobalt_ore": "Minerais de Cobalt",
       "item.osalysmod.osalium_shovel": "Pelle en Osalium",
-      "effect.radiations": "Radiations",
-      "block.osalysmod.cobalt_barrel": "Tonneau en Cobalt"
+      "effect.radiations": "Radiations"
     }
   },
   "foldersRoot": {
