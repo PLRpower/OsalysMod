@@ -80,7 +80,7 @@ public class PlatineBarrelGUIGui extends OsalysmodModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(108);
+			this.internal = new ItemStackHandler(107);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -413,6 +413,15 @@ public class PlatineBarrelGUIGui extends OsalysmodModElements.ModElement {
 				}
 			}));
 			this.customSlots.put(84, this.addSlot(new SlotItemHandler(internal, 84, 249, 40) {
+				@Override
+				public boolean canTakeStack(PlayerEntity player) {
+					return false;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
 			this.customSlots.put(85, this.addSlot(new SlotItemHandler(internal, 85, 249, 58) {
 				@Override
@@ -458,8 +467,26 @@ public class PlatineBarrelGUIGui extends OsalysmodModElements.ModElement {
 			this.customSlots.put(92, this.addSlot(new SlotItemHandler(internal, 92, 303, 22) {
 			}));
 			this.customSlots.put(93, this.addSlot(new SlotItemHandler(internal, 93, 267, 22) {
+				@Override
+				public boolean canTakeStack(PlayerEntity player) {
+					return false;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
 			this.customSlots.put(94, this.addSlot(new SlotItemHandler(internal, 94, 249, 22) {
+				@Override
+				public boolean canTakeStack(PlayerEntity player) {
+					return false;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
 			this.customSlots.put(95, this.addSlot(new SlotItemHandler(internal, 95, 231, 22) {
 				@Override
@@ -538,7 +565,7 @@ public class PlatineBarrelGUIGui extends OsalysmodModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(103, this.addSlot(new SlotItemHandler(internal, 103, 33, 22) {
+			this.customSlots.put(103, this.addSlot(new SlotItemHandler(internal, 103, 15, 22) {
 			}));
 			this.customSlots.put(104, this.addSlot(new SlotItemHandler(internal, 104, 51, 22) {
 			}));
@@ -546,7 +573,7 @@ public class PlatineBarrelGUIGui extends OsalysmodModElements.ModElement {
 			}));
 			this.customSlots.put(106, this.addSlot(new SlotItemHandler(internal, 106, 87, 22) {
 			}));
-			this.customSlots.put(107, this.addSlot(new SlotItemHandler(internal, 107, 15, 22) {
+			this.customSlots.put(102, this.addSlot(new SlotItemHandler(internal, 102, 33, 22) {
 			}));
 			int si;
 			int sj;
@@ -899,7 +926,7 @@ public class PlatineBarrelGUIGui extends OsalysmodModElements.ModElement {
 							continue;
 						if (j == 106)
 							continue;
-						if (j == 107)
+						if (j == 102)
 							continue;
 						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 					}
@@ -1117,7 +1144,7 @@ public class PlatineBarrelGUIGui extends OsalysmodModElements.ModElement {
 							continue;
 						if (i == 106)
 							continue;
-						if (i == 107)
+						if (i == 102)
 							continue;
 						playerIn.inventory.placeItemBackInInventory(playerIn.world,
 								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));

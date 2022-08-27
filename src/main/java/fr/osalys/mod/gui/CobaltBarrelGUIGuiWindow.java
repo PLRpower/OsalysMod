@@ -75,6 +75,7 @@ public class CobaltBarrelGUIGuiWindow extends ContainerScreen<CobaltBarrelGUIGui
 		this.font.drawString(ms, "Inventaire", 122, 84, -12829636);
 		this.font.drawString(ms, "Cobalt Barrel ---------------------------------------------------", 14, 7, -12829636);
 		this.font.drawString(ms, "--------------------------------------------------- Cobalt Barrel", 14, 174, -12829636);
+		this.font.drawString(ms, "Next Upgrade : Platine", 145, 43, -6750208);
 	}
 
 	@Override
