@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "saphire_ingot",
     "customModelName": "Normal",
-    "name": "Saphire",
+    "name": "Saphire Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

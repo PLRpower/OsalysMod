@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "osalium_stick",
     "customModelName": "Normal",
-    "name": "Stick en Exolium",
+    "name": "Osalium Stick",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "explosive_bow_munition",
     "customModelName": "Normal",
-    "name": "Munition d'arc explosif",
+    "name": "Explosive bow ammunition",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "osalysmod:deleted_mod_element_chestplate"
+      "item": "osalysmod:antimatter_crystal_actuator"
     },
     "title": {
       "translate": "advancements.full_antimatter_armor_achievement.title"
@@ -19,5 +19,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "osalysmod:deleted_mod_element"
+  "parent": "osalysmod:saphire_achievement"
 }

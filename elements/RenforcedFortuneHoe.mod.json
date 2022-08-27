@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "renforced_fortune_hoe",
     "customModelName": "Normal",
-    "name": "Houe de Fortune Renforcée",
+    "name": "Renforced Fortune Hoe",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "osalium_ingot2",
     "customModelName": "Normal",
-    "name": "Exolium",
+    "name": "Osalium Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

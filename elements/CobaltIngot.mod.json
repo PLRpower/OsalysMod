@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "cobalt_ingot",
     "customModelName": "Normal",
-    "name": "Cobalt",
+    "name": "Cobalt Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

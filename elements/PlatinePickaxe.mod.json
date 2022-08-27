@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "platine_pickaxe",
     "customModelName": "Normal",
-    "name": "Pioche en Platine",
+    "name": "Platine Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

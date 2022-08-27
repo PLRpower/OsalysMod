@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "explosive_bow",
     "customModelName": "Normal",
-    "name": "Arc Explosif ",
+    "name": "Explosive Bow",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

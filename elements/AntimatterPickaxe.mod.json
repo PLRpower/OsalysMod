@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "antimatiere_pickaxe",
     "customModelName": "Normal",
-    "name": "Pioche en Antimatière",
+    "name": "Antimatter Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

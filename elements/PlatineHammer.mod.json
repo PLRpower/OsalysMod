@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "platine_hammer",
     "customModelName": "Normal",
-    "name": "Hammer en Platine",
+    "name": "Platine Hammer",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

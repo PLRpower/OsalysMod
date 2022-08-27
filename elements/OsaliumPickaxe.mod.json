@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "osalium_pickaxe",
     "customModelName": "Normal",
-    "name": "Pioche en Exolium",
+    "name": "Osalium Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

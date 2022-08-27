@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "achievement",
   "definition": {
-    "achievementName": "L'armure la plus puissante ?",
-    "achievementDescription": "S'�quiper d'une amure compl�te en �xolium",
+    "achievementName": "The most powerful armor?",
+    "achievementDescription": "Equip a complete armor with Osalium",
     "achievementIcon": {
-      "value": "CUSTOM:ExoliumArmor.body"
+      "value": "CUSTOM:OsaliumIngot"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -18,8 +18,8 @@
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:Cobaltprogress"
+      "value": "CUSTOM:SaphireAchievement"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"59\" y=\"87\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"59\" y=\"87\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

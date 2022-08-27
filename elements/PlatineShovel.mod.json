@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "platine_shovel",
     "customModelName": "Normal",
-    "name": "Pelle en Platine",
+    "name": "Platine Shovel",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

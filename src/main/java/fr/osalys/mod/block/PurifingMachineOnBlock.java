@@ -142,7 +142,7 @@ public class PurifingMachineOnBlock extends OsalysmodModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Machine de Purification");
+						return new StringTextComponent("Purification Machine");
 					}
 
 					@Override

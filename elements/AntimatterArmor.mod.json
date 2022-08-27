@@ -13,11 +13,11 @@
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"
     },
-    "armorTextureFile": "renforced_exolium__",
-    "helmetName": "Casque en Antimatière",
-    "bodyName": "Plastron en Antimatière",
-    "leggingsName": "Jambières en Antimatière",
-    "bootsName": "Bottes en Antimatière",
+    "armorTextureFile": "antimatter_armor_",
+    "helmetName": "Antimatter Helmet",
+    "bodyName": "Antimatter Chestplate",
+    "leggingsName": "Antimatter Leggings",
+    "bootsName": "Antimatter Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

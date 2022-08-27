@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "cobalt_pickaxe",
     "customModelName": "Normal",
-    "name": "Pioche en Cobalt",
+    "name": "Cobalt Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

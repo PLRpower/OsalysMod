@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "platine_hoe",
     "customModelName": "Normal",
-    "name": "Houe en Platine",
+    "name": "Platine Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

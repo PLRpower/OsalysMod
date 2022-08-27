@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "platine_ingot",
     "customModelName": "Normal",
-    "name": "Platine",
+    "name": "Platine Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

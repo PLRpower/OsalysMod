@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "antimatiere_ingot",
     "customModelName": "Normal",
-    "name": "Fragment d'Antimatière",
+    "name": "Fragment of Antimatter",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"

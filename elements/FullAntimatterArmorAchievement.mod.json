@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Mieux que l'exolium",
-    "achievementDescription": "Equiper une amure compl�te en exolium renforc�",
+    "achievementName": "Better than Osalium !",
+    "achievementDescription": "Equip a complete armor with Antimatter",
     "achievementIcon": {
-      "value": "CUSTOM:Exolium_Renforced_Armor.body"
+      "value": "CUSTOM:AntimatterCrystalActuator"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -18,8 +18,8 @@
     "rewardXP": 0,
     "achievementType": "challenge",
     "parent": {
-      "value": "CUSTOM:FullExo"
+      "value": "CUSTOM:SaphireAchievement"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"96\" y=\"135\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"96\" y=\"135\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

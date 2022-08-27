@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "fortune_hoe",
     "customModelName": "Normal",
-    "name": "Houe de Fortune",
+    "name": "Fortune Hoe",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"
