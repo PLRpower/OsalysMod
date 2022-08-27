@@ -109,7 +109,7 @@
     "hasInventory": true,
     "guiBoundTo": "CobaltBarrelGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 59,
+    "inventorySize": 60,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
