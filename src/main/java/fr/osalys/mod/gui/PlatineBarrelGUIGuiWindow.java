@@ -35,7 +35,7 @@ public class PlatineBarrelGUIGuiWindow extends ContainerScreen<PlatineBarrelGUIG
 		this.ySize = 194;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/platine_barrel_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/screens/platine_barrel_gui.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {

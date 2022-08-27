@@ -40,7 +40,7 @@ public class PurifingMachineInventoryGuiGuiWindow extends ContainerScreen<Purifi
 		this.ySize = 185;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/purifing_machine_inventory_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/screens/purifing_machine_inventory_gui.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {

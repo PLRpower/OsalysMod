@@ -615,28 +615,12 @@
       "registry_name": "osalium_hoe_recipe"
     },
     {
-      "name": "OsaliumRenforcedChestplateRecipe",
-      "type": "recipe",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osalium_renforced_chestplate_recipe"
-    },
-    {
       "name": "RenforcedOsaliumRecipe",
       "type": "recipe",
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "renforced_osalium_recipe"
-    },
-    {
-      "name": "RenforcedOsaliumBlockRecipe",
-      "type": "recipe",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "renforced_osalium_block_recipe"
     },
     {
       "name": "OsaliumOreSmelting",
@@ -685,30 +669,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_boots_recipe"
-    },
-    {
-      "name": "RenforcedOsaliumLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "renforced_osalium_leggings_recipe"
-    },
-    {
-      "name": "RenforcedOsaliumHelmetRecipe",
-      "type": "recipe",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "renforced_osalium_helmet_recipe"
-    },
-    {
-      "name": "RenforcedOsaliumBootsRecipe",
-      "type": "recipe",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "renforced_osalium_boots_recipe"
     },
     {
       "name": "PurifiedSaphirePickaxeProcedure",
@@ -1281,14 +1241,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_block_recipe"
-    },
-    {
-      "name": "RenforcedOsaliumIngotRecipe",
-      "type": "recipe",
-      "sortid": 156,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "renforced_osalium_ingot_recipe"
     },
     {
       "name": "OsalysTab",
@@ -2080,8 +2032,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.speed_stick.name": "Speed Stick",
+      "block.osalysmos.purifing_machine_on": "Machine de Purification",
       "item.osalysmos.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
       "item.saphire_armorbody.name": "Plastron en Saphire",
       "item.exoliamod.exolium_pickaxe": "Pioche en Exolium",
@@ -2103,7 +2055,7 @@
       "block.osalysmos.saphire_block": "Bloc de Saphire",
       "tipped_arrow.effect.test": "Arrow of Test",
       "item.osalysmod.cobalt_armor_helmet": "Casque en Cobalt",
-      "block.osalysmod.obsidian_trapdoor": "Obsidian Trapdoor",
+      "block.osalysmod.obsidian_trapdoor": "Trappe en obsidienne",
       "advancements.exorenfo.descr": "Equiper une amure compl�te en exolium renforc�",
       "item.osalysmos.feed_stick": "Feed Stick",
       "block.osalysmod.saphire_block": "Bloc de Saphire",
@@ -2254,7 +2206,7 @@
       "item.osalysmos.exolium_armor_chestplate": "Plastron en Exolium",
       "item.exoliamod.fortunehoe": "Houe de Fortune",
       "item.osalysmod.antimatter_ingot": "Antimatter Ingot",
-      "block.osalysmod.obsidian_door": "Obsidian Door",
+      "block.osalysmod.obsidian_door": "Porte en obsidienne",
       "tile.cobalt_block.name": "Bloc de Cobalt",
       "item.exoliamod.exolium_shovel": "Pelle en Exolium",
       "tile.cobalt_ore.name": "Minerais de Cobalt",
@@ -2475,5 +2427,5 @@
     "modElementsPackage": "fr.osalys.mod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200234517
 }

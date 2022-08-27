@@ -35,7 +35,7 @@ public class CobaltBarrelGUIGuiWindow extends ContainerScreen<CobaltBarrelGUIGui
 		this.ySize = 194;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/cobalt_barrel_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/screens/cobalt_barrel_gui.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
