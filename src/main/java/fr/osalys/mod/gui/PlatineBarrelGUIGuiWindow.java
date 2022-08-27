@@ -74,7 +74,7 @@ public class PlatineBarrelGUIGuiWindow extends ContainerScreen<PlatineBarrelGUIG
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "Inventaire", 122, 84, -12829636);
 		this.font.drawString(ms, "Platine Barrel --------------------------------------------------", 14, 7, -12829636);
-		this.font.drawString(ms, "-------------------------------------------------- Platine Barrel", 14, 174, -12829636);
+		this.font.drawString(ms, "--------------------------------------------------- Platine Barrel", 14, 174, -12829636);
 		this.font.drawString(ms, "Next Upgrade : Osalium", 145, 43, -6750208);
 	}
 
