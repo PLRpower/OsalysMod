@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "osalysmod:block/osalium_barrel"
+    },
+    "facing=east": {
+      "model": "osalysmod:block/osalium_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "osalysmod:block/osalium_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "osalysmod:block/osalium_barrel",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "osalysmod:block/osalium_barrel",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "osalysmod:block/osalium_barrel",
+      "x": 90
+    }
+  }
+}
