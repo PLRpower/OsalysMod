@@ -253,14 +253,6 @@
       }
     },
     {
-      "name": "Test",
-      "type": "potioneffect",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_potion_item"
-    },
-    {
       "name": "OsaliumDust",
       "type": "item",
       "sortid": 13,
@@ -1447,9 +1439,9 @@
       "registry_name": "antimatter_armor",
       "metadata": {
         "eh": true,
+        "el": true,
         "eb": true,
-        "ec": true,
-        "el": true
+        "ec": true
       }
     },
     {
@@ -1959,6 +1951,78 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_trapdoor_recipe"
+    },
+    {
+      "name": "OsaliumBarrel",
+      "type": "block",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_barrel"
+    },
+    {
+      "name": "OsaliumBarrelGUI",
+      "type": "gui",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_barrel_gui"
+    },
+    {
+      "name": "PlatineBarrelGUI",
+      "type": "gui",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_barrel_gui"
+    },
+    {
+      "name": "CobaltBarrelGUI",
+      "type": "gui",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_barrel_gui"
+    },
+    {
+      "name": "PlatineBarrel",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_barrel"
+    },
+    {
+      "name": "CobaltBarrel",
+      "type": "block",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_barrel"
+    },
+    {
+      "name": "OsaliumBarrelRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_barrel_recipe"
+    },
+    {
+      "name": "PlatineBarrelRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_barrel_recipe"
+    },
+    {
+      "name": "CobaltBarrelRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_barrel_recipe"
     }
   ],
   "variable_elements": [
@@ -2079,6 +2143,7 @@
       "item.osalysmod.osalium_axe": "Hache en Exolium",
       "item.cobalt_armorboots.name": "Bottes en Cobalt",
       "item.osalysmod.osalium_armor_helmet": "Casque en Exolium",
+      "block.osalysmod.platine_barrel": "Tonneau en Platine",
       "block.exoliamod.cobalt_block": "Bloc de Cobalt",
       "block.osalysmos.platine_ore": "Minerais de Platine",
       "block.osalysmod.platine_ore": "Minerais de Platine",
@@ -2248,7 +2313,6 @@
       "item.osalysmod.saphire_pickaxe": "Pioche en Saphire",
       "item.fortunehoe.name": "Houe de Fortune",
       "item.osalysmos.platine_hammer": "Hammer en Platine",
-      "effect.test_potion_item": "Test",
       "item.osalysmos.platine_hoe": "Houe en Platine",
       "item.exolium_armorhelmet.name": "Casque en Exolium",
       "item.renforced_exolium_armorhelmet.name": "Casque en Exolium Renforc�",
@@ -2375,6 +2439,7 @@
       "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
       "advancements.exorenfo.title": "Mieux que l\u0027exolium",
       "item.exoliamod.exolium_axe": "Hache en Exolium",
+      "block.osalysmod.osalium_barrel": "Tonneau en Osalium ",
       "item.exoliamod.exolium_armor_leggings": "Jambi�res en Exolium",
       "item.exoliamod.exolium_hammer": "Hammer en Exolium",
       "item.osalysmod.farm_armor_leggings": "Jambi�res d\u0027Aventurier",
@@ -2383,7 +2448,8 @@
       "item.cobalt_armorlegs.name": "Jambi�res en Cobalt",
       "item.osalysmod.platine_armor_chestplate": "Plastron en Platine",
       "item.osalysmod.antimatter_armor_helmet": "Casque en Antimatière",
-      "block.osalysmod.cobalt_ore": "Minerais de Cobalt"
+      "block.osalysmod.cobalt_ore": "Minerais de Cobalt",
+      "block.osalysmod.cobalt_barrel": "Tonneau en Cobalt"
     }
   },
   "foldersRoot": {

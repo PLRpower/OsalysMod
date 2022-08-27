@@ -2,31 +2,31 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     },
     {
-      "item": "osalysmod:antimatiere_ingot"
+      "item": "osalysmod:deleted_mod_element"
     }
   ],
   "result": {

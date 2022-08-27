@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:CobaltBarrel"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      },
+      {
+        "value": "CUSTOM:PlatineIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlatineBarrel"
+    },
+    "name": "platine_barrel_recipe",
+    "namespace": "mod"
+  }
+}
