@@ -1975,6 +1975,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_barrel_gui"
+    },
+    {
+      "name": "OsaliumApple",
+      "type": "item",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_apple"
+    },
+    {
+      "name": "OsaliumAppleLeJoueurTermineDutiliserLitem",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_apple_le_joueur_termine_dutiliser_litem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaphirApple",
+      "type": "item",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_apple"
+    },
+    {
+      "name": "SaphirAppleProcedure",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_apple_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2059,6 +2107,7 @@
       "item.osalysmod.platine_pickaxe": "Pioche en Platine",
       "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
       "advancements.cobalt_achievement.title": "Meilleur que le diamant !",
+      "item.osalysmod.saphir_apple": "Osalium Apple",
       "item.osalysmod.cobalt_armor_chestplate": "Plastron en Cobalt",
       "item.osalysmod.saphire_armor_chestplate": "Plastron en Saphire",
       "item.osalysmod.saphire_armor_helmet": "Casque en Saphire",
@@ -2070,8 +2119,8 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifi�",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
-      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.osalysmod.osalium_ingot": "Exolium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2119,6 +2168,7 @@
       "advancements.cobalt_achievement.descr": "Obtenir une armure en Cobalt",
       "item.osalysmod.heal_stick": "Heal Stick",
       "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforcée",
+      "item.osalysmod.osalium_apple": "Osalium Apple",
       "item.osalysmod.antimatter_armor_boots": "Antimatter Boots",
       "item.osalysmod.antimatter_armor_leggings": "Antimatter Leggings",
       "item.osalysmod.platine_sword": "�p�e en Platine",
@@ -2168,6 +2218,7 @@
       "item.osalysmod.platine_pickaxe": "Pioche en Platine",
       "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
       "advancements.cobalt_achievement.title": "Meilleur que le diamant !",
+      "item.osalysmod.saphir_apple": "Osalium Apple",
       "item.osalysmod.cobalt_armor_chestplate": "Plastron en Cobalt",
       "item.osalysmod.saphire_armor_chestplate": "Plastron en Saphire",
       "item.osalysmod.saphire_armor_helmet": "Casque en Saphire",
@@ -2179,8 +2230,8 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifié",
-      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.osalysmod.osalium_ingot": "Minerais d\u0027Osalium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2228,6 +2279,7 @@
       "advancements.cobalt_achievement.descr": "Obtenir une armure en Cobalt",
       "item.osalysmod.heal_stick": "Stick de soin",
       "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforcée",
+      "item.osalysmod.osalium_apple": "Osalium Apple",
       "item.osalysmod.antimatter_armor_boots": "Bottes en Antimatière",
       "item.osalysmod.antimatter_armor_leggings": "Jambières en Antimatière",
       "item.osalysmod.platine_sword": "Epée en Platine",
