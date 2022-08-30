@@ -2,6 +2,8 @@
 package fr.osalys.mod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
@@ -18,17 +20,17 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import fr.osalys.mod.procedures.OsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure;
+import fr.osalys.mod.procedures.AutoSmelterOsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure;
 import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
-public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:osalium_hammer")
+public class AutoSmelterOsaliumHammerItem extends OsalysmodModElements.ModElement {
+	@ObjectHolder("osalysmod:auto_smelter_osalium_hammer")
 	public static final Item block = null;
 
-	public OsaliumHammerItem(OsalysmodModElements instance) {
-		super(instance, 19);
+	public AutoSmelterOsaliumHammerItem(OsalysmodModElements instance) {
+		super(instance, 251);
 	}
 
 	@Override
@@ -65,13 +67,19 @@ public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
 				int y = pos.getY();
 				int z = pos.getZ();
 
-				OsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure.executeProcedure(Stream
+				AutoSmelterOsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure.executeProcedure(Stream
 						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
 								new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("itemstack", itemstack))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
-		}.setRegistryName("osalium_hammer"));
+
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
+		}.setRegistryName("auto_smelter_osalium_hammer"));
 	}
 }

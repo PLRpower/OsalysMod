@@ -2,6 +2,8 @@
 package fr.osalys.mod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
@@ -18,28 +20,28 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import fr.osalys.mod.procedures.OsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure;
+import fr.osalys.mod.procedures.DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure;
 import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
-public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:osalium_hammer")
+public class DuplicatorAntimatterHammerItem extends OsalysmodModElements.ModElement {
+	@ObjectHolder("osalysmod:duplicator_antimatter_hammer")
 	public static final Item block = null;
 
-	public OsaliumHammerItem(OsalysmodModElements instance) {
-		super(instance, 19);
+	public DuplicatorAntimatterHammerItem(OsalysmodModElements instance) {
+		super(instance, 256);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2500;
+				return 3000;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
@@ -51,7 +53,7 @@ public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 0;
+				return 16;
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -65,13 +67,19 @@ public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
 				int y = pos.getY();
 				int z = pos.getZ();
 
-				OsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure.executeProcedure(Stream
+				DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure.executeProcedure(Stream
 						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
 								new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("itemstack", itemstack))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
-		}.setRegistryName("osalium_hammer"));
+
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
+		}.setRegistryName("duplicator_antimatter_hammer"));
 	}
 }

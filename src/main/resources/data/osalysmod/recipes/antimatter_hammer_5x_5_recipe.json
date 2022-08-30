@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "osalysmod:antimatter_hammer"
+  },
+  "addition": {
+    "item": "osalysmod:antimatter_hammer_5x_5_upgrade"
+  },
+  "result": {
+    "item": "osalysmod:antimatter_hammer_5x_5"
+  }
+}
