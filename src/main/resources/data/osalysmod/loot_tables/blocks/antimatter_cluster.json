@@ -39,7 +39,7 @@
         {
           "type": "minecraft:item",
           "name": "osalysmod:antimatter_crystal_actuator",
-          "weight": 493,
+          "weight": 500,
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -100,7 +100,7 @@
         {
           "type": "minecraft:item",
           "name": "osalysmod:antimatter_crystal_actuator",
-          "weight": 250,
+          "weight": 200,
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -132,7 +132,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 250,
+          "weight": 293,
           "conditions": [
             {
               "condition": "minecraft:inverted",
