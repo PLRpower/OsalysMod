@@ -1756,6 +1756,294 @@
       "registry_name": "osalium_barrel_recipe"
     },
     {
+      "name": "DuplicatorAntimatterHammerRecipe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duplicator_antimatter_hammer_recipe"
+    },
+    {
+      "name": "AutoSmelterOsaliumHammerUpgrade",
+      "type": "item",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter_osalium_hammer_upgrade"
+    },
+    {
+      "name": "AntimatterHammerQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hammer_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DuplicatorAntimatterHammerUpgrade",
+      "type": "item",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duplicator_antimatter_hammer_upgrade"
+    },
+    {
+      "name": "AutoSmelterOsaliumHammerQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter_osalium_hammer_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoSmelterOsaliumHammer",
+      "type": "tool",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter_osalium_hammer"
+    },
+    {
+      "name": "AntimatterHammer5x5QuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hammer_5x_5_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsaliumHammerQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_hammer_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoSmelterOsaliumHammerRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter_osalium_hammer_recipe"
+    },
+    {
+      "name": "AntimatterHammer5x5Recipe",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hammer_5x_5_recipe"
+    },
+    {
+      "name": "PlatineHammerQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_hammer_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntimatterHammer5x5",
+      "type": "tool",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hammer_5x_5"
+    },
+    {
+      "name": "AntimatterHammer5x5Upgrade",
+      "type": "item",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hammer_5x_5_upgrade"
+    },
+    {
+      "name": "DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duplicator_antimatter_hammer_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DuplicatorAntimatterHammer",
+      "type": "tool",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duplicator_antimatter_hammer"
+    },
+    {
       "name": "OsaliumApple",
       "type": "item",
       "sortid": 246,
@@ -2018,6 +2306,7 @@
       "item.osalysmod.cobalt_armor_boots": "Bottes en Cobalt",
       "item.osalysmod.platine_pickaxe": "Pioche en Platine",
       "item.osalysmod.cobalt_hoe": "Houe en Cobalt",
+      "item.osalysmod.auto_smelter_osalium_hammer_upgrade": "Auto Smelter Osalium Hammer Upgrade",
       "advancements.cobalt_achievement.title": "Meilleur que le diamant !",
       "item.osalysmod.saphir_apple": "Osalium Apple",
       "item.osalysmod.platine_apple": "Osalium Apple",
@@ -2072,11 +2361,14 @@
       "item.osalysmod.osalium_armor_chestplate": "Plastron en Osalium",
       "item.osalysmod.farm_armor_boots": "Bottes d\u0027Aventurier",
       "item.osalysmod.cobalt_ingot": "Minerais de Cobalt",
+      "item.osalysmod.auto_smelter_osalium_hammer": "Osalium Hammer",
       "item.osalysmod.platine_ingot": "Minerais de Platine",
       "item.osalysmod.farm_armor_helmet": "Casque d\u0027Aventurier",
       "item.osalysmod.antimatter_pickaxe": "Pioche en Antimatière",
+      "item.osalysmod.antimatter_hammer_5x_5": "Antimatter Hammer",
       "item.osalysmod.platine_armor_helmet": "Casque en Platine",
       "item.osalysmod.explosive_munition": "Munition d\u0027arc explosif",
+      "item.osalysmod.duplicator_antimatter_hammer": "Antimatter Hammer",
       "item.osalysmod.cobalt_armor_leggings": "Jambières en Cobalt",
       "advancements.cobalt_achievement.descr": "Obtenir une armure en Cobalt",
       "item.osalysmod.heal_stick": "Stick de soin",
@@ -2090,6 +2382,7 @@
       "item.osalysmod.saphire_ingot": "Minerais de Saphire",
       "item.osalysmod.platine_armor_boots": "Bottes en Platine",
       "item.osalysmod.antimatter_fragment": "Fragment d\u0027Antimatière",
+      "item.osalysmod.duplicator_antimatter_hammer_upgrade": "Auto Smelter Osalium Hammer Upgrade",
       "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
       "block.osalysmod.osalium_barrel": "Tonneau en Osalium ",
       "item.osalysmod.antimatter_ingot": "Antimatter Ingot",
@@ -2101,7 +2394,8 @@
       "block.osalysmod.cobalt_ore": "Minerais de Cobalt",
       "item.osalysmod.osalium_shovel": "Pelle en Osalium",
       "effect.radiations": "Radiations",
-      "block.osalysmod.cobalt_barrel": "Tonneau en Cobalt"
+      "block.osalysmod.cobalt_barrel": "Tonneau en Cobalt",
+      "item.osalysmod.antimatter_hammer_5x_5_upgrade": "Duplicator Antimatter Hammer Upgrade"
     }
   },
   "foldersRoot": {

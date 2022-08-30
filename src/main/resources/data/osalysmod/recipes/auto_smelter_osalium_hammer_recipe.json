@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "osalysmod:osalium_hammer"
+  },
+  "addition": {
+    "item": "osalysmod:auto_smelter_osalium_hammer_upgrade"
+  },
+  "result": {
+    "item": "osalysmod:auto_smelter_osalium_hammer"
+  }
+}

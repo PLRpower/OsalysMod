@@ -1,45 +1,27 @@
 
 package fr.osalys.mod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.block.BlockState;
-
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
-
-import fr.osalys.mod.procedures.OsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure;
-import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
-import fr.osalys.mod.OsalysmodModElements;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @OsalysmodModElements.ModElement.Tag
-public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:osalium_hammer")
+public class AntimatterHammer5x5Item extends OsalysmodModElements.ModElement {
+
+	@ObjectHolder("osalysmod:antimatter_hammer_5x_5")
 	public static final Item block = null;
 
-	public OsaliumHammerItem(OsalysmodModElements instance) {
-		super(instance, 19);
+	public AntimatterHammer5x5Item(OsalysmodModElements instance) {
+		super(instance, 254);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2500;
+				return 3000;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 5f;
 			}
 
 			public float getAttackDamage() {
@@ -51,13 +33,14 @@ public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 0;
+				return 16;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -2.8f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
+
 			@Override
 			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 				boolean retval = super.onBlockDestroyed(itemstack, world, blockstate, pos, entity);
@@ -65,13 +48,21 @@ public class OsaliumHammerItem extends OsalysmodModElements.ModElement {
 				int y = pos.getY();
 				int z = pos.getZ();
 
-				OsaliumHammerQuandLeBlocEstDetruitAvecLoutilProcedure.executeProcedure(Stream
+				AntimatterHammer5x5QuandLeBlocEstDetruitAvecLoutilProcedure.executeProcedure(Stream
 						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
 								new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("itemstack", itemstack))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
-		}.setRegistryName("osalium_hammer"));
+
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
+
+		}.setRegistryName("antimatter_hammer_5x_5"));
 	}
+
 }

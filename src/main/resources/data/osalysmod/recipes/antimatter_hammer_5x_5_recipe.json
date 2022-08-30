@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "osalysmod:antimatter_hammer"
+  },
+  "addition": {
+    "item": "osalysmod:deleted_mod_element"
+  },
+  "result": {
+    "item": "osalysmod:deleted_mod_element"
+  }
+}

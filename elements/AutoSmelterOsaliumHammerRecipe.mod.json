@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:OsaliumHammer"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:AutoSmelterOsaliumHammerUpgrade"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AutoSmelterOsaliumHammer"
+    },
+    "name": "auto_smelter_osalium_hammer_recipe",
+    "namespace": "mod"
+  }
+}

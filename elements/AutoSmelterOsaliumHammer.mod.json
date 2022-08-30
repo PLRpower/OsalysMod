@@ -18,13 +18,13 @@
     "damageVsEntity": 7.0,
     "usageCount": 2500,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onBlockDestroyedWithTool": {
-      "name": "OsaliumHammerQuandLeBlocEstDetruitAvecLoutil"
+      "name": "AutoSmelterOsaliumHammerQuandLeBlocEstDetruitAvecLoutil"
     }
   }
 }
