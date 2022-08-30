@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "osaliumapple",
+    "texture": "platineappleblue",
     "customModelName": "Normal",
-    "name": "Pomme en Oslaium",
-    "rarity": "EPIC",
+    "name": "Pomme en Platine",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"
     },
@@ -30,7 +30,7 @@
     "inventorySize": 6,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "OsaliumAppleLeJoueurTermineDutiliserLitem"
+      "name": "PlatineAppleProcedure"
     },
     "isFood": true,
     "nutritionalValue": 4,

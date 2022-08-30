@@ -16,17 +16,17 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import fr.osalys.mod.procedures.SaphirAppleProcedureProcedure;
+import fr.osalys.mod.procedures.PlatineAppleProcedureProcedure;
 import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
-public class SaphirAppleItem extends OsalysmodModElements.ModElement {
-	@ObjectHolder("osalysmod:saphir_apple")
+public class PlatineAppleItem extends OsalysmodModElements.ModElement {
+	@ObjectHolder("osalysmod:platine_apple")
 	public static final Item block = null;
 
-	public SaphirAppleItem(OsalysmodModElements instance) {
-		super(instance, 248);
+	public PlatineAppleItem(OsalysmodModElements instance) {
+		super(instance, 250);
 	}
 
 	@Override
@@ -36,9 +36,9 @@ public class SaphirAppleItem extends OsalysmodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON)
+			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE)
 					.food((new Food.Builder()).hunger(4).saturation(0.6f).setAlwaysEdible().build()));
-			setRegistryName("saphir_apple");
+			setRegistryName("platine_apple");
 		}
 
 		@Override
@@ -58,7 +58,7 @@ public class SaphirAppleItem extends OsalysmodModElements.ModElement {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			SaphirAppleProcedureProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+			PlatineAppleProcedureProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
 					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
 		}
