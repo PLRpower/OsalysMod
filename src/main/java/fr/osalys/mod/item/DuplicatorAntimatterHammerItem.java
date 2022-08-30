@@ -1,11 +1,31 @@
 
 package fr.osalys.mod.item;
 
-import net.minecraft.entity.ai.attributes.Attributes;
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.block.BlockState;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
+
+import fr.osalys.mod.procedures.DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure;
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
+import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
 public class DuplicatorAntimatterHammerItem extends OsalysmodModElements.ModElement {
-
 	@ObjectHolder("osalysmod:duplicator_antimatter_hammer")
 	public static final Item block = null;
 
@@ -40,7 +60,6 @@ public class DuplicatorAntimatterHammerItem extends OsalysmodModElements.ModElem
 				return Ingredient.EMPTY;
 			}
 		}, 1, -2.8f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
-
 			@Override
 			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 				boolean retval = super.onBlockDestroyed(itemstack, world, blockstate, pos, entity);
@@ -61,8 +80,6 @@ public class DuplicatorAntimatterHammerItem extends OsalysmodModElements.ModElem
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-
 		}.setRegistryName("duplicator_antimatter_hammer"));
 	}
-
 }
