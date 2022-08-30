@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "osaliumapple",
     "customModelName": "Normal",
-    "name": "Pomme en Oslaium",
+    "name": "Osalium Apple",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:OsalysTab"
