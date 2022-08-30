@@ -1,23 +1,17 @@
 
 package fr.osalys.mod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
-
-import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
-import fr.osalys.mod.OsalysmodModElements;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @OsalysmodModElements.ModElement.Tag
 public class DuplicatorAntimatterHammerUpgradeItem extends OsalysmodModElements.ModElement {
+
 	@ObjectHolder("osalysmod:duplicator_antimatter_hammer_upgrade")
 	public static final Item block = null;
 
 	public DuplicatorAntimatterHammerUpgradeItem(OsalysmodModElements instance) {
 		super(instance, 258);
+
 	}
 
 	@Override
@@ -26,6 +20,7 @@ public class DuplicatorAntimatterHammerUpgradeItem extends OsalysmodModElements.
 	}
 
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(OsalysTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("duplicator_antimatter_hammer_upgrade");
@@ -40,5 +35,7 @@ public class DuplicatorAntimatterHammerUpgradeItem extends OsalysmodModElements.
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
+
 	}
+
 }

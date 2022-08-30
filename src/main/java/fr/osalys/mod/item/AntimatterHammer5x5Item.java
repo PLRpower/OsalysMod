@@ -1,31 +1,11 @@
 
 package fr.osalys.mod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.block.BlockState;
-
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
-
-import fr.osalys.mod.procedures.AntimatterHammer5x5QuandLeBlocEstDetruitAvecLoutilProcedure;
-import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
-import fr.osalys.mod.OsalysmodModElements;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @OsalysmodModElements.ModElement.Tag
 public class AntimatterHammer5x5Item extends OsalysmodModElements.ModElement {
+
 	@ObjectHolder("osalysmod:antimatter_hammer_5x_5")
 	public static final Item block = null;
 
@@ -60,6 +40,7 @@ public class AntimatterHammer5x5Item extends OsalysmodModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -2.8f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
+
 			@Override
 			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 				boolean retval = super.onBlockDestroyed(itemstack, world, blockstate, pos, entity);
@@ -80,6 +61,8 @@ public class AntimatterHammer5x5Item extends OsalysmodModElements.ModElement {
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
+
 		}.setRegistryName("antimatter_hammer_5x_5"));
 	}
+
 }

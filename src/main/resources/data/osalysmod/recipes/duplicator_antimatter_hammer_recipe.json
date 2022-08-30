@@ -4,9 +4,9 @@
     "item": "osalysmod:antimatter_hammer"
   },
   "addition": {
-    "item": "osalysmod:duplicator_antimatter_hammer_upgrade"
+    "item": "osalysmod:deleted_mod_element"
   },
   "result": {
-    "item": "osalysmod:duplicator_antimatter_hammer"
+    "item": "osalysmod:deleted_mod_element"
   }
 }

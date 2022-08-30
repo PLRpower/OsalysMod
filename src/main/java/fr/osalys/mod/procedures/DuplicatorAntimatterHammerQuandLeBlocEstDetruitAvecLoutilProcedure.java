@@ -1,22 +1,6 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.item.crafting.IRecipeType;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.Inventory;
-import net.minecraft.entity.item.ItemEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.Block;
-
-import java.util.Random;
-import java.util.Map;
-
-import fr.osalys.mod.item.AntimatterHammerItem;
-import fr.osalys.mod.OsalysmodMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure {
 
@@ -52,12 +36,14 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 						.warn("Failed to load dependency itemstack for procedure DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutil!");
 			return;
 		}
+
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
+
 		boolean removeBlock = false;
 		if (entity.rotationPitch > 40 || entity.rotationPitch < -40) {
 			{
@@ -123,6 +109,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x + 1, y, z)), (World) world, new BlockPos(x + 1, y, z));
+
 						world.destroyBlock(new BlockPos(x + 1, y, z), false);
 					}
 				}
@@ -183,6 +170,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x - 1, y, z)), (World) world, new BlockPos(x - 1, y, z));
+
 						world.destroyBlock(new BlockPos(x - 1, y, z), false);
 					}
 				}
@@ -241,6 +229,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x + 1, y, z + 1)), (World) world, new BlockPos(x + 1, y, z + 1));
+
 						world.destroyBlock(new BlockPos(x + 1, y, z + 1), false);
 					}
 				}
@@ -299,6 +288,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x + 1, y, z - 1)), (World) world, new BlockPos(x + 1, y, z - 1));
+
 						world.destroyBlock(new BlockPos(x + 1, y, z - 1), false);
 					}
 				}
@@ -357,6 +347,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x - 1, y, z - 1)), (World) world, new BlockPos(x - 1, y, z - 1));
+
 						world.destroyBlock(new BlockPos(x - 1, y, z - 1), false);
 					}
 				}
@@ -415,6 +406,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x - 1, y, z + 1)), (World) world, new BlockPos(x - 1, y, z + 1));
+
 						world.destroyBlock(new BlockPos(x - 1, y, z + 1), false);
 					}
 				}
@@ -475,6 +467,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y, z + 1)), (World) world, new BlockPos(x, y, z + 1));
+
 						world.destroyBlock(new BlockPos(x, y, z + 1), false);
 					}
 				}
@@ -535,6 +528,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y, z - 1)), (World) world, new BlockPos(x, y, z - 1));
+
 						world.destroyBlock(new BlockPos(x, y, z - 1), false);
 					}
 				}
@@ -603,6 +597,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x + 1, y, z)), (World) world, new BlockPos(x + 1, y, z));
+
 						world.destroyBlock(new BlockPos(x + 1, y, z), false);
 					}
 				}
@@ -663,6 +658,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x - 1, y, z)), (World) world, new BlockPos(x - 1, y, z));
+
 						world.destroyBlock(new BlockPos(x - 1, y, z), false);
 					}
 				}
@@ -721,6 +717,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x + 1, y + 1, z)), (World) world, new BlockPos(x + 1, y + 1, z));
+
 						world.destroyBlock(new BlockPos(x + 1, y + 1, z), false);
 					}
 				}
@@ -779,6 +776,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x + 1, y - 1, z)), (World) world, new BlockPos(x + 1, y - 1, z));
+
 						world.destroyBlock(new BlockPos(x + 1, y - 1, z), false);
 					}
 				}
@@ -837,6 +835,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x - 1, y - 1, z)), (World) world, new BlockPos(x - 1, y - 1, z));
+
 						world.destroyBlock(new BlockPos(x - 1, y - 1, z), false);
 					}
 				}
@@ -895,6 +894,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x - 1, y + 1, z)), (World) world, new BlockPos(x - 1, y + 1, z));
+
 						world.destroyBlock(new BlockPos(x - 1, y + 1, z), false);
 					}
 				}
@@ -955,6 +955,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y + 1, z)), (World) world, new BlockPos(x, y + 1, z));
+
 						world.destroyBlock(new BlockPos(x, y + 1, z), false);
 					}
 				}
@@ -1015,6 +1016,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y - 1, z)), (World) world, new BlockPos(x, y - 1, z));
+
 						world.destroyBlock(new BlockPos(x, y - 1, z), false);
 					}
 				}
@@ -1083,6 +1085,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y, z + 1)), (World) world, new BlockPos(x, y, z + 1));
+
 						world.destroyBlock(new BlockPos(x, y, z + 1), false);
 					}
 				}
@@ -1143,6 +1146,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y, z - 1)), (World) world, new BlockPos(x, y, z - 1));
+
 						world.destroyBlock(new BlockPos(x, y, z - 1), false);
 					}
 				}
@@ -1201,6 +1205,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y + 1, z + 1)), (World) world, new BlockPos(x, y + 1, z + 1));
+
 						world.destroyBlock(new BlockPos(x, y + 1, z + 1), false);
 					}
 				}
@@ -1259,6 +1264,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y - 1, z + 1)), (World) world, new BlockPos(x, y - 1, z + 1));
+
 						world.destroyBlock(new BlockPos(x, y - 1, z + 1), false);
 					}
 				}
@@ -1317,6 +1323,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y - 1, z - 1)), (World) world, new BlockPos(x, y - 1, z - 1));
+
 						world.destroyBlock(new BlockPos(x, y - 1, z - 1), false);
 					}
 				}
@@ -1375,6 +1382,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y + 1, z - 1)), (World) world, new BlockPos(x, y + 1, z - 1));
+
 						world.destroyBlock(new BlockPos(x, y + 1, z - 1), false);
 					}
 				}
@@ -1435,6 +1443,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y + 1, z)), (World) world, new BlockPos(x, y + 1, z));
+
 						world.destroyBlock(new BlockPos(x, y + 1, z), false);
 					}
 				}
@@ -1495,6 +1504,7 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 				} else {
 					if (world instanceof World) {
 						Block.spawnDrops(world.getBlockState(new BlockPos(x, y - 1, z)), (World) world, new BlockPos(x, y, z));
+
 						world.destroyBlock(new BlockPos(x, y - 1, z), false);
 					}
 				}
@@ -1550,9 +1560,11 @@ public class DuplicatorAntimatterHammerQuandLeBlocEstDetruitAvecLoutilProcedure 
 			} else {
 				if (world instanceof World) {
 					Block.spawnDrops(world.getBlockState(new BlockPos(x, y, z)), (World) world, new BlockPos(x, y, z));
+
 					world.destroyBlock(new BlockPos(x, y, z), false);
 				}
 			}
 		}
 	}
+
 }
