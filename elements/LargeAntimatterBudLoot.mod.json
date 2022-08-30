@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:AntimatterCrystalActuator"
             },
-            "weight": 375,
+            "weight": 350,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -44,7 +44,7 @@
             "item": {
               "value": "CUSTOM:AntimatterCrystalActuator"
             },
-            "weight": 121,
+            "weight": 150,
             "minCount": 2,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
@@ -72,7 +72,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 500,
+            "weight": 496,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
