@@ -1,0 +1,175 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.COAL#0"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 150,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 249,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nonhotfurnace.png",
+          "use1Xscale": false,
+          "name": "nonhotfurnace.png",
+          "x": 152,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hotfurnace.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Feu1"
+          },
+          "name": "hotfurnace.png",
+          "x": 152,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hotfurnace2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Feu2"
+          },
+          "name": "hotfurnace2.png",
+          "x": 152,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hotfurnace3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Feu3"
+          },
+          "name": "hotfurnace3.png",
+          "x": 152,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Barre0Procedure"
+          },
+          "name": "barre0.png",
+          "x": 177,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Barre4Procedure"
+          },
+          "name": "barre1.png",
+          "x": 177,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Barre3Procedure"
+          },
+          "name": "barre2.png",
+          "x": 177,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Barre2Procedure"
+          },
+          "name": "barre3.png",
+          "x": 177,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Barre1Procedure"
+          },
+          "name": "barre4.png",
+          "x": 177,
+          "y": 76
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 4,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

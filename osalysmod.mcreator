@@ -2114,6 +2114,298 @@
           }
         ]
       }
+    },
+    {
+      "name": "OsaliumFurnace",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_furnace"
+    },
+    {
+      "name": "GUIOsaliumFurnace",
+      "type": "gui",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_osalium_furnace"
+    },
+    {
+      "name": "OsaliumFurnaceMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_furnace_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnimeFeu",
+      "type": "procedure",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anime_feu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Feu1",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Feu2",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Feu3",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre0Procedure",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_0_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre1Procedure",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_1_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre2Procedure",
+      "type": "procedure",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_2_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre3Procedure",
+      "type": "procedure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_3_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre4Procedure",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_4_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2158,6 +2450,12 @@
       "type": "logic",
       "scope": "map",
       "value": "true"
+    },
+    {
+      "name": "animeFour",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -2212,8 +2510,8 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifi�",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
-      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.osalysmod.osalium_ingot": "Exolium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2224,6 +2522,7 @@
       "item.osalysmod.antimatter_axe": "Hache en Antimatière",
       "advancements.saphire_achievement.title": "Un nouveau minerais ?",
       "block.osalysmod.platine_block": "Bloc de Platine",
+      "block.osalysmod.osalium_furnace": "Osalium Furnace",
       "item.osalysmod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
       "item.osalysmod.renforced_gold_stick": "B�ton d\u0027Or Renforc�",
       "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
@@ -2330,8 +2629,8 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifié",
-      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.osalysmod.osalium_ingot": "Minerais d\u0027Osalium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2342,6 +2641,7 @@
       "item.osalysmod.antimatter_axe": "Hache en Antimatière",
       "advancements.saphire_achievement.title": "Un nouveau minerais ?",
       "block.osalysmod.platine_block": "Bloc de Platine",
+      "block.osalysmod.osalium_furnace": "Osalium Furnace",
       "item.osalysmod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
       "item.osalysmod.renforced_gold_stick": "Stick d\u0027Or Renforcé",
       "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
