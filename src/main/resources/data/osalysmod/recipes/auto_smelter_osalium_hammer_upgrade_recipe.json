@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "osalysmod:osalium_ingot"
+    },
+    "1": {
+      "item": "osalysmod:purified_saphire_block"
+    },
+    "2": {
+      "item": "osalysmod:osalium_ingot"
+    },
+    "3": {
+      "item": "osalysmod:purified_saphire_block"
+    },
+    "4": {
+      "item": "minecraft:lava_bucket"
+    },
+    "5": {
+      "item": "osalysmod:purified_saphire_block"
+    },
+    "6": {
+      "item": "osalysmod:osalium_ingot"
+    },
+    "7": {
+      "item": "osalysmod:purified_saphire_block"
+    },
+    "8": {
+      "item": "osalysmod:osalium_ingot"
+    }
+  },
+  "result": {
+    "item": "osalysmod:auto_smelter_osalium_hammer_upgrade",
+    "count": 1
+  }
+}

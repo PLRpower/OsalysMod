@@ -2,23 +2,26 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
-      "item": "osalysmod:osalium_ingot"
+      "item": "minecraft:netherite_scrap"
     },
     "1": {
       "item": "minecraft:glowstone"
     },
     "2": {
-      "item": "osalysmod:osalium_ingot"
+      "item": "minecraft:netherite_scrap"
     },
     "3": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:netherite_scrap"
+    },
+    "4": {
+      "item": "minecraft:leather_helmet"
     },
     "5": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:netherite_scrap"
     }
   },
   "result": {

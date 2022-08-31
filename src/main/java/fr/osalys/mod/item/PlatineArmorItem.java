@@ -43,7 +43,7 @@ public class PlatineArmorItem extends OsalysmodModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{5, 8, 10, 5}[slot.getIndex()];
+				return new int[]{4, 7, 9, 4}[slot.getIndex()];
 			}
 
 			@Override
@@ -69,12 +69,12 @@ public class PlatineArmorItem extends OsalysmodModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 2f;
+				return 3f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(OsalysTabItemGroup.tab)) {

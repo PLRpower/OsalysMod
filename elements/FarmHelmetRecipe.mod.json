@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:OsaliumIngot"
+        "value": "Items.NETHERITE_SCRAP"
       },
       {
         "value": "Blocks.GLOWSTONE"
       },
       {
-        "value": "CUSTOM:OsaliumIngot"
+        "value": "Items.NETHERITE_SCRAP"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.NETHERITE_SCRAP"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER_HELMET"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.NETHERITE_SCRAP"
       },
       {
         "value": ""

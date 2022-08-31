@@ -936,116 +936,6 @@
       "registry_name": "platine_hoe_recipe"
     },
     {
-      "name": "FarmArmor",
-      "type": "armor",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "FarmBootsProcedure",
-      "type": "procedure",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_boots_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FarmLeggingsProcedure",
-      "type": "procedure",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_leggings_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FarmChestplateProcedure",
-      "type": "procedure",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_chestplate_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FarmHelmetProcedure",
-      "type": "procedure",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_helmet_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FarmBootsRecipe",
-      "type": "recipe",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_boots_recipe"
-    },
-    {
-      "name": "FarmLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_leggings_recipe"
-    },
-    {
-      "name": "FarmChestplateRecipe",
-      "type": "recipe",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_chestplate_recipe"
-    },
-    {
-      "name": "FarmHelmetRecipe",
-      "type": "recipe",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "farm_helmet_recipe"
-    },
-    {
       "name": "OsaliumHammerRecipe",
       "type": "recipe",
       "sortid": 154,
@@ -2114,6 +2004,140 @@
           }
         ]
       }
+    },
+    {
+      "name": "DuplicatorAntimatterHammerUpgradeRecipe",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duplicator_antimatter_hammer_upgrade_recipe"
+    },
+    {
+      "name": "AntimatterHammer5x5UpgradeRecipe",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_hammer_5x_5_upgrade_recipe"
+    },
+    {
+      "name": "AutoSmelterOsaliumHammerUpgradeRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelter_osalium_hammer_upgrade_recipe"
+    },
+    {
+      "name": "FarmArmor",
+      "type": "armor",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FarmArmorEvenementDeTickDuCasque",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_armor_evenement_de_tick_du_casque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmArmorEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_armor_evenement_de_tick_du_plastron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmArmorEvenementDeTickDesJambieres",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_armor_evenement_de_tick_des_jambieres",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmArmorEvenementDeTickDesBottes",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_armor_evenement_de_tick_des_bottes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmHelmetRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_helmet_recipe"
+    },
+    {
+      "name": "FarmChestplateRecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_chestplate_recipe"
+    },
+    {
+      "name": "FarmLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_leggings_recipe"
+    },
+    {
+      "name": "FarmBootsRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_boots_recipe"
     }
   ],
   "variable_elements": [
@@ -2249,8 +2273,8 @@
       "item.osalysmod.saphire_shovel": "Saphire Shovel",
       "item.osalysmod.osalium_armor_leggings": "Osalium Leggings",
       "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
-      "item.osalysmod.farm_armor_boots": "Farm Boots",
       "item.osalysmod.osalium_armor_chestplate": "Osalium Chestplate",
+      "item.osalysmod.farm_armor_boots": "Farm Boots",
       "item.osalysmod.cobalt_ingot": "Cobalt",
       "item.osalysmod.auto_smelter_osalium_hammer": "Osalium Hammer",
       "item.osalysmod.platine_ingot": "Platine Ingot",
@@ -2342,7 +2366,7 @@
       "item.osalysmod.antimatter_axe": "Hache en Antimatière",
       "advancements.saphire_achievement.title": "Un nouveau minerais ?",
       "block.osalysmod.platine_block": "Bloc de Platine",
-      "item.osalysmod.farm_armor_chestplate": "Plastron d\u0027Aventurier",
+      "item.osalysmod.farm_armor_chestplate": "Farm Chestplate",
       "item.osalysmod.renforced_gold_stick": "Stick d\u0027Or Renforcé",
       "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
       "item.osalysmod.cobalt_axe": "Hache en Cobalt",
@@ -2368,11 +2392,11 @@
       "item.osalysmod.osalium_armor_leggings": "Jambières en Osalium",
       "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
       "item.osalysmod.osalium_armor_chestplate": "Plastron en Osalium",
-      "item.osalysmod.farm_armor_boots": "Bottes d\u0027Aventurier",
+      "item.osalysmod.farm_armor_boots": "Farm Boots",
       "item.osalysmod.cobalt_ingot": "Minerais de Cobalt",
       "item.osalysmod.auto_smelter_osalium_hammer": "Osalium Hammer",
       "item.osalysmod.platine_ingot": "Minerais de Platine",
-      "item.osalysmod.farm_armor_helmet": "Casque d\u0027Aventurier",
+      "item.osalysmod.farm_armor_helmet": "Farm Helmet",
       "item.osalysmod.antimatter_pickaxe": "Pioche en Antimatière",
       "item.osalysmod.antimatter_hammer_5x_5": "Antimatter Hammer",
       "item.osalysmod.platine_armor_helmet": "Casque en Platine",
@@ -2395,8 +2419,8 @@
       "item.osalysmod.cobalt_pickaxe": "Pioche en Cobalt",
       "block.osalysmod.osalium_barrel": "Tonneau en Osalium ",
       "item.osalysmod.antimatter_ingot": "Antimatter Ingot",
-      "item.osalysmod.farm_armor_leggings": "Jambières d\u0027Aventurier",
       "block.osalysmod.obsidian_door": "Porte en obsidienne",
+      "item.osalysmod.farm_armor_leggings": "Farm Leggings",
       "item.osalysmod.osalium_hammer": "Hammer en Osalium",
       "item.osalysmod.platine_armor_chestplate": "Plastron en Platine",
       "item.osalysmod.antimatter_armor_helmet": "Casque en Antimatière",
