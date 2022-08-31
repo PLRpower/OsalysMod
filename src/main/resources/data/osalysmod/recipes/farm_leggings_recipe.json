@@ -2,30 +2,33 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5",
+    "345",
     "6 8"
   ],
   "key": {
     "0": {
-      "item": "osalysmod:osalium_ingot"
+      "item": "minecraft:netherite_scrap"
     },
     "1": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:sugar"
     },
     "2": {
-      "item": "osalysmod:osalium_ingot"
+      "item": "minecraft:netherite_scrap"
     },
     "3": {
-      "item": "minecraft:feather"
+      "item": "minecraft:netherite_scrap"
+    },
+    "4": {
+      "item": "minecraft:leather_leggings"
     },
     "5": {
-      "item": "minecraft:feather"
+      "item": "minecraft:netherite_scrap"
     },
     "6": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:netherite_scrap"
     },
     "8": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:netherite_scrap"
     }
   },
   "result": {

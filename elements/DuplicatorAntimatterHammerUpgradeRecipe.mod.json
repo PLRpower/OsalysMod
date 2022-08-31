@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "Items.ENCHANTED_BOOK"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DuplicatorAntimatterHammerUpgrade"
+    },
+    "name": "duplicator_antimatter_hammer_upgrade_recipe",
+    "namespace": "mod"
+  }
+}

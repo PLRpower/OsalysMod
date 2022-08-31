@@ -15,11 +15,15 @@
     "efficiency": 0.0,
     "attackSpeed": 1.6,
     "enchantability": 8,
-    "damageVsEntity": 17.0,
+    "damageVsEntity": 9.0,
     "usageCount": 2500,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlatineIngot"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

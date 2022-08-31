@@ -32,7 +32,7 @@ public class AntimatterSwordItem extends OsalysmodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 19f;
+				return 9f;
 			}
 
 			public int getHarvestLevel() {

@@ -15,11 +15,15 @@
     "efficiency": 0.0,
     "attackSpeed": 1.6,
     "enchantability": 8,
-    "damageVsEntity": 19.0,
+    "damageVsEntity": 10.0,
     "usageCount": 3000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:OsaliumIngot"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

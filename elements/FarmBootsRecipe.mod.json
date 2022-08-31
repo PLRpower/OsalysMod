@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:OsaliumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:OsaliumIngot"
+        "value": "Items.NETHERITE_SCRAP"
       },
       {
         "value": "Items.SLIME_BALL"
       },
       {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
