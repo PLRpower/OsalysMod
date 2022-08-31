@@ -3,17 +3,29 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "farm_helmet",
+    "textureHelmet": "farm_head",
     "enableBody": true,
-    "textureBody": "farm_chestplate",
+    "textureBody": "farm_body",
     "enableLeggings": true,
     "textureLeggings": "farm_leggings",
     "enableBoots": true,
     "textureBoots": "farm_boots",
-    "creativeTab": {
-      "value": "CUSTOM:OsalysTab"
+    "onHelmetTick": {
+      "name": "FarmArmorEvenementDeTickDuCasque"
     },
-    "armorTextureFile": "farm_",
+    "onBodyTick": {
+      "name": "FarmArmorEvenementDeTickDuPlastron"
+    },
+    "onLeggingsTick": {
+      "name": "FarmArmorEvenementDeTickDesJambieres"
+    },
+    "onBootsTick": {
+      "name": "FarmArmorEvenementDeTickDesBottes"
+    },
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "armorTextureFile": "farm",
     "helmetName": "Farm Helmet",
     "bodyName": "Farm Chestplate",
     "leggingsName": "Farm Leggings",
@@ -27,6 +39,8 @@
     "helmetModelTexture": "From armor",
     "bodyModelName": "Default",
     "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
     "bodyModelTexture": "From armor",
     "leggingsModelName": "Default",
     "leggingsModelPartL": "Leggings L",
@@ -40,12 +54,12 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 40,
+    "maxDamage": 15,
     "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 4,
-    "damageValueBoots": 2,
-    "enchantability": 9,
+    "damageValueBody": 5,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 5,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {

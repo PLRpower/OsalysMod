@@ -43,7 +43,7 @@ public class OsaliumArmorItem extends OsalysmodModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{6, 9, 11, 6}[slot.getIndex()];
+				return new int[]{5, 8, 10, 5}[slot.getIndex()];
 			}
 
 			@Override
@@ -58,7 +58,7 @@ public class OsaliumArmorItem extends OsalysmodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(OsaliumIngotItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -69,12 +69,12 @@ public class OsaliumArmorItem extends OsalysmodModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 2f;
+				return 3f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.15f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(OsalysTabItemGroup.tab)) {

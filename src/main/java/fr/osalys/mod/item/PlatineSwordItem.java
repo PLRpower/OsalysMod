@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -32,7 +33,7 @@ public class PlatineSwordItem extends OsalysmodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 15f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
@@ -44,7 +45,7 @@ public class PlatineSwordItem extends OsalysmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(PlatineIngotItem.block));
 			}
 		}, 3, -2.4f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 		}.setRegistryName("platine_sword"));

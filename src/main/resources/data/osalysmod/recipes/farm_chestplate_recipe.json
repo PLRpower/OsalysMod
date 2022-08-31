@@ -7,32 +7,32 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:netherite_scrap"
     },
     "2": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:netherite_scrap"
     },
     "3": {
-      "item": "osalysmod:osalium_dust"
+      "item": "minecraft:netherite_scrap"
     },
     "4": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:leather_chestplate"
     },
     "5": {
-      "item": "osalysmod:osalium_dust"
+      "item": "minecraft:netherite_scrap"
     },
     "6": {
-      "item": "osalysmod:osalium_ingot"
+      "item": "minecraft:netherite_scrap"
     },
     "7": {
-      "item": "osalysmod:osalium_dust"
+      "item": "minecraft:water_bucket"
     },
     "8": {
-      "item": "osalysmod:osalium_ingot"
+      "item": "minecraft:netherite_scrap"
     }
   },
   "result": {
-    "item": "osalysmod:deleted_mod_element",
+    "item": "osalysmod:farm_armor_chestplate",
     "count": 1
   }
 }

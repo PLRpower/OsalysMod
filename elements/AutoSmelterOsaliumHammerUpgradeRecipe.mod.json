@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OsaliumIngot"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "CUSTOM:OsaliumIngot"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "CUSTOM:OsaliumIngot"
+      },
+      {
+        "value": "CUSTOM:PurifiedSaphireBlock"
+      },
+      {
+        "value": "CUSTOM:OsaliumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AutoSmelterOsaliumHammerUpgrade"
+    },
+    "name": "auto_smelter_osalium_hammer_upgrade_recipe",
+    "namespace": "mod"
+  }
+}

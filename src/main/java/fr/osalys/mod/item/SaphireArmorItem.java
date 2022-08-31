@@ -43,7 +43,7 @@ public class SaphireArmorItem extends OsalysmodModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 7, 3}[slot.getIndex()];
+				return new int[]{2, 6, 7, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -69,7 +69,7 @@ public class SaphireArmorItem extends OsalysmodModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 2f;
+				return 0f;
 			}
 
 			@Override

@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -44,7 +45,7 @@ public class SaphireSwordItem extends OsalysmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SaphireIngotItem.block));
 			}
 		}, 3, -2.4f, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 		}.setRegistryName("saphire_sword"));
