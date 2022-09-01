@@ -3,10 +3,10 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 176,
-    "height": 166,
+    "width": 180,
+    "height": 217,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "inventoryOffsetY": 23,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -20,8 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 150,
-          "y": 89
+          "x": 204,
+          "y": 118
         }
       },
       {
@@ -35,7 +35,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
           "x": 150,
-          "y": 53
+          "y": 87
         }
       },
       {
@@ -45,8 +45,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 249,
-          "y": 71
+          "x": 258,
+          "y": 87
         }
       },
       {
@@ -55,8 +55,8 @@
           "image": "nonhotfurnace.png",
           "use1Xscale": false,
           "name": "nonhotfurnace.png",
-          "x": 152,
-          "y": 73
+          "x": 206,
+          "y": 101
         }
       },
       {
@@ -68,8 +68,8 @@
             "name": "Feu1"
           },
           "name": "hotfurnace.png",
-          "x": 152,
-          "y": 73
+          "x": 206,
+          "y": 102
         }
       },
       {
@@ -81,8 +81,8 @@
             "name": "Feu2"
           },
           "name": "hotfurnace2.png",
-          "x": 152,
-          "y": 73
+          "x": 206,
+          "y": 102
         }
       },
       {
@@ -94,8 +94,8 @@
             "name": "Feu3"
           },
           "name": "hotfurnace3.png",
-          "x": 152,
-          "y": 73
+          "x": 206,
+          "y": 102
         }
       },
       {
@@ -107,8 +107,8 @@
             "name": "Barre0Procedure"
           },
           "name": "barre0.png",
-          "x": 177,
-          "y": 76
+          "x": 180,
+          "y": 57
         }
       },
       {
@@ -120,8 +120,8 @@
             "name": "Barre4Procedure"
           },
           "name": "barre1.png",
-          "x": 177,
-          "y": 76
+          "x": 180,
+          "y": 57
         }
       },
       {
@@ -133,8 +133,8 @@
             "name": "Barre3Procedure"
           },
           "name": "barre2.png",
-          "x": 177,
-          "y": 76
+          "x": 180,
+          "y": 57
         }
       },
       {
@@ -146,8 +146,8 @@
             "name": "Barre2Procedure"
           },
           "name": "barre3.png",
-          "x": 177,
-          "y": 76
+          "x": 180,
+          "y": 57
         }
       },
       {
@@ -159,16 +159,114 @@
             "name": "Barre1Procedure"
           },
           "name": "barre4.png",
-          "x": 177,
-          "y": 76
+          "x": 180,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "combustiblegui4.png",
+          "use1Xscale": false,
+          "name": "combustiblegui4.png",
+          "x": 205,
+          "y": 119
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 150,
+          "y": 64
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 258,
+          "y": 64
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 150,
+          "y": 41
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 258,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 150,
+          "y": 18
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 258,
+          "y": 18
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Osalium Furnace",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Osalium Furnace",
+          "x": 174,
+          "y": 17
         }
       }
     ],
     "gridSettings": {
       "sx": 18,
-      "sy": 4,
-      "ox": 11,
-      "oy": 15,
+      "sy": 19,
+      "ox": 12,
+      "oy": 1,
       "snapOnGrid": false
     }
   }

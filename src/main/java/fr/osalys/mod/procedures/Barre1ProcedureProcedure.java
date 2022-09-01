@@ -1,6 +1,12 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.tileentity.TileEntity;
+
+import java.util.Map;
+
+import fr.osalys.mod.OsalysmodMod;
 
 public class Barre1ProcedureProcedure {
 
@@ -25,12 +31,10 @@ public class Barre1ProcedureProcedure {
 				OsalysmodMod.LOGGER.warn("Failed to load dependency z for procedure Barre1Procedure!");
 			return false;
 		}
-
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-
 		boolean test = false;
 		if (new Object() {
 			public double getValue(IWorld world, BlockPos pos, String tag) {
@@ -46,5 +50,4 @@ public class Barre1ProcedureProcedure {
 		}
 		return test;
 	}
-
 }

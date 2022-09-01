@@ -1,6 +1,13 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import java.util.Map;
+
+import fr.osalys.mod.OsalysmodMod;
 
 public class FarmArmorEvenementDeTickDuCasqueProcedure {
 
@@ -10,11 +17,8 @@ public class FarmArmorEvenementDeTickDuCasqueProcedure {
 				OsalysmodMod.LOGGER.warn("Failed to load dependency entity for procedure FarmArmorEvenementDeTickDuCasque!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 240, (int) 0, (false), (false)));
 	}
-
 }

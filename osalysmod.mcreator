@@ -2430,6 +2430,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "auto_smelter_osalium_hammer_upgrade_recipe"
+    },
+    {
+      "name": "OsaliumFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_furnace_recipe"
+    },
+    {
+      "name": "PlatineOreSmelting",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_ore_smelting"
+    },
+    {
+      "name": "SaphirOreSmelting",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore_smelting"
     }
   ],
   "variable_elements": [
@@ -2534,8 +2558,8 @@
       "item.osalysmod.platine_axe": "Platine Axe",
       "item.osalysmod.purified_saphire_pickaxe": "Purified Saphire Pickaxe",
       "item.osalysmod.saphire_hoe": "Saphire Hoe",
-      "item.osalysmod.saphire_armor_leggings": "Saphire Leggings",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
+      "item.osalysmod.saphire_armor_leggings": "Saphire Leggings",
       "item.osalysmod.osalium_ingot": "Osalium Ingot",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2546,6 +2570,7 @@
       "item.osalysmod.antimatter_axe": "Antimatter Axe",
       "advancements.saphire_achievement.title": "A new mineral?",
       "block.osalysmod.platine_block": "Platine Block",
+      "block.osalysmod.osalium_furnace": "Osalium Furnace",
       "item.osalysmod.farm_armor_chestplate": "Farm Chestplate",
       "item.osalysmod.renforced_gold_stick": "Renforced Gold Stick",
       "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
@@ -2652,8 +2677,8 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifié",
-      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
+      "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
       "item.osalysmod.osalium_ingot": "Minerais d\u0027Osalium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",

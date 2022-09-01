@@ -1,9 +1,18 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+
+import net.minecraft.world.IWorld;
+
+import java.util.Map;
+import java.util.HashMap;
+
+import fr.osalys.mod.OsalysmodModVariables;
+import fr.osalys.mod.OsalysmodMod;
 
 public class AnimeFeuProcedure {
-
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
@@ -24,9 +33,7 @@ public class AnimeFeuProcedure {
 				OsalysmodMod.LOGGER.warn("Failed to load dependency world for procedure AnimeFeu!");
 			return;
 		}
-
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (OsalysmodModVariables.MapVariables.get(world).animeFour < 3) {
 			OsalysmodModVariables.MapVariables.get(world).animeFour = (OsalysmodModVariables.MapVariables.get(world).animeFour + 1);
 			OsalysmodModVariables.MapVariables.get(world).syncData(world);
@@ -35,5 +42,4 @@ public class AnimeFeuProcedure {
 			OsalysmodModVariables.MapVariables.get(world).syncData(world);
 		}
 	}
-
 }
