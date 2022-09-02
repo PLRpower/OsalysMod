@@ -81,7 +81,7 @@ public class GUIOsaliumFurnaceGui extends OsalysmodModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(9);
+			this.internal = new ItemStackHandler(5);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -119,39 +119,23 @@ public class GUIOsaliumFurnaceGui extends OsalysmodModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 81, 107) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 28, 79) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (Items.COAL == stack.getItem());
 				}
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 27, 76) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 28, 45) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 135, 76) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 137, 45) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 27, 53) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 28, 18) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 135, 53) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 27, 30) {
-			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 135, 30) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 27, 7) {
-			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 135, 7) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 137, 18) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -161,9 +145,9 @@ public class GUIOsaliumFurnaceGui extends OsalysmodModElements.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 2 + 8 + sj * 18, 48 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 3 + 8 + sj * 18, 23 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 2 + 8 + si * 18, 48 + 142));
+				this.addSlot(new Slot(inv, si, 3 + 8 + si * 18, 23 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -182,18 +166,18 @@ public class GUIOsaliumFurnaceGui extends OsalysmodModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 9) {
-					if (!this.mergeItemStack(itemstack1, 9, this.inventorySlots.size(), true)) {
+				if (index < 5) {
+					if (!this.mergeItemStack(itemstack1, 5, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 9, false)) {
-					if (index < 9 + 27) {
-						if (!this.mergeItemStack(itemstack1, 9 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 5, false)) {
+					if (index < 5 + 27) {
+						if (!this.mergeItemStack(itemstack1, 5 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 9, 9 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 5, 5 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}

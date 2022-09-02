@@ -43,8 +43,8 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 180;
-		this.ySize = 217;
+		this.xSize = 182;
+		this.ySize = 191;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("osalysmod:textures/screens/gui_osalium_furnace.png");
@@ -67,7 +67,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/nonhotfurnace.png"));
-		this.blit(ms, this.guiLeft + 82, this.guiTop + 89, 0, 0, 14, 14, 14, 14);
+		this.blit(ms, this.guiLeft + 29, this.guiTop + 63, 0, 0, 14, 14, 14, 14);
 
 		if (Feu1Procedure
 				.executeProcedure(Stream
@@ -75,7 +75,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/hotfurnace.png"));
-			this.blit(ms, this.guiLeft + 82, this.guiTop + 90, 0, 0, 14, 14, 14, 14);
+			this.blit(ms, this.guiLeft + 29, this.guiTop + 63, 0, 0, 14, 14, 14, 14);
 		}
 		if (Feu2Procedure
 				.executeProcedure(Stream
@@ -83,7 +83,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/hotfurnace2.png"));
-			this.blit(ms, this.guiLeft + 82, this.guiTop + 90, 0, 0, 14, 14, 14, 14);
+			this.blit(ms, this.guiLeft + 29, this.guiTop + 63, 0, 0, 14, 14, 14, 14);
 		}
 		if (Feu3Procedure
 				.executeProcedure(Stream
@@ -91,7 +91,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/hotfurnace3.png"));
-			this.blit(ms, this.guiLeft + 82, this.guiTop + 90, 0, 0, 14, 14, 14, 14);
+			this.blit(ms, this.guiLeft + 29, this.guiTop + 63, 0, 0, 14, 14, 14, 14);
 		}
 		if (Barre0ProcedureProcedure
 				.executeProcedure(Stream
@@ -99,7 +99,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/barre0.png"));
-			this.blit(ms, this.guiLeft + 56, this.guiTop + 45, 0, 0, 64, 8, 64, 8);
+			this.blit(ms, this.guiLeft + 59, this.guiTop + 35, 0, 0, 64, 8, 64, 8);
 		}
 		if (Barre4ProcedureProcedure
 				.executeProcedure(Stream
@@ -107,7 +107,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/barre1.png"));
-			this.blit(ms, this.guiLeft + 56, this.guiTop + 45, 0, 0, 64, 8, 64, 8);
+			this.blit(ms, this.guiLeft + 59, this.guiTop + 35, 0, 0, 64, 8, 64, 8);
 		}
 		if (Barre3ProcedureProcedure
 				.executeProcedure(Stream
@@ -115,7 +115,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/barre2.png"));
-			this.blit(ms, this.guiLeft + 56, this.guiTop + 45, 0, 0, 64, 8, 64, 8);
+			this.blit(ms, this.guiLeft + 59, this.guiTop + 35, 0, 0, 64, 8, 64, 8);
 		}
 		if (Barre2ProcedureProcedure
 				.executeProcedure(Stream
@@ -123,7 +123,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/barre3.png"));
-			this.blit(ms, this.guiLeft + 56, this.guiTop + 45, 0, 0, 64, 8, 64, 8);
+			this.blit(ms, this.guiLeft + 59, this.guiTop + 35, 0, 0, 64, 8, 64, 8);
 		}
 		if (Barre1ProcedureProcedure
 				.executeProcedure(Stream
@@ -131,11 +131,11 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/barre4.png"));
-			this.blit(ms, this.guiLeft + 56, this.guiTop + 45, 0, 0, 64, 8, 64, 8);
+			this.blit(ms, this.guiLeft + 59, this.guiTop + 35, 0, 0, 64, 8, 64, 8);
 		}
 
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("osalysmod:textures/screens/combustiblegui4.png"));
-		this.blit(ms, this.guiLeft + 81, this.guiTop + 107, 0, 0, 16, 16, 16, 16);
+		this.blit(ms, this.guiLeft + 28, this.guiTop + 77, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -156,7 +156,7 @@ public class GUIOsaliumFurnaceGuiWindow extends ContainerScreen<GUIOsaliumFurnac
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Osalium Furnace", 50, 5, -12829636);
+		this.font.drawString(ms, "Osalium Furnace", 51, 7, -12829636);
 	}
 
 	@Override
