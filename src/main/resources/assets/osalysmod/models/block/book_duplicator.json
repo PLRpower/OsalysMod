@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "osalysmod:blocks/barrel_bottom",
+    "up": "osalysmod:blocks/barrel_bottom",
+    "north": "osalysmod:blocks/barrel_bottom",
+    "east": "osalysmod:blocks/barrel_bottom",
+    "south": "osalysmod:blocks/barrel_bottom",
+    "west": "osalysmod:blocks/barrel_bottom",
+    "particle": "osalysmod:blocks/barrel_bottom"
+  }
+}

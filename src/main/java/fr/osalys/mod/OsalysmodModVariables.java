@@ -93,6 +93,7 @@ public class OsalysmodModVariables {
 		public double PANTALON = 0;
 		public double BOTTES = 0;
 		public boolean VARI_TRUE = true;
+		public double animeFour = 0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -111,6 +112,7 @@ public class OsalysmodModVariables {
 			PANTALON = nbt.getDouble("PANTALON");
 			BOTTES = nbt.getDouble("BOTTES");
 			VARI_TRUE = nbt.getBoolean("VARI_TRUE");
+			animeFour = nbt.getDouble("animeFour");
 		}
 
 		@Override
@@ -122,6 +124,7 @@ public class OsalysmodModVariables {
 			nbt.putDouble("PANTALON", PANTALON);
 			nbt.putDouble("BOTTES", BOTTES);
 			nbt.putBoolean("VARI_TRUE", VARI_TRUE);
+			nbt.putDouble("animeFour", animeFour);
 			return nbt;
 		}
 

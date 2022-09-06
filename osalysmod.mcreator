@@ -584,14 +584,6 @@
       "registry_name": "osalium_ore_smelting"
     },
     {
-      "name": "OsaliumIngotRecipe",
-      "type": "recipe",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osalium_ingot_recipe"
-    },
-    {
       "name": "OsaliumHelmetRecipe",
       "type": "recipe",
       "sortid": 105,
@@ -2138,6 +2130,374 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "farm_boots_recipe"
+    },
+    {
+      "name": "BookDuplicator",
+      "type": "block",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_duplicator"
+    },
+    {
+      "name": "OsaliumDustRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_dust_recipe"
+    },
+    {
+      "name": "BookDuplicatorProcedure",
+      "type": "procedure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_duplicator_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BookDuplicatorGUI",
+      "type": "gui",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_duplicator_gui"
+    },
+    {
+      "name": "Barre1Procedure",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_1_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre2Procedure",
+      "type": "procedure",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_2_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsaliumFurnaceMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_furnace_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre0Procedure",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_0_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre3Procedure",
+      "type": "procedure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_3_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GUIOsaliumFurnace",
+      "type": "gui",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_osalium_furnace"
+    },
+    {
+      "name": "OsaliumFurnace",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_furnace"
+    },
+    {
+      "name": "AnimeFeu",
+      "type": "procedure",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anime_feu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsaliumFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_furnace_recipe"
+    },
+    {
+      "name": "SaphirOreSmelting",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_ore_smelting"
+    },
+    {
+      "name": "Feu1",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barre4Procedure",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barre_4_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Feu3",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Feu2",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feu_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatineOreSmelting",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platine_ore_smelting"
     }
   ],
   "variable_elements": [
@@ -2182,6 +2542,12 @@
       "type": "logic",
       "scope": "map",
       "value": "true"
+    },
+    {
+      "name": "animeFour",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -2236,8 +2602,8 @@
       "item.osalysmod.platine_axe": "Platine Axe",
       "item.osalysmod.purified_saphire_pickaxe": "Purified Saphire Pickaxe",
       "item.osalysmod.saphire_hoe": "Saphire Hoe",
-      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
       "item.osalysmod.saphire_armor_leggings": "Saphire Leggings",
+      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
       "item.osalysmod.osalium_ingot": "Osalium Ingot",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2290,6 +2656,7 @@
       "item.osalysmod.renforced_fortune_hoe": "Renforced Fortune Hoe",
       "item.osalysmod.osalium_apple": "Pomme en Oslaium",
       "item.osalysmod.antimatter_armor_boots": "Antimatter Boots",
+      "block.osalysmod.book_duplicator": "Book Duplicator",
       "item.osalysmod.antimatter_armor_leggings": "Antimatter Leggings",
       "item.osalysmod.platine_sword": "Platine Sword",
       "block.osalysmod.purified_saphire_block": "Purified Saphire Block",
@@ -2354,8 +2721,8 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifié",
-      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
       "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
+      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
       "item.osalysmod.osalium_ingot": "Minerais d\u0027Osalium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2408,6 +2775,7 @@
       "item.osalysmod.renforced_fortune_hoe": "Houe de Fortune Renforcée",
       "item.osalysmod.osalium_apple": "Osalium Apple",
       "item.osalysmod.antimatter_armor_boots": "Bottes en Antimatière",
+      "block.osalysmod.book_duplicator": "Book Duplicator",
       "item.osalysmod.antimatter_armor_leggings": "Jambières en Antimatière",
       "item.osalysmod.platine_sword": "Epée en Platine",
       "block.osalysmod.purified_saphire_block": "Bloc de Saphire Purifié",
