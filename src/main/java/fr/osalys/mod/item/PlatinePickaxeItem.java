@@ -17,7 +17,7 @@ public class PlatinePickaxeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatinePickaxeItem(OsalysmodModElements instance) {
-		super(instance, 25);
+		super(instance, 16);
 	}
 
 	@Override

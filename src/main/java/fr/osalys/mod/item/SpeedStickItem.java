@@ -26,7 +26,7 @@ public class SpeedStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SpeedStickItem(OsalysmodModElements instance) {
-		super(instance, 55);
+		super(instance, 38);
 	}
 
 	@Override

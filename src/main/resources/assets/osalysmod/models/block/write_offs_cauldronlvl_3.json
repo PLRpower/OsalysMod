@@ -1,0 +1,12 @@
+{
+  "parent": "osalysmod:custom/writeoffs_cauldron_level1",
+  "textures": {
+    "all": "osalysmod:blocks/water_still.png",
+    "particle": "osalysmod:blocks/cauldron_side",
+    "side": "osalysmod:blocks/cauldron_side",
+    "top": "osalysmod:blocks/cauldron_top",
+    "bottom": "osalysmod:blocks/cauldron_bottom",
+    "inside": "osalysmod:blocks/cauldron_inner",
+    "water": "osalysmod:blocks/water_still.png"
+  }
+}

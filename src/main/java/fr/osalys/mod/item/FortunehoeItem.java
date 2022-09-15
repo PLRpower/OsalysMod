@@ -18,7 +18,7 @@ public class FortunehoeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public FortunehoeItem(OsalysmodModElements instance) {
-		super(instance, 54);
+		super(instance, 37);
 	}
 
 	@Override

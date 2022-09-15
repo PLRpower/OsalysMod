@@ -30,7 +30,7 @@ public class DuplicatorAntimatterHammerItem extends OsalysmodModElements.ModElem
 	public static final Item block = null;
 
 	public DuplicatorAntimatterHammerItem(OsalysmodModElements instance) {
-		super(instance, 256);
+		super(instance, 73);
 	}
 
 	@Override

@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AntimatterIngot"
+      "value": "CUSTOM:IrradiatedAntimatterIngot"
     },
     "name": "antimatter_ingot_recipe",
     "namespace": "mod"

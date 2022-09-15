@@ -13,6 +13,7 @@ import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
 import java.util.stream.Stream;
@@ -20,6 +21,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
+import fr.osalys.mod.procedures.AntimatterCrystalActuatorQuandLitemEstDansLinventaireParTickProcedure;
 import fr.osalys.mod.procedures.AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure;
 import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
@@ -30,7 +32,7 @@ public class AntimatterCrystalActuatorItem extends OsalysmodModElements.ModEleme
 	public static final Item block = null;
 
 	public AntimatterCrystalActuatorItem(OsalysmodModElements instance) {
-		super(instance, 228);
+		super(instance, 46);
 	}
 
 	@Override
@@ -77,6 +79,18 @@ public class AntimatterCrystalActuatorItem extends OsalysmodModElements.ModEleme
 							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+
+			AntimatterCrystalActuatorQuandLitemEstDansLinventaireParTickProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+							(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

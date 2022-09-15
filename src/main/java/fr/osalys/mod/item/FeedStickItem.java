@@ -38,7 +38,7 @@ public class FeedStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public FeedStickItem(OsalysmodModElements instance) {
-		super(instance, 57);
+		super(instance, 40);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class GoldStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public GoldStickItem(OsalysmodModElements instance) {
-		super(instance, 52);
+		super(instance, 35);
 	}
 
 	@Override

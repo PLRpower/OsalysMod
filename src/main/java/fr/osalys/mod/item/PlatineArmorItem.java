@@ -30,7 +30,7 @@ public class PlatineArmorItem extends OsalysmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public PlatineArmorItem(OsalysmodModElements instance) {
-		super(instance, 30);
+		super(instance, 21);
 	}
 
 	@Override

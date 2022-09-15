@@ -17,7 +17,7 @@ public class AntimatterShovelItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public AntimatterShovelItem(OsalysmodModElements instance) {
-		super(instance, 190);
+		super(instance, 56);
 	}
 
 	@Override

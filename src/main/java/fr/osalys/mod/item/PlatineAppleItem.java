@@ -26,7 +26,7 @@ public class PlatineAppleItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatineAppleItem(OsalysmodModElements instance) {
-		super(instance, 250);
+		super(instance, 70);
 	}
 
 	@Override

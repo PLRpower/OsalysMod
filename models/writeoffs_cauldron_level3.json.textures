@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "5": "cauldron_bottom",
+        "6": "cauldron_inner",
+        "7": "cauldron_side",
+        "8": "cauldron_top",
+        "9": "water_still.png"
+      },
+      "name": "default"
+    }
+  }
+}

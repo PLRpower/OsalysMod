@@ -60,7 +60,7 @@ public class MediumAntimatterBudBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public MediumAntimatterBudBlock(OsalysmodModElements instance) {
-		super(instance, 208);
+		super(instance, 48);
 	}
 
 	@Override

@@ -23,7 +23,7 @@
       "name": "FarmArmorEvenementDeTickDesBottes"
     },
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OsalysTab"
     },
     "armorTextureFile": "farm",
     "helmetName": "Farm Helmet",
