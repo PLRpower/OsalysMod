@@ -17,7 +17,7 @@ public class OsaliumPickaxeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public OsaliumPickaxeItem(OsalysmodModElements instance) {
-		super(instance, 15);
+		super(instance, 6);
 	}
 
 	@Override

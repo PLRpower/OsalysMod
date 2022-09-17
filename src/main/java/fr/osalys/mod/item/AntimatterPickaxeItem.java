@@ -17,7 +17,7 @@ public class AntimatterPickaxeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public AntimatterPickaxeItem(OsalysmodModElements instance) {
-		super(instance, 193);
+		super(instance, 59);
 	}
 
 	@Override

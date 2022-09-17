@@ -10,7 +10,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
@@ -27,6 +26,7 @@ import fr.osalys.mod.procedures.FarmArmorEvenementDeTickDuPlastronProcedure;
 import fr.osalys.mod.procedures.FarmArmorEvenementDeTickDuCasqueProcedure;
 import fr.osalys.mod.procedures.FarmArmorEvenementDeTickDesJambieresProcedure;
 import fr.osalys.mod.procedures.FarmArmorEvenementDeTickDesBottesProcedure;
+import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
 @OsalysmodModElements.ModElement.Tag
@@ -41,7 +41,7 @@ public class FarmArmorItem extends OsalysmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public FarmArmorItem(OsalysmodModElements instance) {
-		super(instance, 265);
+		super(instance, 77);
 	}
 
 	@Override
@@ -88,7 +88,7 @@ public class FarmArmorItem extends OsalysmodModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.TOOLS)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/farm_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -105,7 +105,7 @@ public class FarmArmorItem extends OsalysmodModElements.ModElement {
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			}
 		}.setRegistryName("farm_armor_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.TOOLS)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/farm_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -121,7 +121,7 @@ public class FarmArmorItem extends OsalysmodModElements.ModElement {
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			}
 		}.setRegistryName("farm_armor_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.TOOLS)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/farm_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
@@ -137,7 +137,7 @@ public class FarmArmorItem extends OsalysmodModElements.ModElement {
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			}
 		}.setRegistryName("farm_armor_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.TOOLS)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(OsalysTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "osalysmod:textures/models/armor/farm_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";

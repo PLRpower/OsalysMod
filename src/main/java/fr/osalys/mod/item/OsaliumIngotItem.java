@@ -18,7 +18,7 @@ public class OsaliumIngotItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public OsaliumIngotItem(OsalysmodModElements instance) {
-		super(instance, 12);
+		super(instance, 3);
 	}
 
 	@Override

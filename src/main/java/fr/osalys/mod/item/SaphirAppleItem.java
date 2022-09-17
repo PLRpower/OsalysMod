@@ -26,7 +26,7 @@ public class SaphirAppleItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SaphirAppleItem(OsalysmodModElements instance) {
-		super(instance, 248);
+		super(instance, 69);
 	}
 
 	@Override

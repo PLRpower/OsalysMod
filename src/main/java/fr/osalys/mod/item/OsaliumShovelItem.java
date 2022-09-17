@@ -17,7 +17,7 @@ public class OsaliumShovelItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public OsaliumShovelItem(OsalysmodModElements instance) {
-		super(instance, 17);
+		super(instance, 8);
 	}
 
 	@Override

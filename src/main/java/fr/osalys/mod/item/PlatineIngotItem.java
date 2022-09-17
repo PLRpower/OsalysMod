@@ -18,7 +18,7 @@ public class PlatineIngotItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatineIngotItem(OsalysmodModElements instance) {
-		super(instance, 23);
+		super(instance, 14);
 	}
 
 	@Override

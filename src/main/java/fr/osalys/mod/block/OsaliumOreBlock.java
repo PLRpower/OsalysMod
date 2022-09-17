@@ -49,7 +49,7 @@ public class OsaliumOreBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public OsaliumOreBlock(OsalysmodModElements instance) {
-		super(instance, 11);
+		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

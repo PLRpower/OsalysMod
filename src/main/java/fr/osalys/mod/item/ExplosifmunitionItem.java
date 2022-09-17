@@ -18,7 +18,7 @@ public class ExplosifmunitionItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public ExplosifmunitionItem(OsalysmodModElements instance) {
-		super(instance, 59);
+		super(instance, 42);
 	}
 
 	@Override

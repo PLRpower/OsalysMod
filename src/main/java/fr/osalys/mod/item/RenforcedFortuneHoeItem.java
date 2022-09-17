@@ -18,7 +18,7 @@ public class RenforcedFortuneHoeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public RenforcedFortuneHoeItem(OsalysmodModElements instance) {
-		super(instance, 53);
+		super(instance, 36);
 	}
 
 	@Override

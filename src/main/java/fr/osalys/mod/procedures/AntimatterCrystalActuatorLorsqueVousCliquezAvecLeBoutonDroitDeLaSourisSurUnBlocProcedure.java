@@ -14,7 +14,7 @@ import net.minecraft.block.BlockState;
 
 import java.util.Map;
 
-import fr.osalys.mod.item.AntimatterFragmentItem;
+import fr.osalys.mod.item.AntimatterCrystalActuatorItem;
 import fr.osalys.mod.block.UnstableBuddingRockBlock;
 import fr.osalys.mod.block.SmallAntimatterBudBlock;
 import fr.osalys.mod.OsalysmodMod;
@@ -77,7 +77,7 @@ public class AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSou
 				} catch (Exception e) {
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(AntimatterFragmentItem.block);
+					ItemStack _stktoremove = new ItemStack(AntimatterCrystalActuatorItem.block);
 					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 							((PlayerEntity) entity).container.func_234641_j_());
 				}
@@ -103,7 +103,7 @@ public class AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSou
 				} catch (Exception e) {
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(AntimatterFragmentItem.block);
+					ItemStack _stktoremove = new ItemStack(AntimatterCrystalActuatorItem.block);
 					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 							((PlayerEntity) entity).container.func_234641_j_());
 				}
@@ -129,7 +129,7 @@ public class AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSou
 				} catch (Exception e) {
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(AntimatterFragmentItem.block);
+					ItemStack _stktoremove = new ItemStack(AntimatterCrystalActuatorItem.block);
 					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 							((PlayerEntity) entity).container.func_234641_j_());
 				}
@@ -155,7 +155,7 @@ public class AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSou
 				} catch (Exception e) {
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(AntimatterFragmentItem.block);
+					ItemStack _stktoremove = new ItemStack(AntimatterCrystalActuatorItem.block);
 					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 							((PlayerEntity) entity).container.func_234641_j_());
 				}
@@ -181,7 +181,7 @@ public class AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSou
 				} catch (Exception e) {
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(AntimatterFragmentItem.block);
+					ItemStack _stktoremove = new ItemStack(AntimatterCrystalActuatorItem.block);
 					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 							((PlayerEntity) entity).container.func_234641_j_());
 				}
@@ -207,7 +207,7 @@ public class AntimatterCrystalActuatorLorsqueVousCliquezAvecLeBoutonDroitDeLaSou
 				} catch (Exception e) {
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(AntimatterFragmentItem.block);
+					ItemStack _stktoremove = new ItemStack(AntimatterCrystalActuatorItem.block);
 					((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 							((PlayerEntity) entity).container.func_234641_j_());
 				}

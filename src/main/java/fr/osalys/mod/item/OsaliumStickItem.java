@@ -18,7 +18,7 @@ public class OsaliumStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public OsaliumStickItem(OsalysmodModElements instance) {
-		super(instance, 50);
+		super(instance, 33);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class PlatineShovelItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatineShovelItem(OsalysmodModElements instance) {
-		super(instance, 27);
+		super(instance, 18);
 	}
 
 	@Override
