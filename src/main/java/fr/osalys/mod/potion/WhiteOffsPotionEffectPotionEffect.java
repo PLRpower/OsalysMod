@@ -1,28 +1,9 @@
 
 package fr.osalys.mod.potion;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.potion.EffectType;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.Effect;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
-
-import fr.osalys.mod.procedures.WriteOffsProcedureProcedure;
-import fr.osalys.mod.procedures.WhiteOffsPotionEffectQuandLeffetCommenceEstAppliqueProcedure;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class WhiteOffsPotionEffectPotionEffect {
+
 	@ObjectHolder("osalysmod:white_offs_potion_effect")
 	public static final Effect potion = null;
 
@@ -32,6 +13,7 @@ public class WhiteOffsPotionEffectPotionEffect {
 	}
 
 	public static class EffectCustom extends Effect {
+
 		public EffectCustom() {
 			super(EffectType.HARMFUL, -6291456);
 			setRegistryName("white_offs_potion_effect");
@@ -95,5 +77,7 @@ public class WhiteOffsPotionEffectPotionEffect {
 		public boolean isReady(int duration, int amplifier) {
 			return true;
 		}
+
 	}
+
 }

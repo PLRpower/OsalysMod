@@ -1,18 +1,9 @@
 
 package fr.osalys.mod;
 
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.common.brewing.IBrewingRecipe;
-import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
-
-import net.minecraft.item.ItemStack;
-
-import fr.osalys.mod.item.OsaliumDustItem;
-import fr.osalys.mod.item.OsaliumBottleItem;
-import fr.osalys.mod.item.EmptyExperienceBottleItem;
-
 @OsalysmodModElements.ModElement.Tag
 public class OsaliumBottleRecipeBrewingRecipe extends OsalysmodModElements.ModElement {
+
 	public OsaliumBottleRecipeBrewingRecipe(OsalysmodModElements instance) {
 		super(instance, 205);
 	}

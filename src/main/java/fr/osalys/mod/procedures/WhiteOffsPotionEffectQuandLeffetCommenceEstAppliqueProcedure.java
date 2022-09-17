@@ -1,20 +1,6 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraft.world.server.ServerWorld;
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.entity.effect.LightningBoltEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.Entity;
-
-import java.util.Map;
-
-import fr.osalys.mod.potion.WriteOffsPotionEffect;
-import fr.osalys.mod.OsalysmodMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class WhiteOffsPotionEffectQuandLeffetCommenceEstAppliqueProcedure {
 
@@ -44,11 +30,13 @@ public class WhiteOffsPotionEffectQuandLeffetCommenceEstAppliqueProcedure {
 				OsalysmodMod.LOGGER.warn("Failed to load dependency entity for procedure WhiteOffsPotionEffectQuandLeffetCommenceEstApplique!");
 			return;
 		}
+
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(WriteOffsPotionEffect.potion, (int) 9600, (int) 0, (false), (false)));
 		if (world instanceof ServerWorld) {
@@ -76,4 +64,5 @@ public class WhiteOffsPotionEffectQuandLeffetCommenceEstAppliqueProcedure {
 			((World) world).addEntity(_ent);
 		}
 	}
+
 }

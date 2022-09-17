@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "osalysmod:blocks/saphirfurnacetop",
+    "up": "osalysmod:blocks/saphirfurnacetop",
+    "north": "osalysmod:blocks/saphirfurnacefront",
+    "east": "osalysmod:blocks/saphirfurnaceside",
+    "south": "osalysmod:blocks/saphirfurnaceside",
+    "west": "osalysmod:blocks/saphirfurnaceside",
+    "particle": "osalysmod:blocks/saphirfurnacetop"
+  }
+}

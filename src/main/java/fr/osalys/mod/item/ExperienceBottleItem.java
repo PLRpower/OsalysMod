@@ -1,35 +1,17 @@
 
 package fr.osalys.mod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.Hand;
-import net.minecraft.util.ActionResult;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.BlockState;
-
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
-
-import fr.osalys.mod.procedures.ExperienceBottleEvenementAuClicDroitDansLairProcedure;
-import fr.osalys.mod.OsalysmodModElements;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @OsalysmodModElements.ModElement.Tag
 public class ExperienceBottleItem extends OsalysmodModElements.ModElement {
+
 	@ObjectHolder("osalysmod:experience_bottle")
 	public static final Item block = null;
 
 	public ExperienceBottleItem(OsalysmodModElements instance) {
 		super(instance, 80);
+
 	}
 
 	@Override
@@ -38,6 +20,7 @@ public class ExperienceBottleItem extends OsalysmodModElements.ModElement {
 	}
 
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.RARE));
 			setRegistryName("experience_bottle");
@@ -81,5 +64,7 @@ public class ExperienceBottleItem extends OsalysmodModElements.ModElement {
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ar;
 		}
+
 	}
+
 }

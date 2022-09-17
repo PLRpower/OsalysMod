@@ -1,13 +1,6 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import java.util.Map;
-
-import fr.osalys.mod.item.ExperienceBottleItem;
-import fr.osalys.mod.OsalysmodMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ExperienceBottleEvenementAuClicDroitDansLairProcedure {
 
@@ -17,7 +10,9 @@ public class ExperienceBottleEvenementAuClicDroitDansLairProcedure {
 				OsalysmodMod.LOGGER.warn("Failed to load dependency entity for procedure ExperienceBottleEvenementAuClicDroitDansLair!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).addExperienceLevel((int) 5);
 		if (entity instanceof PlayerEntity) {
@@ -26,4 +21,5 @@ public class ExperienceBottleEvenementAuClicDroitDansLairProcedure {
 					((PlayerEntity) entity).container.func_234641_j_());
 		}
 	}
+
 }

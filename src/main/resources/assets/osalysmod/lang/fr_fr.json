@@ -43,8 +43,8 @@
   "item.osalysmod.saphire_hoe": "Houe en Saphire",
   "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifié",
   "item.minecraft.lingering_potion.effect.write_offs_potion": "Lingering Potion of Write Offs Potion",
-  "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
   "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
+  "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
   "item.osalysmod.irradiated_antimatter_ingot": "Antimatter Ingot",
   "item.osalysmod.osalium_ingot": "Minerais d\u0027Osalium",
   "key.osalysmod.test_keybing": "Test Keybing",
@@ -58,6 +58,7 @@
   "item.osalysmod.antimatter_axe": "Hache en Antimatière",
   "advancements.saphire_achievement.title": "Un nouveau minerais ?",
   "block.osalysmod.platine_block": "Bloc de Platine",
+  "block.osalysmod.osalium_furnace": "Osalium Furnace",
   "item.osalysmod.farm_armor_chestplate": "Farm Chestplate",
   "item.osalysmod.renforced_gold_stick": "Stick d\u0027Or Renforcé",
   "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
@@ -88,6 +89,7 @@
   "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
   "item.osalysmod.osalium_armor_chestplate": "Plastron en Osalium",
   "item.osalysmod.farm_armor_boots": "Farm Boots",
+  "block.osalysmod.saphir_furnace": "Osalium Furnace",
   "item.osalysmod.cobalt_ingot": "Minerais de Cobalt",
   "block.osalysmod.write_offs_cauldronlvl_2": "Write-Offs Cauldron",
   "item.osalysmod.auto_smelter_osalium_hammer": "Osalium Hammer",
@@ -127,6 +129,7 @@
   "block.osalysmod.cobalt_ore": "Minerais de Cobalt",
   "item.osalysmod.osalium_shovel": "Pelle en Osalium",
   "block.osalysmod.cobalt_barrel": "Tonneau en Cobalt",
+  "effect.radiations": "Radiations",
   "item.osalysmod.antimatter_hammer_5x_5_upgrade": "Duplicator Antimatter Hammer Upgrade",
   "item.minecraft.potion.effect.write_offs_potion": "Potion of Write Offs Potion"
 }
