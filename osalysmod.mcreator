@@ -2256,14 +2256,6 @@
       "registry_name": "gui_osalium_furnace"
     },
     {
-      "name": "OsaliumFurnaceSmelting",
-      "type": "block",
-      "sortid": 280,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osalium_furnace_smelting"
-    },
-    {
       "name": "SaphirFurnace",
       "type": "block",
       "sortid": 278,
@@ -3004,6 +2996,7 @@
       "item.osalysmod.antimatter_axe": "Antimatter Axe",
       "advancements.saphire_achievement.title": "A new mineral?",
       "block.osalysmod.platine_block": "Platine Block",
+      "block.osalysmod.osalium_furnace": "Osalium Furnace",
       "item.osalysmod.farm_armor_chestplate": "Farm Chestplate",
       "item.osalysmod.renforced_gold_stick": "Renforced Gold Stick",
       "block.osalysmod.unstable_budding_rock": "Unstable Budding Rock",
@@ -3034,6 +3027,7 @@
       "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
       "item.osalysmod.osalium_armor_chestplate": "Osalium Chestplate",
       "item.osalysmod.farm_armor_boots": "Farm Boots",
+      "block.osalysmod.saphir_furnace": "Osalium Furnace",
       "item.osalysmod.cobalt_ingot": "Cobalt",
       "block.osalysmod.write_offs_cauldronlvl_2": "Write-Offs Cauldron 2",
       "item.osalysmod.auto_smelter_osalium_hammer": "Osalium Hammer",
@@ -3051,6 +3045,7 @@
       "item.osalysmod.renforced_fortune_hoe": "Renforced Fortune Hoe",
       "item.osalysmod.osalium_apple": "Pomme en Oslaium",
       "item.osalysmod.antimatter_armor_boots": "Antimatter Boots",
+      "block.osalysmod.book_duplicator": "Book Duplicator",
       "item.osalysmod.antimatter_armor_leggings": "Antimatter Leggings",
       "item.osalysmod.platine_sword": "Platine Sword",
       "block.osalysmod.purified_saphire_block": "Purified Saphire Block",
@@ -3150,7 +3145,6 @@
       "effect.write_offs": "Radiations",
       "item.osalysmod.feed_stick": "Stick de nourriture",
       "item.osalysmod.osalium_stick": "Stick en Osalium",
-      "block.osalysmod.osalium_furnace_smelting": "Osalium Furnace",
       "item.minecraft.splash_potion.effect.write_offs_potion": "Splash Potion of Write Offs Potion",
       "item.osalysmod.antimatter_sword": "Epée en Antimatière",
       "block.osalysmod.osalium_block": "Bloc d\u0027Osalium",
