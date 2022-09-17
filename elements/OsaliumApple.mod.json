@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "osaliumapple",
+    "texture": "osalium_apple",
     "customModelName": "Normal",
     "name": "Osalium Apple",
     "rarity": "EPIC",

@@ -1,27 +1,6 @@
 package fr.osalys.mod.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.crafting.IRecipeType;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.Inventory;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.BlockState;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
-
-import fr.osalys.mod.OsalysmodMod;
+import net.minecraftforge.eventbus.api.Event;
 
 public class SaphirFurnaceProcedureProcedure {
 
@@ -46,10 +25,12 @@ public class SaphirFurnaceProcedureProcedure {
 				OsalysmodMod.LOGGER.warn("Failed to load dependency z for procedure SaphirFurnaceProcedure!");
 			return;
 		}
+
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+
 		if ((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -161,6 +142,7 @@ public class SaphirFurnaceProcedureProcedure {
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putDouble("combustible", 5);
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -276,6 +258,7 @@ public class SaphirFurnaceProcedureProcedure {
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putDouble("combustible", 5);
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -294,6 +277,7 @@ public class SaphirFurnaceProcedureProcedure {
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putBoolean("animeFlamme", (true));
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -304,6 +288,7 @@ public class SaphirFurnaceProcedureProcedure {
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putBoolean("animeFlamme", (false));
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -329,6 +314,7 @@ public class SaphirFurnaceProcedureProcedure {
 							return -1;
 						}
 					}.getValue(world, new BlockPos(x, y, z), "combustible")) - 1));
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -498,6 +484,7 @@ public class SaphirFurnaceProcedureProcedure {
 							return -1;
 						}
 					}.getValue(world, new BlockPos(x, y, z), "combustible")) - 1));
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -647,4 +634,5 @@ public class SaphirFurnaceProcedureProcedure {
 			}
 		}
 	}
+
 }

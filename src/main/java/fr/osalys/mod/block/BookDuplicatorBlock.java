@@ -5,16 +5,16 @@ import net.minecraft.block.material.Material;
 import net.minecraft.util.SoundEvent;
 
 @OsalysmodModElements.ModElement.Tag
-public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
+public class BookDuplicatorBlock extends OsalysmodModElements.ModElement {
 
-	@ObjectHolder("osalysmod:osalium_furnace")
+	@ObjectHolder("osalysmod:book_duplicator")
 	public static final Block block = null;
 
-	@ObjectHolder("osalysmod:osalium_furnace")
+	@ObjectHolder("osalysmod:book_duplicator")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
-	public OsaliumFurnaceBlock(OsalysmodModElements instance) {
-		super(instance, 262);
+	public BookDuplicatorBlock(OsalysmodModElements instance) {
+		super(instance, 67);
 
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 
@@ -29,43 +29,48 @@ public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("osalium_furnace"));
+			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("book_duplicator"));
 		}
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
 
 	public static class CustomBlock extends Block {
 
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.5f, 0.5f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.AXE).notSolid().setOpaque((bs, br, bp) -> false));
 
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+			setRegistryName("book_duplicator");
+		}
 
-			setRegistryName("osalium_furnace");
+		@Override
+		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+			return true;
 		}
 
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 15;
+			return 0;
 		}
 
 		@Override
-		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING);
+		public float getEnchantPowerBonus(BlockState state, IWorldReader world, BlockPos pos) {
+			return 1.3f;
 		}
 
 		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
+			return PathNodeType.OPEN;
 		}
 
-		public BlockState rotate(BlockState state, Rotation rot) {
-			return state.with(FACING, rot.rotate(state.get(FACING)));
-		}
-
-		public BlockState mirror(BlockState state, Mirror mirrorIn) {
-			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+		@Override
+		public PushReaction getPushReaction(BlockState state) {
+			return PushReaction.BLOCK;
 		}
 
 		@Override
@@ -83,7 +88,7 @@ public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(pos, this, 40);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 20);
 		}
 
 		@Override
@@ -93,12 +98,30 @@ public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			OsaliumFurnaceMiseAJourDuTickProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			BookDuplicatorProcedureProcedure.executeProcedure(Collections.emptyMap());
 
-			world.getPendingBlockTicks().scheduleTick(pos, this, 40);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 20);
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState blockstate, World world, BlockPos pos, Random random) {
+			super.animateTick(blockstate, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (true)
+				for (int l = 0; l < 4; ++l) {
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
+					int i1 = random.nextInt(2) * 2 - 1;
+					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
+					world.addParticle(ParticleTypes.ENCHANT, d0, d1, d2, d3, d4, d5);
+				}
 		}
 
 		@Override
@@ -114,12 +137,12 @@ public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Osalium Furnace");
+						return new StringTextComponent("Book Duplicator");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new GUIOsaliumFurnaceGui.GuiContainerMod(id, inventory,
+						return new BookDuplicatorGUIGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -182,7 +205,7 @@ public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
 
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(8, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(5, ItemStack.EMPTY);
 
 		protected CustomTileEntity() {
 			super(tileEntityType);
@@ -241,7 +264,7 @@ public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("osalium_furnace");
+			return new StringTextComponent("book_duplicator");
 		}
 
 		@Override
@@ -251,12 +274,12 @@ public class OsaliumFurnaceBlock extends OsalysmodModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new GUIOsaliumFurnaceGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new BookDuplicatorGUIGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Osalium Furnace");
+			return new StringTextComponent("Book Duplicator");
 		}
 
 		@Override

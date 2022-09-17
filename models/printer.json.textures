@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "platine_block",
+        "2": "platine_block",
+        "3": "platine_block"
+      },
+      "name": "default"
+    }
+  }
+}
