@@ -2107,7 +2107,7 @@
       "name": "BookDuplicator",
       "type": "block",
       "sortid": 274,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "book_duplicator"
     },
@@ -2159,7 +2159,7 @@
       "name": "SaphirFurnace",
       "type": "block",
       "sortid": 278,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "saphir_furnace"
     },
