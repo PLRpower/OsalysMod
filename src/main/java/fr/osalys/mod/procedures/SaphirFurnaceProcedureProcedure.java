@@ -23,27 +23,27 @@ import java.util.Map;
 
 import fr.osalys.mod.OsalysmodMod;
 
-public class OsaliumFurnaceMiseAJourDuTickProcedure {
+public class SaphirFurnaceProcedureProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				OsalysmodMod.LOGGER.warn("Failed to load dependency world for procedure OsaliumFurnaceMiseAJourDuTick!");
+				OsalysmodMod.LOGGER.warn("Failed to load dependency world for procedure SaphirFurnaceProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				OsalysmodMod.LOGGER.warn("Failed to load dependency x for procedure OsaliumFurnaceMiseAJourDuTick!");
+				OsalysmodMod.LOGGER.warn("Failed to load dependency x for procedure SaphirFurnaceProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				OsalysmodMod.LOGGER.warn("Failed to load dependency y for procedure OsaliumFurnaceMiseAJourDuTick!");
+				OsalysmodMod.LOGGER.warn("Failed to load dependency y for procedure SaphirFurnaceProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				OsalysmodMod.LOGGER.warn("Failed to load dependency z for procedure OsaliumFurnaceMiseAJourDuTick!");
+				OsalysmodMod.LOGGER.warn("Failed to load dependency z for procedure SaphirFurnaceProcedure!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -444,7 +444,7 @@ public class OsaliumFurnaceMiseAJourDuTickProcedure {
 								}
 								return _retval.get();
 							}
-						}.getAmount(world, new BlockPos(x, y, z), (int) (2)) + 4));
+						}.getAmount(world, new BlockPos(x, y, z), (int) (2)) + 1));
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
 								((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -456,7 +456,7 @@ public class OsaliumFurnaceMiseAJourDuTickProcedure {
 					TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
 						final int _sltid = (int) (1);
-						final int _amount = (int) 4;
+						final int _amount = (int) 1;
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
 								ItemStack _stk = capability.getStackInSlot(_sltid).copy();
@@ -613,7 +613,7 @@ public class OsaliumFurnaceMiseAJourDuTickProcedure {
 								}
 								return _retval.get();
 							}
-						}.getAmount(world, new BlockPos(x, y, z), (int) (4)) + 4));
+						}.getAmount(world, new BlockPos(x, y, z), (int) (4)) + 1));
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
 								((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -625,7 +625,7 @@ public class OsaliumFurnaceMiseAJourDuTickProcedure {
 					TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
 						final int _sltid = (int) (3);
-						final int _amount = (int) 4;
+						final int _amount = (int) 1;
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
 								ItemStack _stk = capability.getStackInSlot(_sltid).copy();

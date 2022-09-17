@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "osalysmod:block/osalium_furnace_smelting"
+    },
+    "facing=east": {
+      "model": "osalysmod:block/osalium_furnace_smelting",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "osalysmod:block/osalium_furnace_smelting",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "osalysmod:block/osalium_furnace_smelting",
+      "y": 270
+    }
+  }
+}

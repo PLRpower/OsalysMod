@@ -2454,6 +2454,50 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "saphir_ore_smelting"
+    },
+    {
+      "name": "SaphirFurnace",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_furnace"
+    },
+    {
+      "name": "SaphirFurnaceProcedure",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saphir_furnace_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsaliumFurnaceSmelting",
+      "type": "block",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osalium_furnace_smelting"
     }
   ],
   "variable_elements": [
@@ -2558,8 +2602,8 @@
       "item.osalysmod.platine_axe": "Platine Axe",
       "item.osalysmod.purified_saphire_pickaxe": "Purified Saphire Pickaxe",
       "item.osalysmod.saphire_hoe": "Saphire Hoe",
-      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
       "item.osalysmod.saphire_armor_leggings": "Saphire Leggings",
+      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud ",
       "item.osalysmod.osalium_ingot": "Osalium Ingot",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2583,6 +2627,7 @@
       "item.osalysmod.antimatter_hammer": "Antimatter Hammer",
       "item.osalysmod.feed_stick": "Feed Stick",
       "item.osalysmod.osalium_stick": "Osalium Stick",
+      "block.osalysmod.osalium_furnace_smelting": "Osalium Furnace",
       "item.osalysmod.antimatter_sword": "Antimatter Sword",
       "block.osalysmod.unstable_rock": "Unstable Budding Rock",
       "block.osalysmod.osalium_block": "Osalium Block",
@@ -2598,6 +2643,7 @@
       "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
       "item.osalysmod.farm_armor_boots": "Farm Boots",
       "item.osalysmod.osalium_armor_chestplate": "Osalium Chestplate",
+      "block.osalysmod.saphir_furnace": "Osalium Furnace",
       "item.osalysmod.cobalt_ingot": "Cobalt",
       "item.osalysmod.auto_smelter_osalium_hammer": "Osalium Hammer",
       "item.osalysmod.platine_ingot": "Platine Ingot",
@@ -2677,8 +2723,8 @@
       "item.osalysmod.platine_axe": "Hache en Platine",
       "item.osalysmod.saphire_hoe": "Houe en Saphire",
       "item.osalysmod.purified_saphire_pickaxe": "Pioche en Saphire Purifié",
-      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
       "item.osalysmod.saphire_armor_leggings": "Jambi�res en Saphire",
+      "block.osalysmod.medium_antimatter_bud": "Medium Antimatter Bud",
       "item.osalysmod.osalium_ingot": "Minerais d\u0027Osalium",
       "key.osalysmod.test_keybing": "Test Keybing",
       "block.osalysmod.cave_block": "Cave Block",
@@ -2702,6 +2748,7 @@
       "item.osalysmod.antimatter_hammer": "Hammer en Antimatière",
       "item.osalysmod.feed_stick": "Stick de nourriture",
       "item.osalysmod.osalium_stick": "Stick en Osalium",
+      "block.osalysmod.osalium_furnace_smelting": "Osalium Furnace",
       "item.osalysmod.antimatter_sword": "Epée en Antimatière",
       "block.osalysmod.osalium_block": "Bloc d\u0027Osalium",
       "block.osalysmod.unstable_rock": "Unstable Budding Rock",
@@ -2717,6 +2764,7 @@
       "block.osalysmod.large_antimatter_bud": "Large Antimatter Bud",
       "item.osalysmod.osalium_armor_chestplate": "Plastron en Osalium",
       "item.osalysmod.farm_armor_boots": "Bottes d\u0027Aventurier",
+      "block.osalysmod.saphir_furnace": "Osalium Furnace",
       "item.osalysmod.cobalt_ingot": "Minerais de Cobalt",
       "item.osalysmod.auto_smelter_osalium_hammer": "Osalium Hammer",
       "item.osalysmod.platine_ingot": "Minerais de Platine",

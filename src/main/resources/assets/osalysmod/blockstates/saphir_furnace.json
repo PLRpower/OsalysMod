@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "osalysmod:block/saphir_furnace"
+    },
+    "facing=east": {
+      "model": "osalysmod:block/saphir_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "osalysmod:block/saphir_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "osalysmod:block/saphir_furnace",
+      "y": 270
+    }
+  }
+}
