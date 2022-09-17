@@ -2104,70 +2104,28 @@
       "registry_name": "farm_boots_recipe"
     },
     {
-      "name": "Barre1Procedure",
-      "type": "procedure",
-      "sortid": 270,
+      "name": "BookDuplicator",
+      "type": "block",
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "barre_1_procedure",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "book_duplicator"
     },
     {
-      "name": "Barre2Procedure",
-      "type": "procedure",
-      "sortid": 271,
+      "name": "OsaliumDustRecipe",
+      "type": "recipe",
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "barre_2_procedure",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "osalium_dust_recipe"
     },
     {
-      "name": "OsaliumFurnaceMiseAJourDuTick",
+      "name": "BookDuplicatorProcedure",
       "type": "procedure",
-      "sortid": 264,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "osalium_furnace_mise_a_jour_du_tick",
+      "registry_name": "book_duplicator_procedure",
       "metadata": {
         "dependencies": [
           {
@@ -2190,70 +2148,12 @@
       }
     },
     {
-      "name": "Barre0Procedure",
-      "type": "procedure",
-      "sortid": 269,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "barre_0_procedure",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Barre3Procedure",
-      "type": "procedure",
-      "sortid": 272,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "barre_3_procedure",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "GUIOsaliumFurnace",
+      "name": "BookDuplicatorGUI",
       "type": "gui",
-      "sortid": 263,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gui_osalium_furnace"
+      "registry_name": "book_duplicator_gui"
     },
     {
       "name": "SaphirFurnace",
@@ -2262,104 +2162,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "saphir_furnace"
-    },
-    {
-      "name": "OsaliumFurnace",
-      "type": "block",
-      "sortid": 262,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osalium_furnace"
-    },
-    {
-      "name": "AnimeFeu",
-      "type": "procedure",
-      "sortid": 265,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anime_feu",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "OsaliumFurnaceRecipe",
-      "type": "recipe",
-      "sortid": 274,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osalium_furnace_recipe"
-    },
-    {
-      "name": "SaphirOreSmelting",
-      "type": "recipe",
-      "sortid": 277,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "saphir_ore_smelting"
-    },
-    {
-      "name": "Feu1",
-      "type": "procedure",
-      "sortid": 266,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "feu_1",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Barre4Procedure",
-      "type": "procedure",
-      "sortid": 273,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "barre_4_procedure",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "SaphirFurnaceProcedure",
@@ -2388,72 +2190,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Feu3",
-      "type": "procedure",
-      "sortid": 268,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "feu_3",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Feu2",
-      "type": "procedure",
-      "sortid": 267,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "feu_2",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PlatineOreSmelting",
-      "type": "recipe",
-      "sortid": 276,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platine_ore_smelting"
     },
     {
       "name": "EmptyExperienceBottle",
@@ -2618,14 +2354,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "osalium_bottle"
-    },
-    {
-      "name": "OsaliumDustRecipe",
-      "type": "recipe",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "osalium_dust_recipe"
     },
     {
       "name": "EmptyExperienceBottleRecipe",
@@ -2816,14 +2544,6 @@
       "registry_name": "experience_bottle_recipe"
     },
     {
-      "name": "BookDuplicator",
-      "type": "block",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "book_duplicator"
-    },
-    {
       "name": "WhiteOffsPotionEffect",
       "type": "potioneffect",
       "sortid": 223,
@@ -2832,48 +2552,12 @@
       "registry_name": "white_offs_potion_effect"
     },
     {
-      "name": "BookDuplicatorProcedure",
-      "type": "procedure",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "book_duplicator_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "ExperienceBottle",
       "type": "item",
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "experience_bottle"
-    },
-    {
-      "name": "BookDuplicatorGUI",
-      "type": "gui",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "book_duplicator_gui"
     }
   ],
   "variable_elements": [
