@@ -30,7 +30,7 @@ public class OsaliumArmorItem extends OsalysmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public OsaliumArmorItem(OsalysmodModElements instance) {
-		super(instance, 20);
+		super(instance, 11);
 	}
 
 	@Override

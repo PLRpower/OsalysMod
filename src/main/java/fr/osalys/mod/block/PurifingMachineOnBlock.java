@@ -55,7 +55,7 @@ public class PurifingMachineOnBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public PurifingMachineOnBlock(OsalysmodModElements instance) {
-		super(instance, 62);
+		super(instance, 43);
 	}
 
 	@Override

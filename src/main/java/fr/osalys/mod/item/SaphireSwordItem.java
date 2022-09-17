@@ -18,7 +18,7 @@ public class SaphireSwordItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SaphireSwordItem(OsalysmodModElements instance) {
-		super(instance, 43);
+		super(instance, 25);
 	}
 
 	@Override

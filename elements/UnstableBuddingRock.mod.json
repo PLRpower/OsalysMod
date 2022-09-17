@@ -56,7 +56,7 @@
     "material": {
       "value": "GLASS"
     },
-    "tickRate": 0,
+    "tickRate": 190,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -123,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "UnstableBuddingRockMiseAJourDuTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

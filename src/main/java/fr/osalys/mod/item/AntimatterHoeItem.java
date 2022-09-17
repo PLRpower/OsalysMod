@@ -17,7 +17,7 @@ public class AntimatterHoeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public AntimatterHoeItem(OsalysmodModElements instance) {
-		super(instance, 192);
+		super(instance, 58);
 	}
 
 	@Override

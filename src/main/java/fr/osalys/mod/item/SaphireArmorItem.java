@@ -30,7 +30,7 @@ public class SaphireArmorItem extends OsalysmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public SaphireArmorItem(OsalysmodModElements instance) {
-		super(instance, 48);
+		super(instance, 30);
 	}
 
 	@Override

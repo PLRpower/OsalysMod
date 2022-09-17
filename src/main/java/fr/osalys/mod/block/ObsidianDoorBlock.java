@@ -34,7 +34,7 @@ public class ObsidianDoorBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public ObsidianDoorBlock(OsalysmodModElements instance) {
-		super(instance, 233);
+		super(instance, 63);
 	}
 
 	@Override

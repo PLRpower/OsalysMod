@@ -26,7 +26,7 @@ public class HealStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public HealStickItem(OsalysmodModElements instance) {
-		super(instance, 56);
+		super(instance, 39);
 	}
 
 	@Override

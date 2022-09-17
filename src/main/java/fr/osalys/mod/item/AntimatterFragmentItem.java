@@ -12,6 +12,7 @@ import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
 import java.util.stream.Stream;
@@ -20,6 +21,7 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import fr.osalys.mod.procedures.SmallAntimatterCludQuandLeBlocVoisinChangeProcedure;
+import fr.osalys.mod.procedures.AntimatterFragmentQuandLitemEstDansLinventaireParTickProcedure;
 import fr.osalys.mod.itemgroup.OsalysTabItemGroup;
 import fr.osalys.mod.OsalysmodModElements;
 
@@ -29,7 +31,7 @@ public class AntimatterFragmentItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public AntimatterFragmentItem(OsalysmodModElements instance) {
-		super(instance, 187);
+		super(instance, 51);
 	}
 
 	@Override
@@ -71,6 +73,17 @@ public class AntimatterFragmentItem extends OsalysmodModElements.ModElement {
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+
+			AntimatterFragmentQuandLitemEstDansLinventaireParTickProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

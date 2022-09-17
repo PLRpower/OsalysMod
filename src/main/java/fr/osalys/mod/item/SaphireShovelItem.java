@@ -17,7 +17,7 @@ public class SaphireShovelItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SaphireShovelItem(OsalysmodModElements instance) {
-		super(instance, 46);
+		super(instance, 28);
 	}
 
 	@Override

@@ -74,7 +74,7 @@ public class PlatineBarrelBlock extends OsalysmodModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public PlatineBarrelBlock(OsalysmodModElements instance) {
-		super(instance, 241);
+		super(instance, 66);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

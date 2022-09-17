@@ -17,7 +17,7 @@ public class PlatineAxeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PlatineAxeItem(OsalysmodModElements instance) {
-		super(instance, 26);
+		super(instance, 17);
 	}
 
 	@Override

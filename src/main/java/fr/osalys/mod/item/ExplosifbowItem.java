@@ -45,7 +45,7 @@ public class ExplosifbowItem extends OsalysmodModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_explosive_bow").setRegistryName("projectile_explosive_bow");
 
 	public ExplosifbowItem(OsalysmodModElements instance) {
-		super(instance, 58);
+		super(instance, 41);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ExplosifbowRenderer.ModelRegisterHandler());
 	}
 

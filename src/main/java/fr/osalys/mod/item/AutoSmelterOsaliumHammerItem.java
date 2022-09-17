@@ -30,7 +30,7 @@ public class AutoSmelterOsaliumHammerItem extends OsalysmodModElements.ModElemen
 	public static final Item block = null;
 
 	public AutoSmelterOsaliumHammerItem(OsalysmodModElements instance) {
-		super(instance, 251);
+		super(instance, 71);
 	}
 
 	@Override

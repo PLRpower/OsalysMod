@@ -18,7 +18,7 @@ public class SaphirePickaxeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SaphirePickaxeItem(OsalysmodModElements instance) {
-		super(instance, 44);
+		super(instance, 26);
 	}
 
 	@Override

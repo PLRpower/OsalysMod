@@ -17,7 +17,7 @@ public class SaphireAxeItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SaphireAxeItem(OsalysmodModElements instance) {
-		super(instance, 45);
+		super(instance, 27);
 	}
 
 	@Override

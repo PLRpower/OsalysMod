@@ -20,7 +20,7 @@ public class RenforcedGoldStickItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public RenforcedGoldStickItem(OsalysmodModElements instance) {
-		super(instance, 51);
+		super(instance, 34);
 	}
 
 	@Override

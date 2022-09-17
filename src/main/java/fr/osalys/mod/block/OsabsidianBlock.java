@@ -27,7 +27,7 @@ public class OsabsidianBlock extends OsalysmodModElements.ModElement {
 	public static final Block block = null;
 
 	public OsabsidianBlock(OsalysmodModElements instance) {
-		super(instance, 63);
+		super(instance, 44);
 	}
 
 	@Override

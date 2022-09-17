@@ -17,7 +17,7 @@ public class AntimatterHammer5x5UpgradeItem extends OsalysmodModElements.ModElem
 	public static final Item block = null;
 
 	public AntimatterHammer5x5UpgradeItem(OsalysmodModElements instance) {
-		super(instance, 259);
+		super(instance, 76);
 	}
 
 	@Override

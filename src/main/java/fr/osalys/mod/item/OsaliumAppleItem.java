@@ -26,7 +26,7 @@ public class OsaliumAppleItem extends OsalysmodModElements.ModElement {
 	public static final Item block = null;
 
 	public OsaliumAppleItem(OsalysmodModElements instance) {
-		super(instance, 246);
+		super(instance, 68);
 	}
 
 	@Override

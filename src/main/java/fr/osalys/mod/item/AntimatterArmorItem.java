@@ -30,7 +30,7 @@ public class AntimatterArmorItem extends OsalysmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public AntimatterArmorItem(OsalysmodModElements instance) {
-		super(instance, 186);
+		super(instance, 60);
 	}
 
 	@Override
